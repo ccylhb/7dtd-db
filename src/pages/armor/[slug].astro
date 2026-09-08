@@ -1,0 +1,72 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import armor from "../../data/d7_armor.json";
+
+export function getStaticPaths() {
+  return armor.map((a: any) => ({ params: { slug: a.slug }, props: { a } }));
+}
+
+const { a } = Astro.props;
+const all = armor as any[];
+const Q = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6"];
+const vals = a.armor_q || a.defense_q || [];
+const similar = all
+  .filter((x: any) => x.slug !== a.slug && x.item_type === a.item_type)
+  .slice(0, 6);
+---
+
+<Base
+  title={`${a.title} — 7 Days to Die Armor Stats`}
+  description={`${a.title} in 7 Days to Die: armour value per quality tier${a.equip_effect ? `, ${a.equip_effect}` : ""}.`}
+>
+  <div class="icon-h1">
+    {a.icon && <img src={a.icon} alt={a.title} loading="lazy" />}
+    <h1>{a.title}</h1>
+  </div>
+  <p class="muted">
+    {a.category || "Armor"}
+    {a.item_type && ` · ${a.item_type}`}
+    {a.price && ` · price ${a.price}`}
+  </p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <div class="stat-row">
+      <div><div class="stat-num">{vals.length ? Math.max(...vals) : "—"}</div><div class="stat-label">Armor (best tier)</div></div>
+      {vals.length > 1 && <div><div class="stat-num">{vals[0]}</div><div class="stat-label">Q1 value</div></div>}
+    </div>
+    {a.equip_effect && <p style="margin:0.8rem 0 0"><strong>Effect:</strong> {a.equip_effect}</p>}
+    {!a.equip_effect && a.description && <p class="muted" style="margin:0.8rem 0 0;font-size:0.92rem">{a.description}</p>}
+  </div>
+
+  {vals.length > 1 && (
+    <section>
+      <h2>Armor by quality tier</h2>
+      <table>
+        <thead><tr>{Q.map((q) => <th>{q}</th>)}</tr></thead>
+        <tbody><tr>{vals.map((v: any) => <td><strong>{v}</strong></td>)}</tr></tbody>
+      </table>
+    </section>
+  )}
+
+  <section>
+    <h2>Details</h2>
+    <table>
+      <tbody>
+        {a.mod_slots_q && a.mod_slots_q.length > 0 && <tr><td class="muted">Mod slots</td><td>{a.mod_slots_q.join(" → ")}</td></tr>}
+        {a.durability_q && a.durability_q.length > 0 && <tr><td class="muted">Durability</td><td>{a.durability_q.join(" → ")}</td></tr>}
+        {a.obtain && <tr><td class="muted">Obtained via</td><td>{a.obtain}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {a.intro && <section><h2>About</h2><p>{a.intro}</p></section>}
+
+  <Related
+    links={[
+      ...similar.map((x: any) => ({ href: `/armor/${x.slug}/`, title: x.title, sub: `${x.item_type || ""}`, icon: x.icon })),
+      { href: "/mods/", title: "Armor Mods", sub: "Pocket every slot" },
+      { href: "/zombies/", title: "Zombie Damage", sub: "What armour absorbs" },
+    ]}
+  />
+</Base>

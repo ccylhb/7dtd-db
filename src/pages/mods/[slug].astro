@@ -1,0 +1,56 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import mods from "../../data/d7_mods.json";
+
+export function getStaticPaths() {
+  return mods.map((m: any) => ({ params: { slug: m.slug }, props: { m } }));
+}
+
+const { m } = Astro.props;
+const all = mods as any[];
+const sameType = all
+  .filter((x: any) => x.slug !== m.slug && (x.category || x.mod_type) === (m.category || m.mod_type))
+  .slice(0, 6);
+---
+
+<Base
+  title={`${m.title} — 7 Days to Die Mod Effects & Compatibility`}
+  description={`${m.title} in 7 Days to Die: ${m.effects || m.description || "mod effects, compatible slots and how to get it"}.`}
+>
+  <div class="icon-h1">
+    {m.icon && <img src={m.icon} alt={m.title} loading="lazy" />}
+    <h1>{m.title}</h1>
+  </div>
+  <p class="muted">
+    {m.category || m.mod_type || "Mod"}
+    {m.affected_part && ` · affects: ${m.affected_part}`}
+    {m.price && ` · price ${m.price}`}
+  </p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <p style="margin:0"><strong>Effect:</strong> {m.effects || m.description || "—"}</p>
+  </div>
+
+  <section>
+    <h2>Details</h2>
+    <table>
+      <tbody>
+        {m.mod_type && <tr><td class="muted">Mod type</td><td>{m.mod_type}</td></tr>}
+        {m.affected_part && <tr><td class="muted">Affected part</td><td>{m.affected_part}</td></tr>}
+        {m.obtain && <tr><td class="muted">Obtained via</td><td>{m.obtain}</td></tr>}
+        {m.stack && <tr><td class="muted">Stack size</td><td>{m.stack}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {m.intro && <section><h2>About</h2><p>{m.intro}</p></section>}
+
+  <Related
+    links={[
+      ...sameType.map((x: any) => ({ href: `/mods/${x.slug}/`, title: x.title, sub: x.category || x.mod_type || "Mod", icon: x.icon })),
+      { href: "/weapons/", title: "Weapons", sub: "What to install it on" },
+      { href: "/armor/", title: "Armor", sub: "Armor mod slots" },
+    ]}
+  />
+</Base>

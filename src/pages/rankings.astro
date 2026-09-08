@@ -1,0 +1,73 @@
+---
+import Base from "../layouts/Base.astro";
+import DataTable from "../components/DataTable.astro";
+import zombies from "../data/d7_zombies.json";
+import weapons from "../data/d7_weapons.json";
+import tools from "../data/d7_tools.json";
+
+const zByHp = [...zombies].sort((a: any, b: any) => (b.hp_base ?? 0) - (a.hp_base ?? 0));
+const zRadiated = [...zombies]
+  .filter((z: any) => z.hp_radiated)
+  .sort((a: any, b: any) => (b.hp_radiated ?? 0) - (a.hp_radiated ?? 0))
+  .slice(0, 15);
+const wByDmg = [...weapons].sort((a: any, b: any) => (b.damage_max ?? 0) - (a.damage_max ?? 0)).slice(0, 20);
+const tByDmg = [...tools].sort((a: any, b: any) => (b.damage_max ?? 0) - (a.damage_max ?? 0)).slice(0, 15);
+---
+
+<Base
+  title="7 Days to Die Rankings — Toughest Zombies, Strongest Weapons & Tools"
+  description="7 Days to Die leaderboards: every zombie by base/feral/radiated HP, highest damage weapons and tools."
+>
+  <h1>Rankings</h1>
+  <p class="muted">The numbers sorted — no wiki digging.</p>
+
+  <h2 id="zombies">Every zombie by base HP</h2>
+  <DataTable
+    id="rk-zombies"
+    head={["#", "Zombie", "Base HP", "Feral", "Radiated", "Location"]}
+    rows={zByHp.map((z: any, i: number) => [
+      `#${i + 1}`,
+      `<a href="/zombies/${z.slug}/">${z.title}</a>`,
+      `<strong>${z.hp_base ?? "—"}</strong>`,
+      z.hp_feral ?? "—",
+      z.hp_radiated ?? "—",
+      z.location || "—",
+    ])}
+  />
+
+  <h2 id="radiated">Radiated tier — Blood Moon elites</h2>
+  <DataTable
+    id="rk-rad"
+    head={["#", "Zombie", "Radiated HP", "Feral HP"]}
+    rows={zRadiated.map((z: any, i: number) => [
+      `#${i + 1}`,
+      `<a href="/zombies/${z.slug}/">${z.title}</a>`,
+      `<strong>${z.hp_radiated}</strong>`,
+      z.hp_feral ?? "—",
+    ])}
+  />
+
+  <h2 id="weapons">Highest damage weapons</h2>
+  <DataTable
+    id="rk-weapons"
+    head={["#", "Weapon", "Type", "Damage (best)"]}
+    rows={wByDmg.map((w: any, i: number) => [
+      `#${i + 1}`,
+      `<a href="/weapons/${w.slug}/">${w.title}</a>`,
+      w.item_type || "—",
+      `<strong>${w.damage_max ?? "—"}</strong>`,
+    ])}
+  />
+
+  <h2 id="tools">Highest damage tools</h2>
+  <DataTable
+    id="rk-tools"
+    head={["#", "Tool", "Type", "Damage (best)"]}
+    rows={tByDmg.map((t: any, i: number) => [
+      `#${i + 1}`,
+      `<a href="/tools/${t.slug}/">${t.title}</a>`,
+      t.item_type || "—",
+      `<strong>${t.damage_max ?? "—"}</strong>`,
+    ])}
+  />
+</Base>

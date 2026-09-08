@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import weapons from "../../data/d7_weapons.json";
+
+const rows = weapons
+  .map((w: any) => ({
+    weapon: `<img src="${w.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/weapons/${w.slug}/">${w.title}</a>`,
+    type: w.item_type || "—",
+    dmg: w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : ""),
+    rate: w.attack_rate ?? "",
+    focus: w.attribute_focus || "—",
+    _dmg: w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : -1),
+  }))
+  .sort((a: any, b: any) => b._dmg - a._dmg);
+---
+
+<Base
+  title={`All ${weapons.length} Weapons — 7 Days to Die Damage Per Quality Tier`}
+  description={`Every 7 Days to Die ranged and melee weapon with damage per quality tier, attack rate, ammo and mod slots. ${weapons.length} entries.`}
+>
+  <h1>Weapons</h1>
+  <p class="muted">
+    {weapons.length} weapons — damage values are the best tier or best ammo available.
+    Quality tiers Q1–Q6 (Common → Legendary) on every detail page.
+  </p>
+
+  <DataTable
+    id="weapons"
+    searchPlaceholder="Search weapon or type… e.g. shotgun"
+    columns={[
+      { key: "weapon", label: "Weapon" },
+      { key: "type", label: "Type" },
+      { key: "dmg", label: "Damage (best)", type: "number" },
+      { key: "rate", label: "Rate", type: "number" },
+      { key: "focus", label: "Attribute" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

@@ -1,0 +1,85 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import zombies from "../../data/d7_zombies.json";
+
+export function getStaticPaths() {
+  return zombies.map((z: any) => ({ params: { slug: z.slug }, props: { z } }));
+}
+
+const { z } = Astro.props;
+const all = zombies as any[];
+const tougher = all
+  .filter((x: any) => x.slug !== z.slug && (x.hp_base ?? 0) > (z.hp_base ?? 0))
+  .sort((a: any, b: any) => (a.hp_base ?? 0) - (b.hp_base ?? 0))
+  .slice(-3)
+  .reverse();
+const weaker = all
+  .filter((x: any) => x.slug !== z.slug && (x.hp_base ?? 0) < (z.hp_base ?? 0))
+  .sort((a: any, b: any) => (b.hp_base ?? 0) - (a.hp_base ?? 0))
+  .slice(0, 3);
+
+const hpRows: [string, any][] = [
+  ["Base HP", z.hp_base],
+  ["Feral HP", z.hp_feral],
+  ["Radiated HP", z.hp_radiated],
+  ["Legendary HP", z.hp_legendary],
+];
+---
+
+<Base
+  title={`${z.title} — 7 Days to Die Zombie HP (Base / Feral / Radiated)`}
+  description={`${z.title} in 7 Days to Die: ${z.hp_base ?? "?"} base HP, ${z.hp_feral ?? "?"} feral, ${z.hp_radiated ?? "?"} radiated. Location, damage and variants.`}
+>
+  <div class="icon-h1">
+    {z.icon && <img src={z.icon} alt={z.title} loading="lazy" />}
+    <h1>{z.title}</h1>
+  </div>
+  <p class="muted">
+    {z.zombie_type || "Zombie"}
+    {z.entity_id && ` · entity #${z.entity_id}`}
+    {z.internal_id && ` · id: ${z.internal_id}`}
+  </p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <div class="stat-row">
+      <div><div class="stat-num">{z.hp_base ?? "—"}</div><div class="stat-label">Base HP</div></div>
+      <div><div class="stat-num">{z.hp_feral ?? "—"}</div><div class="stat-label">Feral HP</div></div>
+      <div><div class="stat-num">{z.hp_radiated ?? "—"}</div><div class="stat-label">Radiated HP</div></div>
+      {z.damage && <div><div class="stat-num">{z.damage}</div><div class="stat-label">Damage</div></div>}
+      {z.block_damage && <div><div class="stat-num">{z.block_damage}</div><div class="stat-label">Block damage</div></div>}
+    </div>
+  </div>
+
+  <section>
+    <h2>Health by variant</h2>
+    <table>
+      <thead><tr><th>Variant</th><th>HP</th><th>vs base</th></tr></thead>
+      <tbody>
+        {hpRows.filter(([, v]) => v !== null && v !== undefined).map(([k, v]) => (
+          <tr>
+            <td>{k}</td>
+            <td><strong>{v}</strong></td>
+            <td class="muted">{z.hp_base ? `${Math.round(((v as number) / z.hp_base) * 100)}%` : "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Where to find it</h2>
+    <p>{z.location || "Everywhere"}</p>
+    {z.drops && <p class="muted">Drops: {z.drops}</p>}
+  </section>
+
+  {z.intro && <section><h2>About</h2><p>{z.intro}</p></section>}
+
+  <Related
+    links={[
+      ...[...weaker, ...tougher].map((x: any) => ({ href: `/zombies/${x.slug}/`, title: x.title, sub: `HP ${x.hp_base ?? "?"}`, icon: x.icon })),
+      { href: "/rankings/#zombies", title: "Zombie HP Ranking", sub: "All enemies sorted", tool: true },
+      { href: "/weapons/", title: "Best Weapons", sub: "Stop them faster" },
+    ]}
+  />
+</Base>

@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import zombies from "../../data/d7_zombies.json";
+
+const rows = zombies
+  .map((z: any) => ({
+    zombie: `<img src="${z.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/zombies/${z.slug}/">${z.title}</a>`,
+    types: z.zombie_type || "—",
+    hp: z.hp_base ?? "",
+    feral: z.hp_feral ?? "",
+    radiated: z.hp_radiated ?? "",
+    location: z.location || "—",
+    _hp: z.hp_base ?? -1,
+  }))
+  .sort((a: any, b: any) => b._hp - a._hp);
+---
+
+<Base
+  title={`All ${zombies.length} Zombies & Enemies — 7 Days to Die Zombie Health`}
+  description={`Every 7 Days to Die zombie sorted by health: base, feral and radiated HP for all ${zombies.length} enemies, with locations and damage.`}
+>
+  <h1>Zombies & Enemies</h1>
+  <p class="muted">
+    {zombies.length} enemies — base / feral / radiated HP side by side. Feral doubles the
+    threat; radiated is the Blood Moon elite tier.
+  </p>
+
+  <DataTable
+    id="zombies"
+    searchPlaceholder="Search zombie or location… e.g. cop"
+    columns={[
+      { key: "zombie", label: "Zombie" },
+      { key: "types", label: "Variants" },
+      { key: "hp", label: "HP (base)", type: "number" },
+      { key: "feral", label: "HP (feral)", type: "number" },
+      { key: "radiated", label: "HP (radiated)", type: "number" },
+      { key: "location", label: "Location" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

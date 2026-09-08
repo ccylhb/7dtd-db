@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import mods from "../../data/d7_mods.json";
+
+const rows = mods
+  .map((m: any) => ({
+    mod: `<img src="${m.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/mods/${m.slug}/">${m.title}</a>`,
+    type: m.category || m.mod_type || m.item_type || "—",
+    part: m.affected_part || "—",
+    effect: m.effects || m.description || "—",
+  }));
+---
+
+<Base
+  title={`All ${mods.length} Mods — 7 Days to Die Weapon & Armor Mods`}
+  description={`Every 7 Days to Die weapon and armour mod: effects, affected slot and mod type. ${mods.length} entries.`}
+>
+  <h1>Mods</h1>
+  <p class="muted">{mods.length} weapon and armour mods — what each one does before you craft it.</p>
+
+  <DataTable
+    id="mods"
+    searchPlaceholder="Search mod or effect… e.g. silencer"
+    columns={[
+      { key: "mod", label: "Mod" },
+      { key: "type", label: "Type" },
+      { key: "part", label: "Affects" },
+      { key: "effect", label: "Effect" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

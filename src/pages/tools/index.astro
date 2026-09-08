@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import tools from "../../data/d7_tools.json";
+
+const rows = tools
+  .map((w: any) => ({
+    tool: `<img src="${w.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/tools/${w.slug}/">${w.title}</a>`,
+    type: w.item_type || "—",
+    dmg: w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : ""),
+    block: w.block_damage_q ? Math.max(...w.block_damage_q) : "",
+    rate: w.attack_rate ?? "",
+    _dmg: w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : -1),
+  }))
+  .sort((a: any, b: any) => b._dmg - a._dmg);
+---
+
+<Base
+  title={`All ${tools.length} Tools — 7 Days to Die Tool Damage & Block Damage`}
+  description={`Every 7 Days to Die tool with damage and block damage per quality tier, attack rate and repair materials. ${tools.length} entries.`}
+>
+  <h1>Tools</h1>
+  <p class="muted">{tools.length} tools — damage is the best quality tier; block damage shows how fast they chew through walls.</p>
+
+  <DataTable
+    id="tools"
+    searchPlaceholder="Search tool… e.g. fireaxe"
+    columns={[
+      { key: "tool", label: "Tool" },
+      { key: "type", label: "Type" },
+      { key: "dmg", label: "Damage (best)", type: "number" },
+      { key: "block", label: "Block dmg (best)", type: "number" },
+      { key: "rate", label: "Rate", type: "number" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

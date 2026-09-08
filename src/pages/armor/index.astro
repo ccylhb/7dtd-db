@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import armor from "../../data/d7_armor.json";
+
+const rows = armor
+  .map((a: any) => {
+    const ar = a.armor_q || a.defense_q || [];
+    return {
+      armor: `<img src="${a.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/armor/${a.slug}/">${a.title}</a>`,
+      type: a.item_type || "—",
+      val: ar.length ? Math.max(...ar) : "",
+      effect: a.equip_effect || a.description || "—",
+      _v: ar.length ? Math.max(...ar) : -1,
+    };
+  })
+  .sort((a: any, b: any) => b._v - a._v);
+---
+
+<Base
+  title={`All ${armor.length} Armor & Clothing — 7 Days to Die Armor Values`}
+  description={`Every 7 Days to Die armour piece and clothing item with armour value per quality tier and equip effects. ${armor.length} entries.`}
+>
+  <h1>Armor & Clothing</h1>
+  <p class="muted">{armor.length} pieces — sorted by best armour value. Clothing counts too in V1+ armour system.</p>
+
+  <DataTable
+    id="armor"
+    searchPlaceholder="Search armour… e.g. helmet"
+    columns={[
+      { key: "armor", label: "Piece" },
+      { key: "type", label: "Slot" },
+      { key: "val", label: "Armor (best)", type: "number" },
+      { key: "effect", label: "Effect" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

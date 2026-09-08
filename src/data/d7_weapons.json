@@ -1,0 +1,3123 @@
+[
+ {
+  "title": ".44 Desert Vulture",
+  "slug": "44-desert-vulture",
+  "infobox": "Infobox item",
+  "images": [
+   "44DesertVulture.png",
+   ".44 Desert Vulture.png",
+   ".44DesertVulture.png"
+  ],
+  "intro": "This heavy pistol uses .44 Magnum ammo. Repair with a Repair Kit. Scrap to Handgun Parts.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Handgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   44.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   44.0
+  ],
+  "range": 50.0,
+  "attack_rate": 130.0,
+  "stamina_usage": null,
+  "mag": 8.0,
+  "reload_speed": "2 s",
+  "ammo_types": [
+   ".44 Magnum Bullet",
+   ".44 Magnum Bullet (AP)",
+   ".44 Magnum Bullet (HP)"
+  ],
+  "durability_q": [
+   500.0,
+   540.0,
+   580.0,
+   620.0,
+   660.0,
+   700.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "* Barrel * Side * Small Top * Magazine * Firing Mode * Special Damage",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": ".44 Magnum Bullet",
+    "dmg": 90.0
+   },
+   {
+    "ammo": ".44 Magnum Bullet (AP)",
+    "dmg": 90.0
+   },
+   {
+    "ammo": ".44 Magnum Bullet (HP)",
+    "dmg": 97.0
+   }
+  ],
+  "damage_max": 97.0,
+  "icon": "/icons/44_desert_vulture.png"
+ },
+ {
+  "title": ".44 Magnum",
+  "slug": "44-magnum",
+  "infobox": "Infobox item",
+  "images": [
+   "44Magnum.png",
+   ".44 Magnum.png",
+   ".44Magnum.png"
+  ],
+  "intro": "The is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud. Repair with a Repair Kit. Scrap to Handgun Parts.",
+  "description": "\"Go ahead, make my day\"",
+  "group": "Ammo/Weapons",
+  "item_type": "Handgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   44.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   44.0
+  ],
+  "range": 70.0,
+  "attack_rate": 100.0,
+  "stamina_usage": null,
+  "mag": 6.0,
+  "reload_speed": "4 s",
+  "ammo_types": [
+   ".44 Magnum Bullet",
+   ".44 Magnum Bullet (AP)",
+   ".44 Magnum Bullet (HP)"
+  ],
+  "durability_q": [
+   400.0,
+   420.0,
+   440.0,
+   460.0,
+   480.0,
+   500.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "* Barrel * Side * Small Top * Special Damage",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": ".44 Magnum Bullet",
+    "dmg": 65.0
+   },
+   {
+    "ammo": ".44 Magnum Bullet (AP)",
+    "dmg": 65.0
+   },
+   {
+    "ammo": ".44 Magnum Bullet (HP)",
+    "dmg": 72.0
+   }
+  ],
+  "damage_max": 72.0,
+  "icon": "/icons/44_magnum.png"
+ },
+ {
+  "title": "AK-47 Machine Gun",
+  "slug": "ak-47-machine-gun",
+  "infobox": "Infobox item",
+  "images": [
+   "Ak47.png",
+   "AK-47 Machine Gun.png",
+   "AK-47MachineGun.png"
+  ],
+  "intro": "The AK-47 is a short- to medium-ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the AK-47 uses 7.62mm Rounds as Ammunition. Previously named the AK-47 Assault Rifle and classified as a rifle, the AK-47 is now considered a machine gun in terms of Perks. It has the highest damage output potential out of all the conventional firearms, that lends the AK 47 well to being the player's backup gun to defend against surprise threats while scavenging or collecting resources.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Machine Gun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 90.0,
+  "attack_rate": 360.0,
+  "stamina_usage": null,
+  "mag": 30.0,
+  "reload_speed": "2.85 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   200.0,
+   240.0,
+   280.0,
+   320.0,
+   360.0,
+   400.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Stock, Magazine, Drum Magazine, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 40.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 50.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 45.0
+   }
+  ],
+  "damage_max": 50.0,
+  "icon": "/icons/ak_47_machine_gun.png"
+ },
+ {
+  "title": "Auto Shotgun",
+  "slug": "auto-shotgun",
+  "infobox": "Infobox item",
+  "images": [
+   "AutomaticShotgun.png",
+   "Auto Shotgun.png",
+   "AutoShotgun.png"
+  ],
+  "intro": "tables=Mods, Mods__Category, Mods__Mod_Type, Mods__Affected_Part }}",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Shotgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 1500.0,
+  "obtain": "Looting, Crafting, Trading",
+  "damage_q": [
+   100.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": 70.0,
+  "stamina_usage": null,
+  "mag": 16.0,
+  "reload_speed": "2.6 s",
+  "ammo_types": [
+   "Shotgun Shell",
+   "Shotgun Slug",
+   "Shotgun Breaching Slug"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   4.0
+  ],
+  "mod_compa": "Side, Bottom, Shotgun, Barrel, Stock, Small Top, Magazine, Firing Mode, No Scopes, Drum Magazine, Short Range",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Shotgun Shell",
+    "dmg": 110.1
+   },
+   {
+    "ammo": "Shotgun Slug",
+    "dmg": 202.0
+   },
+   {
+    "ammo": "Shotgun Breaching Slug",
+    "dmg": 196.0
+   }
+  ],
+  "damage_max": 202.0,
+  "icon": "/icons/auto_shotgun.png"
+ },
+ {
+  "title": "Baseball Bat",
+  "slug": "baseball-bat",
+  "infobox": "Infobox item",
+  "images": [
+   "BaseballBat.png",
+   "Baseball Bat.png"
+  ],
+  "intro": "The is a tier 2 - a melee weapon used to pummel your enemies.",
+  "description": "This club was used in gladiatorial games of the past that were held in huge arenas.",
+  "group": "Ammo/Weapons",
+  "item_type": "Club",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 350.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   20.0,
+   22.0,
+   24.0,
+   26.0,
+   28.0,
+   30.0
+  ],
+  "pa_damage_q": [
+   40.0,
+   44.0,
+   48.0,
+   52.0,
+   56.0,
+   60.0
+  ],
+  "block_damage_q": [
+   18.0,
+   19.8,
+   21.6,
+   23.4,
+   25.2,
+   27.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.4,
+  "attack_rate": 52.0,
+  "stamina_usage": 20.9,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   200.0,
+   260.0,
+   320.0,
+   380.0,
+   440.0,
+   500.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 30.0,
+  "icon": "/icons/baseball_bat.png"
+ },
+ {
+  "title": "Blunderbuss",
+  "slug": "blunderbuss",
+  "infobox": "Infobox item",
+  "images": [
+   "Blunderbuss.png"
+  ],
+  "intro": "The is a single shot firearm that can be crafted from simple materials in 7 Days to Die. It is a simple weapon and easy to create relatively early in the game. This weapon requires Blunderbuss Ammo and will hold one shot. With alpha 20, the Blunderbuss and its ammo have been removed, and replaced with a tier of pipe weapons.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Shotgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 250.0,
+  "obtain": "Looting, Crafting, Trading",
+  "damage_q": null,
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": 15.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "3.9 s",
+  "ammo_types": [
+   "Blunderbuss Ammo"
+  ],
+  "durability_q": [
+   50.0
+  ],
+  "mod_slots_q": null,
+  "mod_compa": "Side, Bottom, Shotgun, Stock, Short Range",
+  "repair": "Short Iron Pipe",
+  "per_ammo_damage": null,
+  "damage_max": null,
+  "icon": "/icons/blunderbuss.png"
+ },
+ {
+  "title": "Bone Knife",
+  "slug": "bone-knife",
+  "infobox": "Infobox item",
+  "images": [
+   "BoneShiv.png",
+   "Bone Knife.png",
+   "BoneKnife.png"
+  ],
+  "intro": "A is a improvised Bladed Melee weapon which is easy to craft with Bones. Made by simply filing down one of the joints into a sharp blade. It is one of the few tools available which can harvest useful things like Leather, Bones, Animal Fat, and Raw Meat from dead or undead animals. Sneaking attack increases 400% extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Knife",
+  "category": "Melee Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 0.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   5.0,
+   5.5,
+   6.0,
+   6.5,
+   7.0,
+   7.5
+  ],
+  "pa_damage_q": [
+   20.2,
+   22.2,
+   24.2,
+   26.2,
+   28.2,
+   30.3
+  ],
+  "block_damage_q": [
+   4.0,
+   4.4,
+   4.8,
+   5.2,
+   5.6,
+   6.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 120.0,
+  "stamina_usage": 7.3,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   250.0,
+   300.0,
+   350.0,
+   500.0,
+   450.0,
+   500.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "",
+  "repair": "Bone",
+  "damage_max": 7.5,
+  "icon": "/icons/bone_knife.png"
+ },
+ {
+  "title": "Candy Cane Club",
+  "slug": "candy-cane-club",
+  "infobox": "Infobox item",
+  "images": [
+   "Candycaneclub.png",
+   "Candy Cane Club.png",
+   "CandyCaneClub.png"
+  ],
+  "intro": "The is a tier 1 - a one-handed melee weapon used to pummel your enemies. The cannot be crafted and is a seasonal item only being available during the month of December in the actual calendar year. You can find these clubs when looting during the month of December.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Club",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 350.0,
+  "obtain": "Looting",
+  "damage_q": [
+   20.1,
+   22.3,
+   24.7,
+   25.3,
+   27.5,
+   29.9
+  ],
+  "pa_damage_q": [
+   40.1,
+   42.3,
+   44.7,
+   45.3,
+   47.5,
+   49.9
+  ],
+  "block_damage_q": [
+   18.1,
+   20.2,
+   20.8,
+   22.8,
+   24.8,
+   27.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.4,
+  "attack_rate": 52.0,
+  "stamina_usage": 20.9,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   200.0,
+   260.0,
+   320.0,
+   380.0,
+   440.0,
+   500.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 29.9,
+  "icon": "/icons/candy_cane_club.png"
+ },
+ {
+  "title": "Candy Cane Knife",
+  "slug": "candy-cane-knife",
+  "infobox": "Infobox item",
+  "images": [
+   "Candycaneknife.png",
+   "Candy Cane Knife.png",
+   "CandyCaneKnife.png"
+  ],
+  "intro": "The is a bladed melee weapon that is also quite useful as a butchering tool. The cannot be crafted and is a seasonal item only being available during the month of December in the actual calendar year. You can find these knives when looting during the month of December.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Knife",
+  "category": "Melee Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 350.0,
+  "obtain": "Looting",
+  "damage_q": [
+   12.1,
+   13.5,
+   13.9,
+   15.2,
+   16.6,
+   17.8
+  ],
+  "pa_damage_q": [
+   37.6,
+   39.7,
+   40.4,
+   42.4,
+   44.5,
+   46.5
+  ],
+  "block_damage_q": [
+   6.5,
+   7.3,
+   7.5,
+   8.2,
+   9.0,
+   9.6
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 120.0,
+  "stamina_usage": 10.5,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   500.0,
+   600.0,
+   700.0,
+   800.0,
+   900.0,
+   1000.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "",
+  "repair": "Repair Kit",
+  "damage_max": 17.8,
+  "icon": "/icons/candy_cane_knife.png"
+ },
+ {
+  "title": "Compound Bow",
+  "slug": "compound-bow",
+  "infobox": "Infobox item",
+  "images": [
+   "CompoundBow.png",
+   "Compound Bow.png"
+  ],
+  "intro": "The is the strongest Bow in 7 Days to Die. It is a medium-range weapon that fires arrows as Ammunition. To equip a different type of arrow, press and hold R, then select the ammo type you want. Sneaking attack increases 100% extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Bow",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   29.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2 s",
+  "ammo_types": [
+   "Stone Arrow",
+   "Iron Arrow",
+   "Steel Arrow",
+   "Flaming Arrow",
+   "Exploding Arrow"
+  ],
+  "durability_q": [
+   350.0,
+   400.0,
+   450.0,
+   500.0,
+   550.0,
+   600.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Bow",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Stone Arrow",
+    "dmg": 64.0
+   },
+   {
+    "ammo": "Iron Arrow",
+    "dmg": 67.0
+   },
+   {
+    "ammo": "Steel Arrow",
+    "dmg": 71.0
+   },
+   {
+    "ammo": "Flaming Arrow",
+    "dmg": 54.0
+   },
+   {
+    "ammo": "Exploding Arrow",
+    "dmg": 209.0
+   }
+  ],
+  "damage_max": 209.0,
+  "icon": "/icons/compound_bow.png"
+ },
+ {
+  "title": "Compound Crossbow",
+  "slug": "compound-crossbow",
+  "infobox": "Infobox item",
+  "images": [
+   "CompoundCrossbow.png",
+   "Compound Crossbow.png"
+  ],
+  "intro": "The is stronger version of Iron Crossbow, unlocked after reading the Compound Crossbow Schematic. The Compound Crossbow is a medium to long-range weapon that fires crossbow bolts as Ammunition. It will not reload automatically after each shot, unlike the bows. To equip a different type of ammo than the default Stone Crossbow Bolt, press and hold R, then select the ammo type you want. Sneaking attack increases 100% extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Crossbow",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   25.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "3.4 s",
+  "ammo_types": [
+   "Stone Crossbow Bolt",
+   "Iron Crossbow Bolt",
+   "Steel Crossbow Bolt",
+   "Flaming Crossbow Bolt",
+   "Exploding Crossbow Bolt"
+  ],
+  "durability_q": [
+   350.0,
+   400.0,
+   450.0,
+   500.0,
+   550.0,
+   600.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Crossbow, Side, Small Top, Medium Top",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Stone Crossbow Bolt",
+    "dmg": 75.0
+   },
+   {
+    "ammo": "Iron Crossbow Bolt",
+    "dmg": 84.0
+   },
+   {
+    "ammo": "Steel Crossbow Bolt",
+    "dmg": 88.0
+   },
+   {
+    "ammo": "Flaming Crossbow Bolt",
+    "dmg": 63.0
+   },
+   {
+    "ammo": "Exploding Crossbow Bolt",
+    "dmg": 275.0
+   }
+  ],
+  "damage_max": 275.0,
+  "icon": "/icons/compound_crossbow.png"
+ },
+ {
+  "title": "Double Barrel Shotgun",
+  "slug": "double-barrel-shotgun",
+  "infobox": "Infobox item",
+  "images": [
+   "DoubleBarrelShotgun.png",
+   "Double Barrel Shotgun.png"
+  ],
+  "intro": "is commonly found throughout Navezgane while Looting. Is a good source of Shotgun Parts for crafting better grade of Shotguns, however the scrapped must be a Quality 3 or higher. only has 2 shots making it a valuable weapon in an emergency but not entirely practical at higher game stage Blood Moon Horde nights.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Shotgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Looting, Crafting, Trading",
+  "damage_q": [
+   10.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": 46.0,
+  "stamina_usage": null,
+  "mag": 2.0,
+  "reload_speed": "2.6 s",
+  "ammo_types": [
+   "Shotgun Shell",
+   "Shotgun Slug",
+   "Shotgun Breaching Slug"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Side, Barrel, DBarrel, Stock, Bottom, Shotgun, Short Range",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Shotgun Shell",
+    "dmg": 20.1
+   },
+   {
+    "ammo": "Shotgun Slug",
+    "dmg": 112.0
+   },
+   {
+    "ammo": "Shotgun Breaching Slug",
+    "dmg": 106.0
+   }
+  ],
+  "damage_max": 112.0,
+  "icon": "/icons/double_barrel_shotgun.png"
+ },
+ {
+  "title": "Fists",
+  "slug": "fists",
+  "infobox": "Infobox item",
+  "images": [
+   "Fist.png",
+   "Fists.png"
+  ],
+  "intro": "refers to your own bare hands when used for activities such as unarmed combat, harvesting, or mining.",
+  "description": "These are your own hands! When you have nothing else to use.",
+  "group": "Ammo/Weapons",
+  "item_type": "",
+  "category": "Melee Weapon",
+  "attribute_focus": "",
+  "stack": null,
+  "price": null,
+  "obtain": "",
+  "damage_q": [
+   7.0
+  ],
+  "pa_damage_q": [
+   14.0
+  ],
+  "block_damage_q": [
+   2.5
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 80.0,
+  "stamina_usage": 8.6,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": null,
+  "mod_slots_q": null,
+  "mod_compa": "",
+  "repair": "",
+  "damage_max": 7.0,
+  "icon": "/icons/fists.png"
+ },
+ {
+  "title": "Hunting Knife",
+  "slug": "hunting-knife",
+  "infobox": "Infobox item",
+  "images": [
+   "HuntingKnife.png",
+   "Hunting Knife.png"
+  ],
+  "intro": "The is a bladed melee weapon that is also quite useful as a butchering tool. Sneaking attack increases 400% extra damage in A21.",
+  "description": "Great for slashing zombies and gutting animals for meat.",
+  "group": "Ammo/Weapons",
+  "item_type": "Knife",
+  "category": "Melee Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 350.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "pa_damage_q": [
+   36.0,
+   38.4,
+   40.8,
+   43.2,
+   45.6,
+   48.0
+  ],
+  "block_damage_q": [
+   6.5,
+   7.1,
+   7.8,
+   8.4,
+   9.1,
+   9.7
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 120.0,
+  "stamina_usage": 10.5,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   500.0,
+   600.0,
+   700.0,
+   800.0,
+   900.0,
+   1000.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "",
+  "repair": "Repair Kit",
+  "damage_max": 18.0,
+  "icon": "/icons/hunting_knife.png"
+ },
+ {
+  "title": "Hunting Rifle",
+  "slug": "hunting-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "HuntingRifle.png",
+   "Hunting Rifle.png"
+  ],
+  "intro": "A is a medium to long range bolt action firearm which can be found throughout the world in 7 Days to Die. It is an uncommon weapon but it's craftable. This weapon requires the 7.62mm Bullet and only holds one cartridge at a time. It will reload automatically if the player is carrying the correct Ammunition or it can be done manually at any time using the reload key (default key R ). Headshotting adds 50 extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Rifle",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 150.0,
+  "attack_rate": 120.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2.66 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   200.0,
+   240.0,
+   280.0,
+   320.0,
+   360.0,
+   400.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 58.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 68.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 63.0
+   }
+  ],
+  "damage_max": 68.0,
+  "icon": "/icons/hunting_rifle.png"
+ },
+ {
+  "title": "Iron Crossbow",
+  "slug": "iron-crossbow",
+  "infobox": "Infobox item",
+  "images": [
+   "Crossbow.png",
+   "Iron Crossbow.png",
+   "IronCrossbow.png"
+  ],
+  "intro": "The is a weapon in 7 Days to Die that makes use of the Archery skill. It can be crafted once its recipe is unlocked by reading at least 22 of the Bow Hunters magazines. The Iron Crossbow is a medium- to long-range weapon that fires crossbow bolts as Ammunition. It will reload automatically after each shot and, unlike the bows, it can be modded with Scope or Weapon Flashlight. To equip a different type of ammo than the default Stone Crossbow Bolt, press and hold R, then select the ammo type you want.",
+  "description": "\"A crossbow is slow to reload but does more damage than a bow\"",
+  "group": "Ammo/Weapons",
+  "item_type": "Crossbow",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": null,
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "3.4 s",
+  "ammo_types": [
+   "Stone Crossbow Bolt",
+   "Iron Crossbow Bolt",
+   "Steel Crossbow Bolt",
+   "Flaming Crossbow Bolt",
+   "Exploding Crossbow Bolt"
+  ],
+  "durability_q": [
+   200.0,
+   230.0,
+   260.0,
+   290.0,
+   320.0,
+   350.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Crossbow, Side, Small Top, Medium Top",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Stone Crossbow Bolt",
+    "dmg": 50.0
+   },
+   {
+    "ammo": "Iron Crossbow Bolt",
+    "dmg": 59.0
+   },
+   {
+    "ammo": "Steel Crossbow Bolt",
+    "dmg": 63.0
+   },
+   {
+    "ammo": "Flaming Crossbow Bolt",
+    "dmg": 38.0
+   },
+   {
+    "ammo": "Exploding Crossbow Bolt",
+    "dmg": 250.0
+   }
+  ],
+  "damage_max": 250.0,
+  "icon": "/icons/iron_crossbow.png"
+ },
+ {
+  "title": "Iron Knuckles",
+  "slug": "iron-knuckles",
+  "infobox": "Infobox item",
+  "images": [
+   "IronKnuckles.png",
+   "Iron Knuckles.png"
+  ],
+  "intro": "The is a tier 2 brawling weapon used to pummel your enemies. While better than Knuckle Wraps it is not as good as Steel Knuckles",
+  "description": "Protect your hands and put some weight into those swings.",
+  "group": "Ammo/Weapons",
+  "item_type": "Knuckles",
+  "category": "Melee Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   11.5,
+   12.6,
+   13.8,
+   14.9,
+   16.1,
+   17.2
+  ],
+  "pa_damage_q": [
+   23.0,
+   25.3,
+   27.6,
+   29.9,
+   32.2,
+   34.5
+  ],
+  "block_damage_q": [
+   3.5,
+   3.8,
+   4.2,
+   4.5,
+   4.9,
+   5.2
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 100.0,
+  "stamina_usage": 9.6,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   300.0,
+   380.0,
+   460.0,
+   540.0,
+   620.0,
+   700.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "",
+  "repair": "Repair Kit",
+  "damage_max": 17.2,
+  "icon": "/icons/iron_knuckles.png"
+ },
+ {
+  "title": "Iron Sledgehammer",
+  "slug": "iron-sledgehammer",
+  "infobox": "Infobox item",
+  "images": [
+   "Sledgehammer.png",
+   "Iron Sledgehammer.png",
+   "IronSledgehammer.png"
+  ],
+  "intro": "The is a tier 2 sledgehammer - a two-handed melee weapon used to pummel your enemies and an effective tool for destroying blocks.",
+  "description": "The sledgehammer is one of the best weapons for cracking skulls.",
+  "group": "Ammo/Weapons",
+  "item_type": "Sledgehammer",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   32.0,
+   35.2,
+   38.4,
+   41.6,
+   44.8,
+   48.0
+  ],
+  "pa_damage_q": [
+   72.0,
+   79.2,
+   86.4,
+   93.6,
+   100.0,
+   108.0
+  ],
+  "block_damage_q": [
+   52.0,
+   57.2,
+   62.4,
+   67.6,
+   72.8,
+   78.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 34.0,
+  "stamina_usage": 36.7,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   200.0,
+   240.0,
+   280.0,
+   320.0,
+   360.0,
+   400.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 48.0,
+  "icon": "/icons/iron_sledgehammer.png"
+ },
+ {
+  "title": "Iron Spear",
+  "slug": "iron-spear",
+  "infobox": "Infobox item",
+  "images": [
+   "IronSpear.png",
+   "Iron Spear.png"
+  ],
+  "intro": "The is a tier 2 which can be used as a melee weapon. All Spears were changed in Alpha 21 to being melee only items and are no longer able to be thrown.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Spear",
+  "category": "Melee Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   20.0,
+   22.0,
+   24.0,
+   26.0,
+   28.0,
+   30.0
+  ],
+  "pa_damage_q": [
+   40.0,
+   44.0,
+   48.0,
+   52.0,
+   56.0,
+   60.0
+  ],
+  "block_damage_q": [
+   8.0,
+   8.8,
+   9.6,
+   10.4,
+   11.2,
+   12.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 55.0,
+  "stamina_usage": 20.3,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   200.0,
+   240.0,
+   280.0,
+   320.0,
+   360.0,
+   400.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 30.0,
+  "icon": "/icons/iron_spear.png"
+ },
+ {
+  "title": "Knuckle Wraps",
+  "slug": "knuckle-wraps",
+  "infobox": "Infobox item",
+  "images": [
+   "KnuckleWraps.png",
+   "Knuckle Wraps.png"
+  ],
+  "intro": "The is a tier 1 brawling weapon used to pummel your enemies.",
+  "description": "Leather knuckle wraps to protect your hands and put some weight into those swings.",
+  "group": "Ammo/Weapons",
+  "item_type": "Knuckles",
+  "category": "Melee Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 200.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   7.0,
+   7.7,
+   8.4,
+   9.1,
+   9.8,
+   10.5
+  ],
+  "pa_damage_q": [
+   14.0,
+   15.4,
+   16.8,
+   18.2,
+   19.6,
+   21.0
+  ],
+  "block_damage_q": [
+   2.2,
+   2.4,
+   2.6,
+   2.8,
+   3.0,
+   3.3
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 100.0,
+  "stamina_usage": 9.1,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   100.0,
+   140.0,
+   180.0,
+   220.0,
+   260.0,
+   300.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "",
+  "repair": "Leather",
+  "damage_max": 10.5,
+  "icon": "/icons/knuckle_wraps.png"
+ },
+ {
+  "title": "Lever-Action Rifle",
+  "slug": "lever-action-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "gunRifleT2LeverActionRifle.png",
+   "Lever-Action Rifle.png",
+   "Lever-ActionRifle.png"
+  ],
+  "intro": "The Lever-Action Rifle is a new rifle in Alpha 20. Having replaced the Marksman Rifle as the Tier 2 rifle, it has similar stats as its predecessor. Assuming the is a high enough Quality it will scrap into Rifle Parts. Headshotting adds 100 extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Rifle",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": null,
+  "price": null,
+  "obtain": "",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 150.0,
+  "attack_rate": 82.0,
+  "stamina_usage": null,
+  "mag": 5.0,
+  "reload_speed": "2.7 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "",
+  "repair": "",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 76.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 86.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 81.0
+   }
+  ],
+  "damage_max": 86.0
+ },
+ {
+  "title": "M60 Machine Gun",
+  "slug": "m60-machine-gun",
+  "infobox": "Infobox item",
+  "images": [
+   "M60MachineGun.png",
+   "M60 Machine Gun.png"
+  ],
+  "intro": "M60 Machine Gun is a short- to medium-ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the M60 uses 7.62mm Rounds as Ammunition.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Machine Gun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 5000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 90.0,
+  "attack_rate": 440.0,
+  "stamina_usage": null,
+  "mag": 60.0,
+  "reload_speed": "3.8 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Magazine, Drum Magazine, Firing Mode, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 70.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 80.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 75.0
+   }
+  ],
+  "damage_max": 80.0,
+  "icon": "/icons/m60_machine_gun.png"
+ },
+ {
+  "title": "Machete",
+  "slug": "machete",
+  "infobox": "Infobox item",
+  "images": [
+   "Machete.png"
+  ],
+  "intro": "The is a bladed melee weapon that is also quite useful as a butchering tool. Sneaking attack increases 400% extra damage in A21.",
+  "description": "Great for chopping zombie limbs off and gutting animals for meat.",
+  "group": "Ammo/Weapons",
+  "item_type": "Knife",
+  "category": "Melee Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   25.0,
+   27.5,
+   30.0,
+   32.5,
+   35.0,
+   37.5
+  ],
+  "pa_damage_q": [
+   50.0,
+   55.0,
+   60.0,
+   65.0,
+   70.0,
+   75.0
+  ],
+  "block_damage_q": [
+   21.0,
+   23.1,
+   25.2,
+   27.3,
+   29.4,
+   31.5
+  ],
+  "ammo_dmg": null,
+  "range": 2.3,
+  "attack_rate": 65.0,
+  "stamina_usage": 16.0,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   1000.0,
+   1200.0,
+   1400.0,
+   1600.0,
+   1800.0,
+   2000.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 37.5,
+  "icon": "/icons/machete.png"
+ },
+ {
+  "title": "Marksman Rifle",
+  "slug": "marksman-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "MarksmanRifle.png",
+   "Marksman Rifle.png"
+  ],
+  "intro": "The is a ranged weapon in 7 Days to Die. It can be looted from Supply Crates, Shotgun Messiah Crates, Munitions Boxes, and Feral Zombies or it can also be crafted. The uses 7.62mm Bullets as Ammunition and can hold 5 rounds. A will reload automatically or it can be done manually by pressing the reload key (default key 'R').",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Rifle",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 60.0,
+  "attack_rate": 150.0,
+  "stamina_usage": null,
+  "mag": 5.0,
+  "reload_speed": "2.5 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   200.0
+  ],
+  "mod_slots_q": null,
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Magazine, Firing Mode, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 56.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 66.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 61.0
+   }
+  ],
+  "damage_max": 66.0,
+  "icon": "/icons/marksman_rifle.png"
+ },
+ {
+  "title": "Pipe Baton",
+  "slug": "pipe-baton",
+  "infobox": "Infobox item",
+  "images": [
+   "PipeBaton.png",
+   "Pipe Baton.png"
+  ],
+  "intro": "The is a Melee weapon that players can craft with limited basic resources early in game or as needed when the player dies randomly and limited resources are available after they respawn in a different area away from their supplies. It can be found relatively frequently in early gamestages, making a decent early-game weapon if found at a moderate quality. The can also be used as a Butchering tool to harvest small amounts of Raw Meat and Animal Fat. It may be repaired using Short Iron Pipes. This was introduced in Alpha 20 along with long range weapons that also use Short Iron Pipe to craft.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Baton",
+  "category": "Melee Weapon Pipe Weapon",
+  "attribute_focus": "Intelligence",
+  "stack": 1.0,
+  "price": null,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "pa_damage_q": [
+   24.0,
+   25.1,
+   26.4,
+   27.6,
+   28.8,
+   30.0
+  ],
+  "block_damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.5625,
+  "attack_rate": 60.0,
+  "stamina_usage": 14.8,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   100.0,
+   140.0,
+   180.0,
+   220.0,
+   260.0,
+   300.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "longShaft",
+  "repair": "Short Iron Pipe",
+  "damage_max": 18.0,
+  "icon": "/icons/pipe_baton.png"
+ },
+ {
+  "title": "Pipe Machine Gun",
+  "slug": "pipe-machine-gun",
+  "infobox": "Infobox item",
+  "images": [
+   "GunMGT0PipeMachineGun.png",
+   "Pipe Machine Gun.png",
+   "PipeMachineGun.png"
+  ],
+  "intro": "Pipe Machine Gun is a short to medium ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the Pipe Machine Gun uses 7.62mm Rounds as Ammunition.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Machine Gun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 90.0,
+  "attack_rate": 335.0,
+  "stamina_usage": null,
+  "mag": 15.0,
+  "reload_speed": "",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Magazine, Drum Magazine, Firing Mode, Bottom",
+  "repair": "Short Iron Pipe",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 30.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 40.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 35.0
+   }
+  ],
+  "damage_max": 40.0,
+  "icon": "/icons/pipe_machine_gun.png"
+ },
+ {
+  "title": "Pipe Pistol",
+  "slug": "pipe-pistol",
+  "infobox": "Infobox item",
+  "images": [
+   "gunHandgunT0PipePistol.png",
+   "Pipe Pistol.png",
+   "PipePistol.png"
+  ],
+  "intro": "Pipe Pistols were added to the game in Alpha 20 Experimental. They are intended to be an early-game weapon, much like their precursor the Blunderbuss.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Handgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   9.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   9.0
+  ],
+  "range": 40.0,
+  "attack_rate": 126.0,
+  "stamina_usage": null,
+  "mag": 6.0,
+  "reload_speed": "",
+  "ammo_types": [
+   "9mm Bullet",
+   "9mm Bullet (AP)",
+   "9mm Bullet (HP)"
+  ],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Revolver, Barrel, Side, Small Top, Short Range, Gun",
+  "repair": "Short Iron Pipe",
+  "per_ammo_damage": [
+   {
+    "ammo": "9mm Bullet",
+    "dmg": 28.0
+   },
+   {
+    "ammo": "9mm Bullet (AP)",
+    "dmg": 34.0
+   },
+   {
+    "ammo": "9mm Bullet (HP)",
+    "dmg": 31.0
+   }
+  ],
+  "damage_max": 34.0
+ },
+ {
+  "title": "Pipe Rifle",
+  "slug": "pipe-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "gunRifleT0PipeRifle.png",
+   "Pipe Rifle.png",
+   "PipeRifle.png"
+  ],
+  "intro": "Pipe Rifles were added to the game in Alpha 20. They are intended to be an early-game weapon. The two core components used in crafting are pipes and glue. Like all pipe weapons, it can be crafted right at the beginning of the game (assuming the player has all its crafting ingredients) requiring no workstations, books or skills. Headshotting adds 25 extra damage in A21.",
+  "description": "A homemade rifle firing 7.62mm ammo",
+  "group": "Ammo/Weapons",
+  "item_type": "Rifle",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": null,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 150.0,
+  "attack_rate": 120.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2.66",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Bottom",
+  "repair": "Short Iron Pipe",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 44.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 54.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 49.0
+   }
+  ],
+  "damage_max": 54.0
+ },
+ {
+  "title": "Pipe Shotgun",
+  "slug": "pipe-shotgun",
+  "infobox": "Infobox item",
+  "images": [
+   "gunShotgunT0PipeShotgun.png",
+   "Pipe Shotgun.png",
+   "PipeShotgun.png"
+  ],
+  "intro": "The is a single shot firearm that can be crafted from simple materials in 7 Days to Die. It is a simple weapon and easy to create relatively early in the game. This weapon requires shotgun shells and will hold one shot.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Shotgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 200.0,
+  "obtain": "Looting, Crafting, Trading",
+  "damage_q": [
+   -20.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": 120.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "5.9 s",
+  "ammo_types": [
+   "Shotgun Shell",
+   "Shotgun Slug",
+   "Shotgun Breaching Slug"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Side, Barrel, DBarrel, Stock, Bottom, Shotgun, Short Range",
+  "repair": "Short Iron Pipe",
+  "per_ammo_damage": [
+   {
+    "ammo": "Shotgun Shell",
+    "dmg": -9.9
+   },
+   {
+    "ammo": "Shotgun Slug",
+    "dmg": 82.0
+   },
+   {
+    "ammo": "Shotgun Breaching Slug",
+    "dmg": 76.0
+   }
+  ],
+  "damage_max": 82.0
+ },
+ {
+  "title": "Pistol",
+  "slug": "pistol",
+  "infobox": "Infobox item",
+  "images": [
+   "Pistol.png"
+  ],
+  "intro": "A basic pistol that uses 9mm ammo. Repair with a Repair Kit. Scrap to Handgun Parts.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Handgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   9.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   9.0
+  ],
+  "range": 50.0,
+  "attack_rate": 180.0,
+  "stamina_usage": null,
+  "mag": 15.0,
+  "reload_speed": "2 s",
+  "ammo_types": [
+   "9mm Bullet",
+   "9mm Bullet (AP)",
+   "9mm Bullet (HP)"
+  ],
+  "durability_q": [
+   300.0,
+   320.0,
+   340.0,
+   360.0,
+   380.0,
+   400.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Pistol, Barrel, Side, Small Top, Magazine, Firing Mode, Short Range",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "9mm Bullet",
+    "dmg": 37.0
+   },
+   {
+    "ammo": "9mm Bullet (AP)",
+    "dmg": 43.0
+   },
+   {
+    "ammo": "9mm Bullet (HP)",
+    "dmg": 40.0
+   }
+  ],
+  "damage_max": 43.0,
+  "icon": "/icons/pistol.png"
+ },
+ {
+  "title": "Primitive Bow",
+  "slug": "primitive-bow",
+  "infobox": "Infobox item",
+  "images": [
+   "PrimitiveBow.png",
+   "Primitive Bow.png"
+  ],
+  "intro": "The is an easy-to-craft weapon in 7 Days to Die. It is a medium-range weapon that fires arrows as Ammunition. A can be used with five different types of arrows: Stone Arrow, Iron Arrow, Steel Arrow, Flaming Arrow, and Exploding Arrow. To equip a different type of ammo than the default stone arrows, press and hold R, then select the ammo type you want. Sneaking attack increases 100% extra damage in A21.",
+  "description": "",
+  "group": "Basics, Ammo/Weapons",
+  "item_type": "Bow",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 0.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   -5.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2 s",
+  "ammo_types": [
+   "Stone Arrow",
+   "Iron Arrow",
+   "Steel Arrow",
+   "Flaming Arrow",
+   "Exploding Arrow"
+  ],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Bow",
+  "repair": "Wood",
+  "per_ammo_damage": [
+   {
+    "ammo": "Stone Arrow",
+    "dmg": 30.0
+   },
+   {
+    "ammo": "Iron Arrow",
+    "dmg": 33.0
+   },
+   {
+    "ammo": "Steel Arrow",
+    "dmg": 37.0
+   },
+   {
+    "ammo": "Flaming Arrow",
+    "dmg": 20.0
+   },
+   {
+    "ammo": "Exploding Arrow",
+    "dmg": 175.0
+   }
+  ],
+  "damage_max": 175.0,
+  "icon": "/icons/primitive_bow.png"
+ },
+ {
+  "title": "Pump Shotgun",
+  "slug": "pump-shotgun",
+  "infobox": "Infobox item",
+  "images": [
+   "pumpShotgun.png",
+   "Pump Shotgun.png",
+   "PumpShotgun.png"
+  ],
+  "intro": "The is a pump-action firearm that can be found/looted or crafted in 7 Days to Die. The Shotgun can use either Shotgun Shells or Shotgun Slugs as Ammunition and when empty will reload automatically or manually using the reload key (default key 'R').",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Shotgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Looting, Crafting, Trading",
+  "damage_q": [
+   50.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": 60.0,
+  "stamina_usage": null,
+  "mag": 8.0,
+  "reload_speed": "2.6 s",
+  "ammo_types": [
+   "Shotgun Shell",
+   "Shotgun Slug",
+   "Shotgun Breaching Slug"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Side, Bottom, Shotgun, Barrel, Stock, Small Top, Tube Extender, Short Range",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Shotgun Shell",
+    "dmg": 60.1
+   },
+   {
+    "ammo": "Shotgun Slug",
+    "dmg": 152.0
+   },
+   {
+    "ammo": "Shotgun Breaching Slug",
+    "dmg": 146.0
+   }
+  ],
+  "damage_max": 152.0,
+  "icon": "/icons/pump_shotgun.png"
+ },
+ {
+  "title": "Robotic Sledge",
+  "slug": "robotic-sledge",
+  "infobox": "Infobox item",
+  "images": [
+   "RoboticSledge.png",
+   "Robotic Sledge.png"
+  ],
+  "intro": "The is the simplest form of a turret that can be used automatically or manually for defense. The is only active when the owner moves within range of the turret. The perk Robotics Inventor, one of the Intellect skills, can be upgraded to improve the use of the Robotic Turret.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Robotic",
+  "category": "Melee Weapon",
+  "attribute_focus": "Intellect",
+  "stack": 1.0,
+  "price": 700.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   11.6,
+   13.6,
+   15.7,
+   15.8,
+   18.0,
+   20.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   17.3,
+   20.3,
+   20.7,
+   23.5,
+   26.8,
+   29.8
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 30.0,
+  "stamina_usage": null,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   300.0,
+   360.0,
+   420.0,
+   480.0,
+   540.0,
+   600.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Blunt, longShaft",
+  "repair": "Repair Kit",
+  "damage_max": 20.0,
+  "icon": "/icons/robotic_sledge.png"
+ },
+ {
+  "title": "Robotic Turret",
+  "slug": "robotic-turret",
+  "infobox": "Infobox item",
+  "images": [
+   "RoboticsTurret.png",
+   "Robotic Turret.png",
+   "RoboticTurret.png"
+  ],
+  "intro": "The is the second form of a turret that can be used automatically or manually for defense. It can only be reloaded by hand. The is only active when the owner moves within range of the turret. The perk Robotics Inventor, one of the Intellect skills, can be upgraded to improve the use of the Robotic Turret.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Robotics",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Intelligence",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": null,
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": null,
+  "attack_rate": null,
+  "stamina_usage": null,
+  "mag": 66.0,
+  "reload_speed": "3.9 s",
+  "ammo_types": [
+   "Robotic Turret Ammo",
+   "Robotic Turret Ammo (AP)",
+   "Robotic Turret Ammo (Shell)"
+  ],
+  "durability_q": [
+   300.0,
+   360.0,
+   420.0,
+   480.0,
+   540.0,
+   600.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0
+  ],
+  "mod_compa": "Turret Ranged, Drum Magazine",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Robotic Turret Ammo",
+    "dmg": 11.8
+   },
+   {
+    "ammo": "Robotic Turret Ammo (AP)",
+    "dmg": 11.8
+   },
+   {
+    "ammo": "Robotic Turret Ammo (Shell)",
+    "dmg": 11.8
+   }
+  ],
+  "damage_max": 11.8,
+  "icon": "/icons/robotic_turret.png"
+ },
+ {
+  "title": "Rocket Launcher",
+  "slug": "rocket-launcher",
+  "infobox": "Infobox item",
+  "images": [
+   "A13RocketLauncher.png",
+   "Rocket Launcher.png",
+   "RocketLauncher.png"
+  ],
+  "intro": "The is a type of weapon in 7 Days to Die. It uses Rockets as ammunition (which are rare to find). It will reload automatically, but can also be manually reloaded by pressing the key.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Explosives",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 2000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": null,
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2.7 s",
+  "ammo_types": [
+   "Rocket HE",
+   "Rocket Frag"
+  ],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": null,
+  "mod_compa": "Barrel, No Silencer, Side, Small Top",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Rocket HE",
+    "dmg": 420.0
+   },
+   {
+    "ammo": "Rocket Frag",
+    "dmg": 700.0
+   }
+  ],
+  "damage_max": 700.0,
+  "icon": "/icons/rocket_launcher.png"
+ },
+ {
+  "title": "SMG-5",
+  "slug": "smg-5",
+  "infobox": "Infobox item",
+  "images": [
+   "MP5.png",
+   "SMG-5.png"
+  ],
+  "intro": "An (sub-machine gun) is a rapid fire ranged weapon, which can be crafted or found throughout the world of 7 Days to Die in containers, such as weapon bags, Gun Safes, Crates, and Loot bags. The SMG uses 9mm Ammo and will hold ~28 bullets. Despite being called a sub-machine gun, it uses the Agility statistic shared with Pistol style perks instead, since it uses 9mm Ammo.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Handgun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 1500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   9.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   9.0
+  ],
+  "range": 65.0,
+  "attack_rate": 480.0,
+  "stamina_usage": null,
+  "mag": 30.0,
+  "reload_speed": "4.1 s",
+  "ammo_types": [
+   "9mm Bullet",
+   "9mm Bullet (AP)",
+   "9mm Bullet (HP)"
+  ],
+  "durability_q": [
+   500.0,
+   540.0,
+   580.0,
+   620.0,
+   660.0,
+   700.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Magazine, Drum Magazine, Firing Mode, Bottom, Short Range",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "9mm Bullet",
+    "dmg": 50.0
+   },
+   {
+    "ammo": "9mm Bullet (AP)",
+    "dmg": 56.0
+   },
+   {
+    "ammo": "9mm Bullet (HP)",
+    "dmg": 53.0
+   }
+  ],
+  "damage_max": 56.0,
+  "icon": "/icons/smg_5.png"
+ },
+ {
+  "title": "Sniper Rifle",
+  "slug": "sniper-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "SniperRifle.png",
+   "Sniper Rifle.png"
+  ],
+  "intro": "The is a ranged weapon in 7 Days to Die. It can be looted from Supply Crates, Shotgun Messiah Crates and Munitions Boxes or it can also be crafted. The uses 7.62mm Bullets as Ammunition and can hold 12 rounds. A will reload automatically or it can be done manually by pressing the reload key (default key 'R'). Headshotting adds 200 extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Rifle",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 5000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 150.0,
+  "attack_rate": 140.0,
+  "stamina_usage": null,
+  "mag": 12.0,
+  "reload_speed": "2.7 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": null,
+  "mod_slots_q": [
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Large Top, Stock, Magazine, Firing Mode, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 100.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 110.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 105.0
+   }
+  ],
+  "damage_max": 110.0,
+  "icon": "/icons/sniper_rifle.png"
+ },
+ {
+  "title": "Steel Club",
+  "slug": "steel-club",
+  "infobox": "Infobox item",
+  "images": [
+   "SteelClub.png",
+   "Steel Club.png"
+  ],
+  "intro": "The is a tier 3 - a melee weapon used to pummel your enemies and a fair tool for destroying blocks. It appears to be a transmission gearbox assembly torn off a car.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Club",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 700.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   32.5,
+   35.7,
+   39.0,
+   42.2,
+   45.5,
+   48.7
+  ],
+  "pa_damage_q": [
+   65.0,
+   71.5,
+   78.0,
+   84.5,
+   91.0,
+   97.5
+  ],
+  "block_damage_q": [
+   30.0,
+   33.0,
+   36.0,
+   39.0,
+   42.0,
+   45.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.4,
+  "attack_rate": 52.0,
+  "stamina_usage": 23.7,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   500.0,
+   600.0,
+   700.0,
+   800.0,
+   900.0,
+   1000.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 48.7,
+  "icon": "/icons/steel_club.png"
+ },
+ {
+  "title": "Steel Knuckles",
+  "slug": "steel-knuckles",
+  "infobox": "Infobox item",
+  "images": [
+   "SteelKnuckles.png",
+   "Steel Knuckles.png"
+  ],
+  "intro": "The is a tier 3 brawling weapon used to pummel your enemies.",
+  "description": "Protect your hands and put some weight into those swings. These blades can also be useful for gutting animals.",
+  "group": "Ammo/Weapons",
+  "item_type": "Knuckles",
+  "category": "Melee Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 1100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   19.0,
+   20.9,
+   22.8,
+   23.7,
+   25.6,
+   27.5
+  ],
+  "pa_damage_q": [
+   38.0,
+   41.8,
+   45.6,
+   49.4,
+   53.2,
+   57.0
+  ],
+  "block_damage_q": [
+   6.0,
+   6.6,
+   7.2,
+   7.8,
+   8.4,
+   9.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.0,
+  "attack_rate": 100.0,
+  "stamina_usage": 10.2,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   700.0,
+   840.0,
+   980.0,
+   1120.0,
+   1260.0,
+   1400.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Blades",
+  "repair": "Repair Kit",
+  "damage_max": 27.5,
+  "icon": "/icons/steel_knuckles.png"
+ },
+ {
+  "title": "Steel Sledgehammer",
+  "slug": "steel-sledgehammer",
+  "infobox": "Infobox item",
+  "images": [
+   "SteelSledgehammer.png",
+   "Steel Sledgehammer.png"
+  ],
+  "intro": "The is a tier 3 sledgehammer - a melee weapon used to flatten your enemies and an effective tool for destroying blocks.",
+  "description": "The sledgehammer is one of the best weapons for cracking skulls.",
+  "group": "Ammo/Weapons",
+  "item_type": "Sledgehammer",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 1100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   55.0,
+   60.5,
+   66.0,
+   71.5,
+   77.0,
+   82.5
+  ],
+  "pa_damage_q": [
+   123.0,
+   136.0,
+   148.0,
+   160.0,
+   173.0,
+   185.0
+  ],
+  "block_damage_q": [
+   85.0,
+   93.5,
+   102.0,
+   110.0,
+   119.0,
+   127.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 34.0,
+  "stamina_usage": 40.5,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   400.0,
+   480.0,
+   560.0,
+   640.0,
+   720.0,
+   800.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 82.5,
+  "icon": "/icons/steel_sledgehammer.png"
+ },
+ {
+  "title": "Steel Spear",
+  "slug": "steel-spear",
+  "infobox": "Infobox item",
+  "images": [
+   "SteelSpear.png",
+   "Steel Spear.png"
+  ],
+  "intro": "The is a tier 3 which can be used as a one-handed melee weapon. All Spears were changed in Alpha 21 to being melee only items and are no longer able to be thrown.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Spear",
+  "category": "Melee Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 1100.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   33.0,
+   36.3,
+   39.6,
+   42.9,
+   46.2,
+   49.5
+  ],
+  "pa_damage_q": [
+   66.0,
+   72.6,
+   79.2,
+   85.8,
+   92.4,
+   99.0
+  ],
+  "block_damage_q": [
+   15.0,
+   16.5,
+   18.0,
+   19.5,
+   21.0,
+   22.5
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 55.0,
+  "stamina_usage": 22.4,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   400.0,
+   480.0,
+   560.0,
+   640.0,
+   720.0,
+   800.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Repair Kit",
+  "damage_max": 49.5,
+  "icon": "/icons/steel_spear.png"
+ },
+ {
+  "title": "Stone Sledgehammer",
+  "slug": "stone-sledgehammer",
+  "infobox": "Infobox item",
+  "images": [
+   "StoneSledgehammer.png",
+   "Stone Sledgehammer.png"
+  ],
+  "intro": "The is a tier 1 sledgehammer - a two-handed melee weapon used to pummel your enemies and an effective tool for destroying blocks.",
+  "description": "The sledgehammer is one of the best weapons for cracking skulls.",
+  "group": "Ammo/Weapons",
+  "item_type": "Sledgehammer",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 0.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   18.0,
+   19.8,
+   21.6,
+   23.4,
+   25.2,
+   27.0
+  ],
+  "pa_damage_q": [
+   40.5,
+   44.5,
+   48.6,
+   52.6,
+   56.7,
+   60.7
+  ],
+  "block_damage_q": [
+   28.0,
+   30.8,
+   33.6,
+   36.4,
+   39.2,
+   42.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 50.0,
+  "stamina_usage": 22.3,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Small Stone",
+  "damage_max": 27.0,
+  "icon": "/icons/stone_sledgehammer.png"
+ },
+ {
+  "title": "Stone Spear",
+  "slug": "stone-spear",
+  "infobox": "Infobox item",
+  "images": [
+   "StoneSpear.png",
+   "Stone Spear.png"
+  ],
+  "intro": "The is a tier 1 which can be used as a one-handed melee weapon. All Spears were changed in Alpha 21 to being melee only items and are no longer able to be thrown.",
+  "description": "",
+  "group": "Basics, Ammo/Weapons",
+  "item_type": "Spear",
+  "category": "Melee Weapon",
+  "attribute_focus": "Perception",
+  "stack": 1.0,
+  "price": 0.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "pa_damage_q": [
+   24.0,
+   26.4,
+   28.8,
+   31.2,
+   33.6,
+   36.0
+  ],
+  "block_damage_q": [
+   5.0,
+   5.5,
+   6.0,
+   6.5,
+   7.0,
+   7.5
+  ],
+  "ammo_dmg": null,
+  "range": 2.6,
+  "attack_rate": 55.0,
+  "stamina_usage": 18.5,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Stone",
+  "damage_max": 18.0,
+  "icon": "/icons/stone_spear.png"
+ },
+ {
+  "title": "Stun Baton",
+  "slug": "stun-baton",
+  "infobox": "Infobox item",
+  "images": [
+   "StunBaton.png",
+   "Stun Baton.png"
+  ],
+  "intro": "The Stun Baton is a melee weapon affected by Intellect and the Electrocutioner perk. The baton gains \"charges\" on each hit, 1 for normal attacks and 2 for power attacks. Upon reaching 4 or more charges the next hit will inflict a shock effect on enemies. While the enemy is being shocked, they will be unable to move or attack and will take 3 damage every second. Each rank of Electrocutioner increases the duration of the shock effect and the weapon's base damage. It will not increase the damage per tick of the shock effect, but a longer shock will result in it dealing more total damage. It may b",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Baton",
+  "category": "Melee Weapon",
+  "attribute_focus": "Intelligence",
+  "stack": 1.0,
+  "price": 350.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   20.0,
+   22.3,
+   24.7,
+   25.3,
+   27.6,
+   29.9
+  ],
+  "pa_damage_q": [
+   40.0,
+   42.3,
+   44.7,
+   45.3,
+   47.6,
+   49.9
+  ],
+  "block_damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "ammo_dmg": null,
+  "range": 2.4,
+  "attack_rate": 70.0,
+  "stamina_usage": 15.5,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   300.0,
+   380.0,
+   460.0,
+   540.0,
+   620.0,
+   700.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Stun Baton",
+  "repair": "Repair Kit",
+  "damage_max": 29.9,
+  "icon": "/icons/stun_baton.png"
+ },
+ {
+  "title": "Tactical Assault Rifle",
+  "slug": "tactical-assault-rifle",
+  "infobox": "Infobox item",
+  "images": [
+   "TacticalAssaultRifle.png",
+   "Tactical Assault Rifle.png"
+  ],
+  "intro": "The Tactical Assault Rifle is a short- to medium-ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the Tactical Assault Rifle uses 7.62mm Rounds as Ammunition. It is heavily based on the real-life M4 Carbine, although the M4 fires smaller 5.56×45mm NATO rounds. The rifle is likely a short stroke piston system with the absence of a rear buffer tube with instead in place what appears to be a hand saw.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Machine Gun",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Fortitude",
+  "stack": 1.0,
+  "price": 1000.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   7.62
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": [
+   7.62
+  ],
+  "range": 90.0,
+  "attack_rate": 405.0,
+  "stamina_usage": null,
+  "mag": 30.0,
+  "reload_speed": "3.8 s",
+  "ammo_types": [
+   "7.62mm Bullet",
+   "7.62mm Bullet (AP)",
+   "7.62mm Bullet (HP)"
+  ],
+  "durability_q": [
+   400.0,
+   460.0,
+   520.0,
+   580.0,
+   640.0,
+   700.0
+  ],
+  "mod_slots_q": [
+   3.0,
+   3.0,
+   3.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "mod_compa": "Barrel, Side, Small Top, Medium Top, Stock, Magazine, Drum Magazine, Firing Mode, Bottom",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "7.62mm Bullet",
+    "dmg": 53.0
+   },
+   {
+    "ammo": "7.62mm Bullet (AP)",
+    "dmg": 63.0
+   },
+   {
+    "ammo": "7.62mm Bullet (HP)",
+    "dmg": 58.0
+   }
+  ],
+  "damage_max": 63.0,
+  "icon": "/icons/tactical_assault_rifle.png"
+ },
+ {
+  "title": "Wooden Bow",
+  "slug": "wooden-bow",
+  "infobox": "Infobox item",
+  "images": [
+   "woodenBow.png",
+   "Wooden Bow.png",
+   "WoodenBow.png"
+  ],
+  "intro": "The Wooden Bow is the second craftable bow in 7 Days to Die. It is a medium-range weapon that fires arrows as ammunition. Wooden Bow can be used with five different types of arrows: Stone Arrow, Iron Arrow, Steel Arrow, Flaming Arrow, and Exploding Arrow. To equip a different type of ammo than the default stone arrows, press and hold R, then select the ammo type you want. The damages given are based on values of the different types of arrows that the bow can use. The bow itself (without arrows) can not cause any damage. Sneaking attack increases 100% extra damage in A21.",
+  "description": "",
+  "group": "Ammo/Weapons",
+  "item_type": "Bow",
+  "category": "Ranged Weapon",
+  "attribute_focus": "Agility",
+  "stack": 1.0,
+  "price": 500.0,
+  "obtain": "Crafting, Looting, Trading",
+  "damage_q": [
+   9.0
+  ],
+  "pa_damage_q": null,
+  "block_damage_q": null,
+  "range": 100.0,
+  "attack_rate": 75.0,
+  "stamina_usage": null,
+  "mag": 1.0,
+  "reload_speed": "2 s",
+  "ammo_types": [
+   "Stone Arrow",
+   "Iron Arrow",
+   "Steel Arrow",
+   "Flaming Arrow",
+   "Exploding Arrow"
+  ],
+  "durability_q": [
+   200.0,
+   230.0,
+   260.0,
+   290.0,
+   320.0,
+   350.0
+  ],
+  "mod_slots_q": [
+   2.0,
+   2.0,
+   2.0,
+   3.0,
+   3.0,
+   4.0
+  ],
+  "mod_compa": "Bow",
+  "repair": "Repair Kit",
+  "per_ammo_damage": [
+   {
+    "ammo": "Stone Arrow",
+    "dmg": 44.0
+   },
+   {
+    "ammo": "Iron Arrow",
+    "dmg": 47.0
+   },
+   {
+    "ammo": "Steel Arrow",
+    "dmg": 51.0
+   },
+   {
+    "ammo": "Flaming Arrow",
+    "dmg": 34.0
+   },
+   {
+    "ammo": "Exploding Arrow",
+    "dmg": 189.0
+   }
+  ],
+  "damage_max": 189.0,
+  "icon": "/icons/wooden_bow.png"
+ },
+ {
+  "title": "Wooden Club",
+  "slug": "wooden-club",
+  "infobox": "Infobox item",
+  "images": [
+   "WoodenClub.png",
+   "Wooden Club.png"
+  ],
+  "intro": "The is a tier 1 - a one-handed melee weapon used to pummel your enemies.",
+  "description": "",
+  "group": "Ammo/Weapons, Basics",
+  "item_type": "Club",
+  "category": "Melee Weapon",
+  "attribute_focus": "Strength",
+  "stack": 1.0,
+  "price": 0.0,
+  "obtain": "Crafting, Looting",
+  "damage_q": [
+   12.0,
+   13.2,
+   14.4,
+   15.6,
+   16.8,
+   18.0
+  ],
+  "pa_damage_q": [
+   24.0,
+   26.4,
+   28.8,
+   31.2,
+   33.6,
+   36.0
+  ],
+  "block_damage_q": [
+   11.0,
+   12.1,
+   13.2,
+   14.3,
+   15.4,
+   16.5
+  ],
+  "ammo_dmg": null,
+  "range": 2.4,
+  "attack_rate": 55.0,
+  "stamina_usage": 17.4,
+  "mag": null,
+  "reload_speed": "",
+  "ammo_types": [],
+  "durability_q": [
+   100.0,
+   120.0,
+   140.0,
+   160.0,
+   180.0,
+   200.0
+  ],
+  "mod_slots_q": [
+   1.0,
+   1.0,
+   1.0,
+   2.0,
+   2.0,
+   3.0
+  ],
+  "mod_compa": "Long Shaft",
+  "repair": "Wood",
+  "damage_max": 18.0,
+  "icon": "/icons/wooden_club.png"
+ }
+]

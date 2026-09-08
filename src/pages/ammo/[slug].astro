@@ -1,0 +1,64 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import ammo from "../../data/d7_ammo.json";
+import weapons from "../../data/d7_weapons.json";
+
+export function getStaticPaths() {
+  return ammo.map((a: any) => ({ params: { slug: a.slug }, props: { a } }));
+}
+
+const { a } = Astro.props;
+// weapons that fire this ammo
+const usedBy = (weapons as any[]).filter((w: any) =>
+  (w.ammo_types || []).some((t: string) => t.toLowerCase().includes(a.title.toLowerCase()) || a.title.toLowerCase().includes(t.toLowerCase()))
+);
+---
+
+<Base
+  title={`${a.title} — 7 Days to Die Ammo Damage`}
+  description={`${a.title} in 7 Days to Die: ${a.damage ?? "?"} hit damage, ${a.block_damage ?? "?"} block damage. Which weapons fire it.`}
+>
+  <div class="icon-h1">
+    {a.icon && <img src={a.icon} alt={a.title} loading="lazy" />}
+    <h1>{a.title}</h1>
+  </div>
+  <p class="muted">{a.item_type || "Ammunition"}</p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <div class="stat-row">
+      <div><div class="stat-num">{a.damage ?? "—"}</div><div class="stat-label">Hit damage</div></div>
+      <div><div class="stat-num">{a.block_damage ?? "—"}</div><div class="stat-label">Block damage</div></div>
+      {a.price && <div><div class="stat-num">{a.price}</div><div class="stat-label">Price</div></div>}
+    </div>
+  </div>
+
+  {usedBy.length > 0 && (
+    <section>
+      <h2>Weapons that fire it</h2>
+      <p>
+        {usedBy.map((w: any) => <span class="tag" style="margin:0.15rem"><a href={`/weapons/${w.slug}/`} style="color:inherit">{w.title}</a></span>)}
+      </p>
+    </section>
+  )}
+
+  <section>
+    <h2>Details</h2>
+    <table>
+      <tbody>
+        {a.obtain && <tr><td class="muted">Obtained via</td><td>{a.obtain}</td></tr>}
+        {a.stack && <tr><td class="muted">Stack size</td><td>{a.stack}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {a.intro && <section><h2>About</h2><p>{a.intro}</p></section>}
+
+  <Related
+    links={[
+      ...usedBy.slice(0, 4).map((w: any) => ({ href: `/weapons/${w.slug}/`, title: w.title, sub: `DMG ${w.damage_max ?? "?"}`, icon: w.icon })),
+      { href: "/ammo/", title: "All Ammo", sub: "Every round by damage", tool: true },
+      { href: "/zombies/", title: "Zombie HP", sub: "How many shots you need" },
+    ]}
+  />
+</Base>

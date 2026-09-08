@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import ammo from "../../data/d7_ammo.json";
+
+const rows = ammo
+  .map((a: any) => ({
+    ammo: `<img src="${a.icon || ""}" alt="" loading="lazy" style="width:32px;height:32px;object-fit:contain;vertical-align:middle;margin-right:0.4rem" onerror="this.remove()"/><a href="/ammo/${a.slug}/">${a.title}</a>`,
+    type: a.item_type || "—",
+    dmg: a.damage ?? "",
+    block: a.block_damage ?? "",
+    price: a.price ?? "",
+    _d: a.damage ?? -1,
+  }))
+  .sort((a: any, b: any) => b._d - a._d);
+---
+
+<Base
+  title={`All ${ammo.length} Ammo Types — 7 Days to Die Bullet Damage`}
+  description={`Every 7 Days to Die ammunition type with hit damage and block damage: AP, HP and standard rounds for every caliber. ${ammo.length} entries.`}
+>
+  <h1>Ammo</h1>
+  <p class="muted">{ammo.length} ammo types — sorted by hit damage. AP punches armour, HP tears flesh.</p>
+
+  <DataTable
+    id="ammo"
+    searchPlaceholder="Search ammo… e.g. 9mm"
+    columns={[
+      { key: "ammo", label: "Ammo" },
+      { key: "type", label: "Type" },
+      { key: "dmg", label: "Hit damage", type: "number" },
+      { key: "block", label: "Block damage", type: "number" },
+      { key: "price", label: "Price", type: "number" },
+    ]}
+    rows={rows as any}
+  />
+</Base>

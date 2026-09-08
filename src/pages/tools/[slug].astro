@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import tools from "../../data/d7_tools.json";
+
+export function getStaticPaths() {
+  return tools.map((w: any) => ({ params: { slug: w.slug }, props: { w } }));
+}
+
+const { w } = Astro.props;
+const all = tools as any[];
+const Q = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6"];
+const rows: { label: string; vals: any[] }[] = [];
+if (w.damage_q && w.damage_q.length > 1) rows.push({ label: "Damage", vals: w.damage_q });
+if (w.block_damage_q && w.block_damage_q.length > 1) rows.push({ label: "Block damage", vals: w.block_damage_q });
+if (w.durability_q && w.durability_q.length > 1) rows.push({ label: "Durability", vals: w.durability_q });
+
+const similar = all
+  .filter((x: any) => x.slug !== w.slug && x.item_type === w.item_type)
+  .slice(0, 6);
+---
+
+<Base
+  title={`${w.title} — 7 Days to Die Tool Stats (Q1–Q6)`}
+  description={`${w.title} in 7 Days to Die: damage and block damage per quality tier, attack rate and repair materials.`}
+>
+  <div class="icon-h1">
+    {w.icon && <img src={w.icon} alt={w.title} loading="lazy" />}
+    <h1>{w.title}</h1>
+  </div>
+  <p class="muted">
+    {w.category || "Tool"}
+    {w.item_type && ` · ${w.item_type}`}
+    {w.attack_rate && ` · rate ${w.attack_rate}`}
+  </p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <div class="stat-row">
+      <div><div class="stat-num">{w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : "—")}</div><div class="stat-label">Damage (best)</div></div>
+      {w.block_damage_q && <div><div class="stat-num">{Math.max(...w.block_damage_q)}</div><div class="stat-label">Block dmg (best)</div></div>}
+      {w.attack_rate && <div><div class="stat-num">{w.attack_rate}</div><div class="stat-label">Attack rate</div></div>}
+    </div>
+    {w.description && <p class="muted" style="margin:0.8rem 0 0;font-size:0.92rem">{w.description}</p>}
+  </div>
+
+  {rows.length > 0 && (
+    <section>
+      <h2>Stats by quality tier</h2>
+      <table>
+        <thead><tr><th>Stat</th>{Q.map((q) => <th>{q}</th>)}</tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr><td class="muted">{r.label}</td>{r.vals.map((v) => <td>{v}</td>)}</tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  <section>
+    <h2>Details</h2>
+    <table>
+      <tbody>
+        {w.mod_compa && <tr><td class="muted">Mod slots</td><td>{w.mod_compa}</td></tr>}
+        {w.repair && <tr><td class="muted">Repaired with</td><td>{w.repair}</td></tr>}
+        {w.obtain && <tr><td class="muted">Obtained via</td><td>{w.obtain}</td></tr>}
+        {w.price && <tr><td class="muted">Base price</td><td>{w.price}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {w.intro && <section><h2>About</h2><p>{w.intro}</p></section>}
+
+  <Related
+    links={[
+      ...similar.map((x: any) => ({ href: `/tools/${x.slug}/`, title: x.title, sub: `${x.item_type || ""} · DMG ${x.damage_max ?? "?"}`, icon: x.icon })),
+      { href: "/dps-calculator/", title: "DPS Calculator", sub: `How fast does ${w.title} kill?`, tool: true },
+      { href: "/zombies/", title: "Zombie HP", sub: "What it takes to drop them" },
+    ]}
+  />
+</Base>

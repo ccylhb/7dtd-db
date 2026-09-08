@@ -1,0 +1,102 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import weapons from "../../data/d7_weapons.json";
+
+export function getStaticPaths() {
+  return weapons.map((w: any) => ({ params: { slug: w.slug }, props: { w } }));
+}
+
+const { w } = Astro.props;
+const all = weapons as any[];
+const Q = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6"];
+const rows: { label: string; vals: any[] }[] = [];
+if (w.damage_q && w.damage_q.length > 1) rows.push({ label: "Damage", vals: w.damage_q });
+if (w.pa_damage_q && w.pa_damage_q.length > 1) rows.push({ label: "Power attack", vals: w.pa_damage_q });
+if (w.block_damage_q && w.block_damage_q.length > 1) rows.push({ label: "Block damage", vals: w.block_damage_q });
+if (w.durability_q && w.durability_q.length > 1) rows.push({ label: "Durability", vals: w.durability_q });
+if (w.mod_slots_q && w.mod_slots_q.length > 1) rows.push({ label: "Mod slots", vals: w.mod_slots_q });
+
+const similar = all
+  .filter((x: any) => x.slug !== w.slug && x.item_type === w.item_type)
+  .sort((a: any, b: any) => (b.damage_max ?? 0) - (a.damage_max ?? 0))
+  .slice(0, 6);
+const isRanged = (w.category || "").toLowerCase().includes("ranged");
+---
+
+<Base
+  title={`${w.title} — 7 Days to Die Weapon Stats (Q1–Q6)`}
+  description={`${w.title} in 7 Days to Die: damage per quality tier, attack rate, ammo and mod slots.`}
+>
+  <div class="icon-h1">
+    {w.icon && <img src={w.icon} alt={w.title} loading="lazy" />}
+    <h1>{w.title}</h1>
+  </div>
+  <p class="muted">
+    {w.category || "Weapon"}
+    {w.item_type && ` · ${w.item_type}`}
+    {w.attribute_focus && ` · ${w.attribute_focus} focus`}
+    {w.attack_rate && ` · rate ${w.attack_rate}`}
+  </p>
+
+  <div class="card answer-card" style="margin:1rem 0">
+    <div class="stat-row">
+      <div><div class="stat-num">{w.damage_max ?? (w.damage_q ? Math.max(...w.damage_q) : "—")}</div><div class="stat-label">Damage (best)</div></div>
+      {isRanged && w.per_ammo_damage && <div><div class="stat-num">{Math.max(...w.per_ammo_damage.map((a: any) => a.dmg))}</div><div class="stat-label">Best ammo hit</div></div>}
+      {w.attack_rate && <div><div class="stat-num">{w.attack_rate}</div><div class="stat-label">Attack rate</div></div>}
+      {w.mag && <div><div class="stat-num">{w.mag}</div><div class="stat-label">Magazine</div></div>}
+    </div>
+    {w.description && <p class="muted" style="margin:0.8rem 0 0;font-size:0.92rem">{w.description}</p>}
+  </div>
+
+  {isRanged && w.per_ammo_damage?.length > 0 && (
+    <section>
+      <h2>Damage per ammo type</h2>
+      <table>
+        <thead><tr><th>Ammo</th><th>Hit damage</th></tr></thead>
+        <tbody>
+          {w.per_ammo_damage.map((a: any) => (
+            <tr><td>{a.ammo}</td><td><strong>{a.dmg}</strong></td></tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  {rows.length > 0 && (
+    <section>
+      <h2>Stats by quality tier</h2>
+      <table>
+        <thead><tr><th>Stat</th>{Q.map((q) => <th>{q}</th>)}</tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr><td class="muted">{r.label}</td>{r.vals.map((v) => <td>{v}</td>)}</tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  <section>
+    <h2>Details</h2>
+    <table>
+      <tbody>
+        {w.ammo_types?.length > 0 && <tr><td class="muted">Ammo</td><td>{w.ammo_types.join(", ")}</td></tr>}
+        {w.mod_compa && <tr><td class="muted">Mod slots</td><td>{w.mod_compa}</td></tr>}
+        {w.repair && <tr><td class="muted">Repaired with</td><td>{w.repair}</td></tr>}
+        {w.obtain && <tr><td class="muted">Obtained via</td><td>{w.obtain}</td></tr>}
+        {w.price && <tr><td class="muted">Base price</td><td>{w.price}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {w.intro && <section><h2>About</h2><p>{w.intro}</p></section>}
+
+  <Related
+    links={[
+      ...similar.map((x: any) => ({ href: `/weapons/${x.slug}/`, title: x.title, sub: `${x.item_type || ""} · DMG ${x.damage_max ?? "?"}`, icon: x.icon })),
+      { href: "/dps-calculator/", title: "DPS Calculator", sub: `How fast does ${w.title} kill?`, tool: true },
+      { href: "/zombies/", title: "Zombie HP", sub: "What it takes to drop them" },
+    ]}
+  />
+</Base>

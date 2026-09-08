@@ -1,0 +1,33 @@
+{
+  "siteName": "D7TDDB",
+  "siteUrl": "https://7dtd-db.pages.dev",
+  "tagline": "7 Days to Die database — zombie HP, weapon damage & mods",
+  "description": "7 Days to Die stats: zombie health by base/feral/radiated, weapon and tool damage per quality tier, ammo damage, armour and mods — with a DPS calculator.",
+  "adsenseClientId": "ca-pub-3245910354455258",
+  "adsensePublisherId": "pub-3245910354455258",
+  "theme": {
+    "bg": "#100c0a",
+    "bgSoft": "#181210",
+    "card": "#201714",
+    "border": "#38271f",
+    "text": "#f5ede6",
+    "muted": "#b39d90",
+    "accent": "#e0431f",
+    "accent2": "#d9a441",
+    "good": "#7bd88f",
+    "bad": "#f26d6d"
+  },
+  "favicon": "🧟",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Zombies", "href": "/zombies/", "tool": true },
+    { "label": "Weapons", "href": "/weapons/" },
+    { "label": "Tools", "href": "/tools/" },
+    { "label": "Mods", "href": "/mods/" },
+    { "label": "Ammo", "href": "/ammo/" },
+    { "label": "Armor", "href": "/armor/" },
+    { "label": "Rankings", "href": "/rankings/", "tool": true },
+    { "label": "DPS Calculator", "href": "/dps-calculator/", "tool": true }
+  ],
+  "footerNote": "Fan-made database. 7 Days to Die is a trademark of The Fun Pimps. Not affiliated with the game developer or the 7 Days to Die Wiki."
+}

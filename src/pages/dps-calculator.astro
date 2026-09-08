@@ -1,0 +1,162 @@
+---
+import Base from "../layouts/Base.astro";
+import weapons from "../data/d7_weapons.json";
+import tools from "../data/d7_tools.json";
+
+const melee = [...weapons, ...tools]
+  .filter((w: any) => w.damage_q && w.damage_q.length > 1 && w.attack_rate)
+  .map((w: any) => ({
+    n: w.title, s: w.slug, k: (w.category || "").includes("Ranged") ? "Ranged" : "Melee",
+    q: w.damage_q, pa: w.pa_damage_q || null, rate: w.attack_rate, i: w.icon || "",
+  }));
+const ranged = (weapons as any[])
+  .filter((w: any) => w.per_ammo_damage && w.per_ammo_damage.length > 0 && w.attack_rate)
+  .map((w: any) => ({
+    n: w.title, s: w.slug, rate: w.attack_rate, i: w.icon || "",
+    ammo: w.per_ammo_damage.map((a: any) => ({ n: a.ammo, d: a.dmg })),
+  }));
+---
+
+<Base
+  title="7 Days to Die DPS Calculator — Damage Per Second & Shot-to-Kill"
+  description="7 Days to Die DPS calculator: pick any weapon, quality tier and ammo to get damage per second and shots needed to kill every zombie tier."
+>
+  <h1>DPS Calculator</h1>
+  <p class="muted">
+    Damage per second from real wiki values — and how many hits it takes to drop a
+    base, feral or radiated zombie. Melee uses attack rate; ranged uses round rate and ammo choice.
+  </p>
+
+  <div class="card calc-card">
+    <div class="calc-row">
+      <label>Weapon <select id="wep"></select></label>
+      <label id="quality-wrap">Quality <select id="quality"></select></label>
+      <label id="ammo-wrap" hidden>Ammo <select id="ammo"></select></label>
+    </div>
+    <div id="result" class="calc-result" hidden></div>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <ul>
+      <li>Melee DPS = damage per hit × attack rate (swings per minute) ÷ 60.</li>
+      <li>Ranged DPS = ammo hit damage × round rate (rounds per minute) ÷ 60.</li>
+      <li>Shots-to-kill uses zombie HP: base → feral → radiated.</li>
+      <li>Values are the wiki's raw numbers — no armour, difficulty or skill modifiers.</li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .calc-card { padding: 1.25rem; margin: 1rem 0; }
+  .calc-row { display: flex; gap: 0.75rem; align-items: end; flex-wrap: wrap; }
+  .calc-row label { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.85rem; color: var(--muted); flex: 1 1 180px; }
+  .calc-row select { width: 100%; }
+  .calc-result {
+    margin-top: 1.1rem; padding: 1rem;
+    background: color-mix(in srgb, var(--accent) 10%, var(--bg-soft));
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+    border-radius: 10px;
+  }
+  .dps-num { font-size: 2rem; font-weight: 700; color: var(--accent); }
+  .stk-row { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 0.6rem; }
+  .stk { min-width: 130px; }
+  .stk b { font-size: 1.2rem; }
+  table.stk-table td, table.stk-table th { padding: 0.35rem 0.6rem; }
+</style>
+
+<script define:vars={{ melee, ranged }}>
+  const byName = {};
+  const all = [
+    ...melee.map((w) => ({ ...w, kind: "melee" })),
+    ...ranged.map((w) => ({ ...w, kind: "ranged" })),
+  ];
+  all.forEach((w) => { byName[w.n] = w; });
+
+  const wep = document.getElementById("wep");
+  const quality = document.getElementById("quality");
+  const ammoSel = document.getElementById("ammo");
+  const ammoWrap = document.getElementById("ammo-wrap");
+  const qualityWrap = document.getElementById("quality-wrap");
+  const result = document.getElementById("result");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // zombie HP tiers (wiki base values)
+  const ZOMBIES = [
+    { n: "Regular Walker", hp: 100 }, { n: "Fat Hawaiian", hp: 300 },
+    { n: "Zombie Cop", hp: 450 }, { n: "Feral Wight", hp: 500 },
+    { n: "Demolisher", hp: 1500 },
+  ];
+
+  all.forEach((w) => {
+    const o = document.createElement("option");
+    o.value = w.n;
+    o.textContent = (w.kind === "ranged" ? "🔫 " : "🔨 ") + w.n;
+    wep.appendChild(o);
+  });
+  const defaultIdx = all.findIndex((w) => w.n === "Pistol");
+  if (defaultIdx >= 0) wep.selectedIndex = defaultIdx;
+
+  function fillAmmo(w) {
+    ammoSel.innerHTML = "";
+    w.ammo.forEach((a) => {
+      const o = document.createElement("option");
+      o.value = a.n; o.textContent = a.n + " (" + a.d + ")";
+      ammoSel.appendChild(o);
+    });
+  }
+
+  function calc() {
+    const w = byName[wep.value];
+    if (!w) { result.hidden = true; return; }
+    let dmg, extra = "";
+    if (w.kind === "melee") {
+      ammoWrap.hidden = true; qualityWrap.hidden = false;
+      const qi = parseInt(quality.value, 10);
+      dmg = w.q[qi] || w.q[w.q.length - 1];
+      const pa = w.pa ? (w.pa[qi] || w.pa[w.pa.length - 1]) : null;
+      if (pa) extra = " · power attack " + pa;
+    } else {
+      qualityWrap.hidden = true; ammoWrap.hidden = false;
+      const a = w.ammo.find((x) => x.n === ammoSel.value) || w.ammo[0];
+      dmg = a.d;
+      extra = " · " + a.n;
+    }
+    const dps = Math.round((dmg * w.rate / 60) * 10) / 10;
+    let rows = ZOMBIES.map((z) => {
+      const hits = Math.ceil(z.hp / dmg);
+      return { n: z.n, hp: z.hp, hits, sec: Math.round(hits / (w.rate / 60) * 10) / 10 };
+    });
+    result.innerHTML =
+      '<div class="dps-num">' + dps + ' DPS</div>' +
+      '<div class="muted" style="font-size:0.85rem">' + dmg + ' damage per hit × ' + w.rate + '/min' + extra + '</div>' +
+      '<div class="stk-row">' + rows.map((r) =>
+        '<div class="stk"><span class="muted" style="font-size:0.78rem">' + esc(r.n) + ' (HP ' + r.hp + ')</span><br><b>' + r.hits + '</b> hits · ~' + r.sec + 's</div>'
+      ).join("") + '</div>';
+    result.hidden = false;
+  }
+
+  function onWeaponChange() {
+    const w = byName[wep.value];
+    if (!w) return;
+    if (w.kind === "melee") {
+      quality.innerHTML = "";
+      w.q.forEach((_, i) => {
+        const o = document.createElement("option");
+        o.value = i; o.textContent = "Q" + (i + 1) + " (" + w.q[i] + ")";
+        quality.appendChild(o);
+      });
+      quality.selectedIndex = w.q.length - 1;
+      ammoWrap.hidden = true; qualityWrap.hidden = false;
+    } else {
+      fillAmmo(w);
+      ammoWrap.hidden = false; qualityWrap.hidden = true;
+    }
+    calc();
+  }
+
+  wep.addEventListener("change", onWeaponChange);
+  quality.addEventListener("change", calc);
+  ammoSel.addEventListener("change", calc);
+  onWeaponChange();
+</script>
