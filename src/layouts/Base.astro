@@ -12,6 +12,35 @@ const { title, description = site.description, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, site.siteUrl);
 const fullTitle = title.includes(site.siteName) ? title : `${title} - ${site.siteName}`;
 const t = site.theme;
+
+// --- P4b: JSON-LD structured data (auto by URL depth) ---
+const __segs = Astro.url.pathname.split("/").filter(Boolean);
+const __clean = title.replace(new RegExp(" - " + site.siteName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$"), "");
+const __noindex = noindex === true;
+let __ld = null;
+if (!__noindex) {
+  if (__segs.length === 0) {
+    __ld = [{ "@type": "WebSite", name: site.siteName, url: site.siteUrl }];
+  } else if (__segs.length === 1) {
+    __ld = [{ "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: site.siteUrl },
+      { "@type": "ListItem", position: 2, name: __clean, item: canonical.href },
+    ]}];
+  } else {
+    const __sec = __segs[0].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    __ld = [
+      { "@type": "BreadcrumbList", itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site.siteUrl },
+        { "@type": "ListItem", position: 2, name: __sec, item: site.siteUrl + __segs[0] + "/" },
+        { "@type": "ListItem", position: 3, name: __clean, item: canonical.href },
+      ]},
+      { "@type": "Article", headline: __clean, description, url: canonical.href,
+        mainEntityOfPage: canonical.href,
+        isPartOf: { "@type": "WebSite", name: site.siteName, url: site.siteUrl } },
+    ];
+  }
+}
+const __ldJson = __ld ? JSON.stringify({ "@context": "https://schema.org", "@graph": __ld }) : null;
 ---
 
 <!doctype html>
@@ -28,6 +57,8 @@ const t = site.theme;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.siteName} />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content={t.bg} />
     <link rel="icon" href={`data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>${site.favicon}</text></svg>`} />
     <style is:inline set:html={`:root { --bg: ${t.bg}; --bg-soft: ${t.bgSoft}; --card: ${t.card}; --border: ${t.border}; --text: ${t.text}; --muted: ${t.muted}; --accent: ${t.accent}; --accent-2: ${t.accent2}; --good: ${t.good}; --bad: ${t.bad}; }`}></style>
@@ -164,7 +195,8 @@ const t = site.theme;
         .header-inner { flex-direction: column; align-items: flex-start; }
       }
     </style>
-  </head>
+      {__ldJson && <script is:inline type="application/ld+json" set:html={__ldJson}></script>}
+</head>
   <body>
     <header class="site-header">
       <div class="header-inner">
