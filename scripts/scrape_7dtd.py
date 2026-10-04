@@ -62,6 +62,27 @@ def cat_members(cat):
     return out
 
 
+# --- wiki 魔术字展开 ---------------------------------------------------------
+# 清洗器用 re.sub(r"\{\{[^{}]*\}\}", "", v) 整段删无名模板，{{PAGENAME}}（条目名）
+# 随之消失，正文出现 "The is a ..." 残句。必须在清洗前展开成真实文本。
+_MAGIC_TITLE = re.compile(r"\{\{\s*(?:SUB|BASE|FULL)?PAGENAME(?:E)?\s*\}\}", re.I)
+_MAGIC_GAME = re.compile(r"\{\{\s*(?:Gamename|Game|SITENAME|Sitename)\s*\}\}", re.I)
+_MAGIC_DROP = re.compile(
+    r"\{\{\s*(?:DISPLAYTITLE|DEFAULTSORT|#(?:expr|var|if|ifeq|ifexist|switch|tag|invoke|time|pos|len|replace|sub|explode|titleparts)[^}]*)\}\}",
+    re.I,
+)
+
+
+def expand_magic(wt, title):
+    """把 {{PAGENAME}} 换成条目名，丢弃解析器函数等元魔术字。"""
+    if not wt:
+        return wt
+    wt = _MAGIC_TITLE.sub(lambda _m: title, wt)
+    wt = _MAGIC_GAME.sub("7 Days to Die", wt)
+    wt = _MAGIC_DROP.sub("", wt)
+    return wt
+
+
 def fetch_wikitexts(titles):
     out = {}
     for i in range(0, len(titles), 50):
@@ -183,6 +204,9 @@ def clean(s):
         s = s[:i]
     s = re.sub(r"<[^>]+>", " ", s)
     s = s.replace("'''", "").replace("''", "").replace("&nbsp;", " ")
+    # 兜底：清掉被截断的模板尾巴与孤立括号（残留形如 '… Hunger. }'）
+    s = re.sub(r"\{\{[^{}]*$", "", s)
+    s = s.replace("}", "").replace("{", "")
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -476,6 +500,9 @@ def main():
         cache.update(fetch_wikitexts(chunk))
         WT_CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
         print(f"  ...{min(i + 50, len(fresh))}/{len(fresh)}")
+
+    # 展开 wiki 魔术字（缓存文件保持原始，解析用副本）
+    cache = {t: expand_magic(wt, t) for t, wt in cache.items()}
 
     mod_titles = {t for t, cats in cat_of.items() if "Mods" in cats}
     boards = scrape_items(titles, cache, mod_titles)

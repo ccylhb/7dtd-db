@@ -9,7 +9,7 @@
    "Bloated Walker.png",
    "BloatedWalker.png"
   ],
-  "intro": "A (zombieMoe) is a common type of Zombie encountered nearly everywhere. As of Alpha 20, they have the same stats as most other zombies, no longer having bonus health or higher attack power. In general, s are slower than the average zombie on the same speed setting. They can appear as feral or radiated versions, giving them even more health. At nighttime, the feral version can spawn as a nighttime feral.",
+  "intro": "A Bloated Walker (zombieMoe) is a common type of Zombie encountered nearly everywhere. As of Alpha 20, they have the same stats as most other zombies, no longer having bonus health or higher attack power. In general, Bloated Walkers are slower than the average zombie on the same speed setting. They can appear as feral or radiated versions, giving them even more health. At nighttime, the feral version can spawn as a nighttime feral.",
   "entity_id": "17",
   "internal_id": "zombieMoe",
   "zombie_type": "Normal, Feral, Radiated",
@@ -22,8 +22,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 17",
-  "icon": "/icons/bloated_walker.png"
+  "updated_version": "Alpha 17"
  },
  {
   "title": "Burn Victim",
@@ -34,7 +33,7 @@
    "BurnVictim.png",
    "Burn Victim.png"
   ],
-  "intro": "A (zombieBurnt) is a special type of zombie that is only encountered in the Burnt Forest-biome and also rarely on Blood Moon hordes. Like the Frozen Lumberjack, these zombies were affected heavily by the biome around them, as Burn Victims resemble burning, charred wood. They typically stray around the roads or abandoned shacks you may find in the Burnt Forest and blend in with their surroundings, so keep alert for movement when travelling through their territory. When they are nearby they will emit hoarse moans and a constant 'crackling' akin to lit torches or campfires. Because of this, a pla",
+  "intro": "A Burn Victim (zombieBurnt) is a special type of zombie that is only encountered in the Burnt Forest-biome and also rarely on Blood Moon hordes. Like the Frozen Lumberjack, these zombies were affected heavily by the biome around them, as Burn Victims resemble burning, charred wood. They typically stray around the roads or abandoned shacks you may find in the Burnt Forest and blend in with their surroundings, so keep alert for movement when travelling through their territory. When they are nearby they will emit hoarse moans and a constant 'crackling' akin to lit torches or campfires. Because of",
   "entity_id": "10",
   "internal_id": "zombieBurnt",
   "zombie_type": "Normal, Feral, Radiated",
@@ -47,8 +46,7 @@
   "location": "Burnt Forest-biome, Wasteland cities and buildings that contain fire in some way",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": "",
-  "icon": "/icons/burn_victim.png"
+  "updated_version": ""
  },
  {
   "title": "Businessman",
@@ -72,8 +70,7 @@
   "location": "Everywhere, predominantly in office areas inside buildings",
   "drops": "",
   "added_version": "Alpha 16",
-  "updated_version": "Alpha 17",
-  "icon": "/icons/businessman.png"
+  "updated_version": "Alpha 17"
  },
  {
   "title": "Crawler Zombie",
@@ -85,7 +82,7 @@
    "Crawler Zombie.png",
    "CrawlerZombie.png"
   ],
-  "intro": "The is a type of Zombie. It is considerably slower than the average zombie as it does not walk or run and instead drags itself along the ground. Its legs are missing, likely either from a fall, encounter with the infected/survivors or decay (likely worn away by dragging itself). The remains of its torso show late stages of rot, to the point where its spine and pelvis are visible, indicating this zombie to have be alive for a long time. What's left of its lower torso are the tendins of its intestines. This may be used to player's advantages as it's speed is independent of the speed settings. On",
+  "intro": "The Crawler Zombie is a type of Zombie. It is considerably slower than the average zombie as it does not walk or run and instead drags itself along the ground. Its legs are missing, likely either from a fall, encounter with the infected/survivors or decay (likely worn away by dragging itself). The remains of its torso show late stages of rot, to the point where its spine and pelvis are visible, indicating this zombie to have be alive for a long time. What's left of its lower torso are the tendins of its intestines. This may be used to player's advantages as it's speed is independent of the spe",
   "entity_id": "5",
   "internal_id": "zombieSteveCrawler",
   "zombie_type": "Normal, Feral",
@@ -98,8 +95,7 @@
   "location": "Everywhere, More common in the Burnt Forest-biome",
   "drops": "",
   "added_version": "Alpha 5",
-  "updated_version": "Alpha 6, Alpha 13, Alpha 15, Alpha 16.0",
-  "icon": "/icons/crawler_zombie.png"
+  "updated_version": "Alpha 6, Alpha 13, Alpha 15, Alpha 16.0"
  },
  {
   "title": "Demolisher",
@@ -123,8 +119,7 @@
   "location": "Blood Moon hordes and Cities",
   "drops": "",
   "added_version": "Alpha 18.0",
-  "updated_version": "",
-  "icon": "/icons/demolisher.png"
+  "updated_version": ""
  },
  {
   "title": "Departed Woman",
@@ -136,7 +131,7 @@
    "Departed Woman.png",
    "DepartedWoman.png"
   ],
-  "intro": ", previously \"Zombie Marlene\", is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. The right side of her face is missing skin, revealing the skull, and her right eye is dangling out of what remains of the socket, barely attached by a few optical nerves.",
+  "intro": "Departed Woman, previously \"Zombie Marlene\", is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. The right side of her face is missing skin, revealing the skull, and her right eye is dangling out of what remains of the socket, barely attached by a few optical nerves.",
   "entity_id": "4",
   "internal_id": "zombieMarlene",
   "zombie_type": "Normal, Feral, Radiated",
@@ -149,8 +144,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0, Alpha 17",
-  "icon": "/icons/departed_woman.png"
+  "updated_version": "Alpha 16.0, Alpha 17"
  },
  {
   "title": "Dire Wolf",
@@ -161,7 +155,7 @@
    "DireWolf.png",
    "Dire Wolf.png"
   ],
-  "intro": "The is an uncommon zombie animal found in all biomes, but most often seen in the Wasteland. Dire Wolves are hostile and will try to chase and attack the player if provoked or if they spot the player. Dire Wolves are incredibly dangerous enemies and it is best to only fight them from range. They are fast with a large amount of HP and deal massive damage with high critical chance (currently one of the most dangerous zombies in the whole game). Keep your distance at all costs!!",
+  "intro": "The Dire Wolf is an uncommon zombie animal found in all biomes, but most often seen in the Wasteland. Dire Wolves are hostile and will try to chase and attack the player if provoked or if they spot the player. Dire Wolves are incredibly dangerous enemies and it is best to only fight them from range. They are fast with a large amount of HP and deal massive damage with high critical chance (currently one of the most dangerous zombies in the whole game). Keep your distance at all costs!!",
   "entity_id": "67",
   "internal_id": "",
   "zombie_type": "",
@@ -174,8 +168,7 @@
   "location": "All biomes",
   "drops": "Rotting Flesh Leather Animal Fat Bone",
   "added_version": "",
-  "updated_version": "1.0",
-  "icon": "/icons/dire_wolf.png"
+  "updated_version": "1.0"
  },
  {
   "title": "Fallen Soldier Zombie",
@@ -200,8 +193,7 @@
   "location": "Military and Government Installations, Roaming Military Hordes and \"boss rooms\" of larger POIs",
   "drops": "Firearms and military gear",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 20",
-  "icon": "/icons/fallen_soldier_zombie.png"
+  "updated_version": "Alpha 20"
  },
  {
   "title": "Fat Hawaiian",
@@ -225,8 +217,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "1.0",
-  "icon": "/icons/fat_hawaiian.png"
+  "updated_version": "1.0"
  },
  {
   "title": "Festering Cadaver",
@@ -238,7 +229,7 @@
    "Festering Cadaver.png",
    "FesteringCadaver.png"
   ],
-  "intro": "A (Zombie Joe) is one of the different variants of Zombies. These zombies appear as a young man wearing a short-sleeve jacket and t-shirt, plus shorts and dirty shoes. Like most zombies, they appear heavily decayed, and blood is smeared all across their faces and clothes.",
+  "intro": "A Festering Cadaver (Zombie Joe) is one of the different variants of Zombies. These zombies appear as a young man wearing a short-sleeve jacket and t-shirt, plus shorts and dirty shoes. Like most zombies, they appear heavily decayed, and blood is smeared all across their faces and clothes.",
   "entity_id": "4",
   "internal_id": "zombieJoe",
   "zombie_type": "Normal, Feral, Radiated",
@@ -263,7 +254,7 @@
    "Frozen Lumberjack.png",
    "FrozenLumberjack.png"
   ],
-  "intro": "The is one of the many different variants of Zombies. It is currently only found in Snowy Forest biome. Frozen Lumberjacks are very tall, with broad shoulders and thick beards, wear knitted caps with red flannel shirts and blue jeans, and are fairly easy to spot in the white snow even from great distances. Like all Zombies, their clothes are torn, dirty, and bloodstained. The Frozen Lumberjack will emit high-pitched wails when near a player, as well as a constant 'crunching' sound as it moves. This is likely to emphasize the fact it is literally a frozen, shambling corpse. It appears to be the",
+  "intro": "The Frozen Lumberjack is one of the many different variants of Zombies. It is currently only found in Snowy Forest biome. Frozen Lumberjacks are very tall, with broad shoulders and thick beards, wear knitted caps with red flannel shirts and blue jeans, and are fairly easy to spot in the white snow even from great distances. Like all Zombies, their clothes are torn, dirty, and bloodstained. The Frozen Lumberjack will emit high-pitched wails when near a player, as well as a constant 'crunching' sound as it moves. This is likely to emphasize the fact it is literally a frozen, shambling corpse. It",
   "entity_id": "13",
   "internal_id": "zombieSnow",
   "zombie_type": "Normal, Feral, Radiated",
@@ -276,8 +267,7 @@
   "location": "Snowy Forest-biome",
   "drops": "",
   "added_version": "Alpha 6",
-  "updated_version": "Alpha 13, Alpha 16.0, Alpha 20",
-  "icon": "/icons/frozen_lumberjack.png"
+  "updated_version": "Alpha 13, Alpha 16.0, Alpha 20"
  },
  {
   "title": "Grace",
@@ -301,8 +291,7 @@
   "location": "Carl's corn and Bob's boars POI",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/grace.png"
+  "updated_version": ""
  },
  {
   "title": "Hazmat Male Zombie",
@@ -327,8 +316,7 @@
   "location": "Military and Government installations, Roaming Military Hordes and rarely in other places",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 20",
-  "icon": "/icons/hazmat_male_zombie.png"
+  "updated_version": "Alpha 20"
  },
  {
   "title": "Hungry Female Zombie",
@@ -340,7 +328,7 @@
    "Hungry Female Zombie.png",
    "HungryFemaleZombie.png"
   ],
-  "intro": "is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill.",
+  "intro": "Hungry Female Zombie is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill.",
   "entity_id": "",
   "internal_id": "zombieFemaleFat",
   "zombie_type": "Normal, Feral, Radiated",
@@ -353,8 +341,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 15",
-  "updated_version": "",
-  "icon": "/icons/hungry_female_zombie.png"
+  "updated_version": ""
  },
  {
   "title": "Infected Mother",
@@ -366,7 +353,7 @@
    "Infected Mother.png",
    "InfectedMother.png"
   ],
-  "intro": ", formerly \"Zombie Darlene\", is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed.",
+  "intro": "Infected Mother, formerly \"Zombie Darlene\", is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed.",
   "entity_id": "4",
   "internal_id": "zombieDarlene",
   "zombie_type": "Normal, Feral, Radiated",
@@ -379,8 +366,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0",
-  "icon": "/icons/infected_mother.png"
+  "updated_version": "Alpha 16.0"
  },
  {
   "title": "Infected Police Officer",
@@ -392,7 +378,7 @@
    "Infected Police Officer.png",
    "InfectedPoliceOfficer.png"
   ],
-  "intro": "An is a special type of Zombie typically found in cities, suburbs, and wastelands, in addition to practically any POI at later gamestages. The ones found in Police Stations don't seem to respawn. They are known for having very high health, and their ability to destroy blocks with their acidic vomit. An Infected Police Officer is fairly easy to spot, as they are grotesquely disproportionate and wear a signature police uniform. They are incredibly bloated, and move very slow as a result, but the range of their acid can reach large distances. Infected Police Officers are also noted for making dis",
+  "intro": "An Infected Police Officer is a special type of Zombie typically found in cities, suburbs, and wastelands, in addition to practically any POI at later gamestages. The ones found in Police Stations don't seem to respawn. They are known for having very high health, and their ability to destroy blocks with their acidic vomit. An Infected Police Officer is fairly easy to spot, as they are grotesquely disproportionate and wear a signature police uniform. They are incredibly bloated, and move very slow as a result, but the range of their acid can reach large distances. Infected Police Officers are a",
   "entity_id": "16",
   "internal_id": "zombieFatCop",
   "zombie_type": "Normal, Feral, Radiated",
@@ -405,8 +391,7 @@
   "location": "Wasteland-biome, Blood Moon hordes and Police Stations, any POI at higher gamestages",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 2, Alpha 16.0, Alpha 17",
-  "icon": "/icons/infected_police_officer.png"
+  "updated_version": "Alpha 2, Alpha 16.0, Alpha 17"
  },
  {
   "title": "Infected Survivor",
@@ -418,7 +403,7 @@
    "Infected Survivor.png",
    "InfectedSurvivor.png"
   ],
-  "intro": "is one of the variants of Zombies. Probably just a normal citizen who got infected by the unknown virus and turned into a zombie.",
+  "intro": "Infected Survivor is one of the variants of Zombies. Probably just a normal citizen who got infected by the unknown virus and turned into a zombie.",
   "entity_id": "1",
   "internal_id": "zombieBoe",
   "zombie_type": "Normal, Feral, radiated",
@@ -431,8 +416,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0",
-  "icon": "/icons/infected_survivor.png"
+  "updated_version": "Alpha 16.0"
  },
  {
   "title": "Lab Zombie",
@@ -444,7 +428,7 @@
    "Lab Zombie.png",
    "LabZombie.png"
   ],
-  "intro": "The can be found in laboratory settings and in Hospitals. They can also be found in Military facilities. Lab Zombies can be identified by their blood-splattered lab coat and ripped apart mouth and cheeks. Lab Zombies also carry a blue and white ID card on the left side of their coat. Their left hand appears to be broken as it sways lifelessly as the zombie walks.",
+  "intro": "The Lab Zombie can be found in laboratory settings and in Hospitals. They can also be found in Military facilities. Lab Zombies can be identified by their blood-splattered lab coat and ripped apart mouth and cheeks. Lab Zombies also carry a blue and white ID card on the left side of their coat. Their left hand appears to be broken as it sways lifelessly as the zombie walks.",
   "entity_id": "17",
   "internal_id": "zombieLab",
   "zombie_type": "Normal, Feral, Radiated",
@@ -457,8 +441,7 @@
   "location": "Laboratory areas, also medical departments within Military installations",
   "drops": "",
   "added_version": "Alpha 17",
-  "updated_version": "Alpha 17, Alpha 20",
-  "icon": "/icons/lab_zombie.png"
+  "updated_version": "Alpha 17, Alpha 20"
  },
  {
   "title": "Mutated Zombie",
@@ -470,7 +453,7 @@
    "Mutated Zombie.png",
    "MutatedZombie.png"
   ],
-  "intro": "The is a zombie added in Alpha 20. It acts similarly to the Infected Police Officer, but it shoots its acid up and around itself. The acid does a base of 50 damage to blocks compared to the Infected Police Officer's 240 block damage spit attack. unlike the feral/radiated cop his special attack doesn't do extra damage to the player or blocks only his main attack damage increases It occasionally spawns in the Wasteland, as well as trapped in a certain Point of Interest laboratory. Despite the Mutated Zombie’s acid attack ability and it’s ability to irradiate the player briefly, the acid attack i",
+  "intro": "The Mutated Zombie is a zombie added in Alpha 20. It acts similarly to the Infected Police Officer, but it shoots its acid up and around itself. The acid does a base of 50 damage to blocks compared to the Infected Police Officer's 240 block damage spit attack. unlike the feral/radiated cop his special attack doesn't do extra damage to the player or blocks only his main attack damage increases It occasionally spawns in the Wasteland, as well as trapped in a certain Point of Interest laboratory. Despite the Mutated Zombie’s acid attack ability and it’s ability to irradiate the player briefly, th",
   "entity_id": "",
   "internal_id": "zombieMoe",
   "zombie_type": "Normal, Feral, Radiated",
@@ -483,8 +466,7 @@
   "location": "Wasteland",
   "drops": "",
   "added_version": "Alpha 20",
-  "updated_version": "",
-  "icon": "/icons/mutated_zombie.png"
+  "updated_version": ""
  },
  {
   "title": "Party Girl",
@@ -496,7 +478,7 @@
    "Party Girl.png",
    "PartyGirl.png"
   ],
-  "intro": "is a variant of Zombies and was formerly known as Zombie Stripper and was changed in Alpha 20. These zombies died and turned long ago, evident from their highly decomposed bodies. Despite this, they continue to roam in search of humans to attack. The Zombie Stripper appears wearing a revealing, slightly torn dark dress, high heels, and ruined makeup, reflecting its past occupation. can commonly be found in Points of Interest like the The Boobie Trap and Bigg Buns. It was one of the first zombies to have \"jiggle tech\" added, which provides jiggle physics to parts of its body.",
+  "intro": "Party Girl is a variant of Zombies and was formerly known as Zombie Stripper and was changed in Alpha 20. These zombies died and turned long ago, evident from their highly decomposed bodies. Despite this, they continue to roam in search of humans to attack. The Zombie Stripper appears wearing a revealing, slightly torn dark dress, high heels, and ruined makeup, reflecting its past occupation. Party Girl can commonly be found in Points of Interest like the The Boobie Trap and Bigg Buns. It was one of the first zombies to have \"jiggle tech\" added, which provides jiggle physics to parts of its bo",
   "entity_id": "",
   "internal_id": "zombieStripper",
   "zombie_type": "Normal, Feral",
@@ -521,7 +503,7 @@
    "Plagued Nurse.png",
    "PlaguedNurse.png"
   ],
-  "intro": "A is a type of Zombie encountered nearly everywhere. In the past the nurse was blood-covered and pale, green skin color and dark hair in what looked like to be a Halloween sexy Nurse outfit but now resembles an actual medical Nurse in scrubs. When nearby a player they will emit high-pitched, hoarse groans. They are slower than the average zombie, and typically easy to avoid and kill.",
+  "intro": "A Plagued Nurse is a type of Zombie encountered nearly everywhere. In the past the nurse was blood-covered and pale, green skin color and dark hair in what looked like to be a Halloween sexy Nurse outfit but now resembles an actual medical Nurse in scrubs. When nearby a player they will emit high-pitched, hoarse groans. They are slower than the average zombie, and typically easy to avoid and kill.",
   "entity_id": "19",
   "internal_id": "zombieNurse",
   "zombie_type": "Normal, Feral",
@@ -534,8 +516,7 @@
   "location": "Everywhere, mostly in medical facilities",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 20",
-  "icon": "/icons/plagued_nurse.png"
+  "updated_version": "Alpha 20"
  },
  {
   "title": "Putrid Girl",
@@ -560,8 +541,7 @@
   "location": "Everywhere, mostly in old western POIs",
   "drops": "Water Bottle Old Sham Sandwich",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/putrid_girl.png"
+  "updated_version": ""
  },
  {
   "title": "Reanimated Corpse",
@@ -586,8 +566,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "",
-  "icon": "/icons/reanimated_corpse.png"
+  "updated_version": ""
  },
  {
   "title": "Rotting Carcass",
@@ -599,7 +578,7 @@
    "Rotting Carcass.png",
    "RottingCarcass.png"
   ],
-  "intro": ", formerly Zombie Yo, is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. The massive head trauma might have been the cause of death and it is a good visual characteristic that helps identifying this zombie.",
+  "intro": "Rotting Carcass, formerly Zombie Yo, is one of the variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. The massive head trauma might have been the cause of death and it is a good visual characteristic that helps identifying this zombie.",
   "entity_id": "4",
   "internal_id": "Rotting Carcass",
   "zombie_type": "Normal, Feral, Radiated",
@@ -622,7 +601,7 @@
   "images": [
    "Screamer.png"
   ],
-  "intro": "The is a special type of zombie that appears and investigates sources of player activity, referred to as heat levels that is based off of sound the player creates either by explosions, firing weapons, or mining using either a tool or an Auger. A can be easily identified by their signature white dress, long black hair, and high-pitched shrieks and hisses. They are also shorter than average zombies, and can occasionally be difficult to spot when behind cover. However, should the player be well-equipped, they can bait or trap a Screamer and kill the incoming hordes for XP. When they are done, sim",
+  "intro": "The Screamer is a special type of zombie that appears and investigates sources of player activity, referred to as heat levels that is based off of sound the player creates either by explosions, firing weapons, or mining using either a tool or an Auger. A Screamer can be easily identified by their signature white dress, long black hair, and high-pitched shrieks and hisses. They are also shorter than average zombies, and can occasionally be difficult to spot when behind cover. Screamers should always be a prioritized kill above any other zombie, for as long as the player remains 'Hunted' the Scr",
   "entity_id": "",
   "internal_id": "zombieScreamer",
   "zombie_type": "Normal, Feral, Radiated",
@@ -635,8 +614,7 @@
   "location": "Spawns in the vicinity of the player once heat threshold has been reached",
   "drops": "",
   "added_version": "Alpha 13",
-  "updated_version": "Alpha 16.0",
-  "icon": "/icons/screamer.png"
+  "updated_version": "Alpha 16.0"
  },
  {
   "title": "Skater Punk Zombie",
@@ -648,7 +626,7 @@
    "Skater Punk Zombie.png",
    "SkaterPunkZombie.png"
   ],
-  "intro": "is a type of Normal Zombie. The wears a green-colored Hooded Sweatshirts and black-colored Denim Pants.",
+  "intro": "Skater Punk Zombie is a type of Normal Zombie. The Skater Punk Zombie wears a green-colored Hooded Sweatshirts and black-colored Denim Pants.",
   "entity_id": "",
   "internal_id": "zombieSkateboarder",
   "zombie_type": "Normal, Feral, Radiated",
@@ -661,8 +639,7 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 16.0, Alpha 20",
-  "icon": "/icons/skater_punk_zombie.png"
+  "updated_version": "Alpha 16.0, Alpha 20"
  },
  {
   "title": "Spider Zombie",
@@ -673,7 +650,7 @@
    "SpiderZombie.png",
    "Spider Zombie.png"
   ],
-  "intro": "The is a special type of Zombie encountered in Military bases, cities and during night hordes. They are distinguished by their signature crawling pattern, and various loud shrieks. The will typically announce its presence with continuous loud shrieking and various clicking noises and hisses. Typically a player will easily hear them long before they are actually spotted.",
+  "intro": "The Spider Zombie is a special type of Zombie encountered in Military bases, cities and during night hordes. They are distinguished by their signature crawling pattern, and various loud shrieks. The Spider Zombie will typically announce its presence with continuous loud shrieking and various clicking noises and hisses. Typically a player will easily hear them long before they are actually spotted.",
   "entity_id": "9",
   "internal_id": "zombieSpider",
   "zombie_type": "Normal, Feral, Radiated",
@@ -686,8 +663,7 @@
   "location": "Everywhere, higher spawn rate outside at nighttime",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": "Alpha 13, Alpha 16",
-  "icon": "/icons/spider_zombie.png"
+  "updated_version": "Alpha 13, Alpha 16"
  },
  {
   "title": "Utility Worker Zombie",
@@ -699,7 +675,7 @@
    "Utility Worker Zombie.png",
    "UtilityWorkerZombie.png"
   ],
-  "intro": "is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill.",
+  "intro": "Utility Worker Zombie is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill.",
   "entity_id": "",
   "internal_id": "zombieUtilityWorker",
   "zombie_type": "Normal, Feral, Radiated, Legendary",
@@ -712,8 +688,7 @@
   "location": "Everywhere, predominantly construction sites in large groups",
   "drops": "Mining Helmet",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 17",
-  "icon": "/icons/utility_worker_zombie.png"
+  "updated_version": "Alpha 17"
  },
  {
   "title": "Wight",
@@ -724,7 +699,7 @@
    "FeralWight.png",
    "Wight.png"
   ],
-  "intro": "The is a special type of zombie encountered in the later 7 Day hordes as well as in army bases, caves and in wasteland cities. These zombies are always feral. Unlike most zombies, s are not affected by daylight and can run after players at any time. They are also taller and much stronger than most zombies, making them very difficult and dangerous targets. Due to their strength, they pose a great threat to player built structures, and will tear down a wall with great speed. Players in Wasteland Towns should arm themselves amply, lest a threaten their base.",
+  "intro": "The Wight is a special type of zombie encountered in the later 7 Day hordes as well as in army bases, caves and in wasteland cities. These zombies are always feral. Unlike most zombies, Wights are not affected by daylight and can run after players at any time. They are also taller and much stronger than most zombies, making them very difficult and dangerous targets. Due to their strength, they pose a great threat to player built structures, and will tear down a wall with great speed. Players in Wasteland Towns should arm themselves amply, lest a Wight threaten their base.",
   "entity_id": "",
   "internal_id": "Wight",
   "zombie_type": "Feral, Radiated",
@@ -737,8 +712,7 @@
   "location": "Wasteland-biome, Blood Moon hordes, Military and Government Installations, any POI at higher gamestage",
   "drops": "",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/wight.png"
+  "updated_version": ""
  },
  {
   "title": "Zombie Bear",
@@ -750,7 +724,7 @@
    "Zombie Bear.png",
    "ZombieBear.png"
   ],
-  "intro": "s are zombie animals found in the Wasteland and Burnt Forest, as well as at certain POI's and during some events. They are hostile and will chase and attempt to attack the player on sight or if provoked. It will also attack other Animals and Zombies, usually emerging victorious, as the Zombie Bear is one of the most dangerous enemies you can encounter in Navezgane. Since they are able to one-shot a player at full health, it is best to use ranged weapons and avoid any sort of melee combat with the bear without utilising strong armour and healing items. If a is attacking a player base, defeating",
+  "intro": "Zombie Bears are zombie animals found in the Wasteland and Burnt Forest, as well as at certain POI's and during some events. They are hostile and will chase and attempt to attack the player on sight or if provoked. It will also attack other Animals and Zombies, usually emerging victorious, as the Zombie Bear is one of the most dangerous enemies you can encounter in Navezgane. Since they are able to one-shot a player at full health, it is best to use ranged weapons and avoid any sort of melee combat with the bear without utilising strong armour and healing items. If a Zombie Bear is attacking a",
   "entity_id": "65",
   "internal_id": "animalZombieBear",
   "zombie_type": "Normal",
@@ -763,8 +737,7 @@
   "location": "Wasteland-biome, Burnt Forest-biome, and some particular POIs",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/zombie_bear.png"
+  "updated_version": ""
  },
  {
   "title": "Zombie Biker",
@@ -776,7 +749,7 @@
    "Zombie Biker.png",
    "ZombieBiker.png"
   ],
-  "intro": "is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill. They are wearing a helmet, which may make headshots less effective. They are considered armored due to their helmet and tough leather clothing, taking 20% less damage from most attacks. Armor piercing ammo is recommended.",
+  "intro": "Zombie Biker is one of the different variants of Zombies. These zombies died and turned long ago, evidence of this being the fact that their bodies are highly decomposed. Although they're still walking in search of humans to kill. They are wearing a helmet, which may make headshots less effective. They are considered armored due to their helmet and tough leather clothing, taking 20% less damage from most attacks. Armor piercing ammo is recommended.",
   "entity_id": "",
   "internal_id": "zombieBiker",
   "zombie_type": "Normal, Feral, Radiated",
@@ -800,7 +773,7 @@
    "ZombieDog.png",
    "Zombie Dog.png"
   ],
-  "intro": "s are zombie animals found in every biome but more commonly in the Wasteland. s are hostile and will try to chase and attack the player if provoked or spots the player. s can at times be heard growling letting players know they are discovered and about to be attacked. Having appearance of a Doberman Pinscher, s are much faster than players and will easily outrun a player and catch them, so it is advised to take them down as fast as you can before they can reach you, or get to high ground like a car as they cannot climb it. s are one of the few zombie enemies that can run during the day. s can ",
+  "intro": "Zombie Dogs are zombie animals found in every biome but more commonly in the Wasteland. Zombie Dogs are hostile and will try to chase and attack the player if provoked or spots the player. Zombie Dogs can at times be heard growling letting players know they are discovered and about to be attacked. Having appearance of a Doberman Pinscher, Zombie Dogs are much faster than players and will easily outrun a player and catch them, so it is advised to take them down as fast as you can before they can reach you, or get to high ground like a car as they cannot climb it. Zombie Dogs are one of the few ",
   "entity_id": "63",
   "internal_id": "animalZombieDog",
   "zombie_type": "Normal",
@@ -813,8 +786,7 @@
   "location": "Wasteland- and Burnt Forest-biome, as well as in particular POIs. Occasionally, as part of a roaming dog horde",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "Alpha 1",
-  "updated_version": "",
-  "icon": "/icons/zombie_dog.png"
+  "updated_version": ""
  },
  {
   "title": "Zombie Janitor",
@@ -826,7 +798,7 @@
    "Zombie Janitor.png",
    "ZombieJanitor.png"
   ],
-  "intro": "is a normal zombie present in the world of Navezgane. It has a feral and a radiated version that has higher damage and health. They are wearing a bloody and filthy boiler suit and blood-covered boots. Their hair also appears to be receding.",
+  "intro": "Zombie Janitor is a normal zombie present in the world of Navezgane. It has a feral and a radiated version that has higher damage and health. They are wearing a bloody and filthy boiler suit and blood-covered boots. Their hair also appears to be receding.",
   "entity_id": "",
   "internal_id": "zombieJanitor",
   "zombie_type": "Normal, Feral, Radiated",
@@ -839,8 +811,7 @@
   "location": "",
   "drops": "",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/zombie_janitor.png"
+  "updated_version": ""
  },
  {
   "title": "Zombie Tom Clark",
@@ -851,7 +822,7 @@
    "ZombieTomClark.png",
    "Zombie Tom Clark.png"
   ],
-  "intro": "The is a special type of Zombie encountered everywhere. This newer model of Tom Clark is a replacement from previous. The Fun Pimps decided to make this new model with normal characteristics and is like any other Zombie and no longer crawls around as a Spider Zombie as it was prior to Alpha 19.6.",
+  "intro": "The Zombie Tom Clark is a special type of Zombie encountered everywhere. This newer model of Tom Clark is a replacement from previous. The Fun Pimps decided to make this new model with normal characteristics and is like any other Zombie and no longer crawls around as a Spider Zombie as it was prior to Alpha 19.6.",
   "entity_id": "",
   "internal_id": "Tom Clark",
   "zombie_type": "Normal, Feral, Radiated",
@@ -864,8 +835,7 @@
   "location": "",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": "Alpha 13, Alpha 16, Alpha 20",
-  "icon": "/icons/zombie_tom_clark.png"
+  "updated_version": "Alpha 13, Alpha 16, Alpha 20"
  },
  {
   "title": "Zombie Vulture",
@@ -890,7 +860,6 @@
   "location": "Every biome except Snowy Forest-biome, as well as on roofs of POIs. May appear as part of a flock and in a Blood Moon horde",
   "drops": "Feathers Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": "",
-  "icon": "/icons/zombie_vulture.png"
+  "updated_version": ""
  }
 ]

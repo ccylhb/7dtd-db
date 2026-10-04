@@ -20,8 +20,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/advanced_insulated_armor_mod.png"
+  "affixes": ""
  },
  {
   "title": "Advanced Muffled Connectors Mod",
@@ -44,8 +43,7 @@
   "effects": "Greatly reduces the noise created by armor.",
   "mod_type": "Armor",
   "affected_part": "Stealth",
-  "affixes": "",
-  "icon": "/icons/advanced_muffled_connectors_mod.png"
+  "affixes": ""
  },
  {
   "title": "Agility Mod",
@@ -68,8 +66,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/agility_mod.png"
+  "affixes": ""
  },
  {
   "title": "Armor Double Pocket Mod",
@@ -92,8 +89,7 @@
   "effects": "Moderately increases carrying capacity.",
   "mod_type": "Armor",
   "affected_part": "Carry Weight",
-  "affixes": "",
-  "icon": "/icons/armor_double_pocket_mod.png"
+  "affixes": ""
  },
  {
   "title": "Armor Plating Mod",
@@ -116,8 +112,7 @@
   "effects": "Increases armor rating",
   "mod_type": "Armor",
   "affected_part": "Resistance",
-  "affixes": "",
-  "icon": "/icons/armor_plating_mod.png"
+  "affixes": ""
  },
  {
   "title": "Armor Pocket Mod",
@@ -140,8 +135,7 @@
   "effects": "Slightly increases carrying capacity.",
   "mod_type": "Armor",
   "affected_part": "Carry Weight",
-  "affixes": "",
-  "icon": "/icons/armor_pocket_mod.png"
+  "affixes": ""
  },
  {
   "title": "Armor Quad Pocket Mod",
@@ -164,8 +158,7 @@
   "effects": "+4 carrying capacity.",
   "mod_type": "Armor",
   "affected_part": "Carry Weight",
-  "affixes": "",
-  "icon": "/icons/armor_quad_pocket_mod.png"
+  "affixes": ""
  },
  {
   "title": "Armor Triple Pocket Mod",
@@ -188,8 +181,7 @@
   "effects": "Greatly increases carrying capacity.",
   "mod_type": "Armor",
   "affected_part": "Carry Weight",
-  "affixes": "",
-  "icon": "/icons/armor_triple_pocket_mod.png"
+  "affixes": ""
  },
  {
   "title": "Arrow Rest Mod",
@@ -212,8 +204,7 @@
   "effects": "Improves accuracy.",
   "mod_type": "Bow",
   "affected_part": "Accuracy",
-  "affixes": "",
-  "icon": "/icons/arrow_rest_mod.png"
+  "affixes": ""
  },
  {
   "title": "Banded Armor Plating Mod",
@@ -236,8 +227,7 @@
   "effects": "Increases armor rating",
   "mod_type": "Armor",
   "affected_part": "Resistance",
-  "affixes": "",
-  "icon": "/icons/banded_armor_plating_mod.png"
+  "affixes": ""
  },
  {
   "title": "Bandolier Mod",
@@ -260,8 +250,7 @@
   "effects": "Reduces weapon reload time.",
   "mod_type": "Chest, Legs",
   "affected_part": "Ammo",
-  "affixes": "",
-  "icon": "/icons/bandolier_mod.png"
+  "affixes": ""
  },
  {
   "title": "Barbed Wire Mod",
@@ -283,8 +272,7 @@
   "effects": "Provides a chance to cause bleeding damage.",
   "mod_type": "Club",
   "affected_part": "Shaft",
-  "affixes": "",
-  "icon": "/icons/barbed_wire_mod.png"
+  "affixes": ""
  },
  {
   "title": "Barrel Extender Mod",
@@ -307,8 +295,7 @@
   "effects": "Increases damage, range and aimed accuracy at the cost of stability when fired from the hip.",
   "mod_type": "Barrel",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/barrel_extender_mod.png"
+  "affixes": ""
  },
  {
   "title": "Bipod Mod",
@@ -331,8 +318,7 @@
   "effects": "Increases accuracy and handling when aiming weapons.",
   "mod_type": "Bottom, No Short Range",
   "affected_part": "Accuracy",
-  "affixes": "",
-  "icon": "/icons/bipod_mod.png"
+  "affixes": ""
  },
  {
   "title": "Blessed Metal Mod",
@@ -355,8 +341,7 @@
   "effects": "",
   "mod_type": "Weapon",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/blessed_metal_mod.png"
+  "affixes": ""
  },
  {
   "title": "Bunker Buster Mod",
@@ -379,8 +364,7 @@
   "effects": "More damage against stone.",
   "mod_type": "Melee",
   "affected_part": "Damage Stone",
-  "affixes": "",
-  "icon": "/icons/bunker_buster_mod.png"
+  "affixes": ""
  },
  {
   "title": "Burning Shaft Mod",
@@ -402,8 +386,7 @@
   "effects": "A melee item can double as a light source and set enemies on fire.",
   "mod_type": "LongShaft",
   "affected_part": "Fire",
-  "affixes": "",
-  "icon": "/icons/burning_shaft_mod.png"
+  "affixes": ""
  },
  {
   "title": "Cloth Insulated Armor Mod",
@@ -426,8 +409,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/cloth_insulated_armor_mod.png"
+  "affixes": ""
  },
  {
   "title": "Cooling Mesh Mod",
@@ -450,8 +432,7 @@
   "effects": "Increases heat resistance.",
   "mod_type": "Armor",
   "affected_part": "Temperature",
-  "affixes": "",
-  "icon": "/icons/cooling_mesh_mod.png"
+  "affixes": ""
  },
  {
   "title": "Cripple Em Mod",
@@ -474,8 +455,7 @@
   "effects": "Adds a chance to cripple a leg on a bipedal target.",
   "mod_type": "Ranged",
   "affected_part": "Crippling",
-  "affixes": "",
-  "icon": "/icons/cripple_em_mod.png"
+  "affixes": ""
  },
  {
   "title": "Customized Fittings Mod",
@@ -498,8 +478,7 @@
   "effects": "Greatly decreases stamina and mobility penalty.",
   "mod_type": "Armor",
   "affected_part": "Movement",
-  "affixes": "",
-  "icon": "/icons/customized_fittings_mod.png"
+  "affixes": ""
  },
  {
   "title": "Diamond Blade Tip Mod",
@@ -522,8 +501,7 @@
   "effects": "Greatly reduces degradation rate.",
   "mod_type": "Tool, Spear, Knife",
   "affected_part": "Durability",
-  "affixes": "",
-  "icon": "/icons/diamond_blade_tip_mod.png"
+  "affixes": ""
  },
  {
   "title": "Drum Magazine Mod",
@@ -546,8 +524,7 @@
   "effects": "Greatly increases magazine capacity with the cost of reload time.",
   "mod_type": "Drum Magazine",
   "affected_part": "Magazine",
-  "affixes": "",
-  "icon": "/icons/drum_magazine_mod.png"
+  "affixes": ""
  },
  {
   "title": "Dye",
@@ -569,8 +546,7 @@
   "effects": "Changes the item's colour.",
   "mod_type": "Dye",
   "affected_part": "Dye",
-  "affixes": "",
-  "icon": "/icons/dye.png"
+  "affixes": ""
  },
  {
   "title": "Ergonomic Grip Mod",
@@ -593,8 +569,7 @@
   "effects": "Decreases melee stamina usage and increases weapon handling of bows.",
   "mod_type": "Melee, Bow",
   "affected_part": "Health",
-  "affixes": "",
-  "icon": "/icons/ergonomic_grip_mod.png"
+  "affixes": ""
  },
  {
   "title": "Fireman's Axe Mod",
@@ -617,8 +592,7 @@
   "effects": "Deal more damage to blocks but less damage to entities.",
   "mod_type": "Axe",
   "affected_part": "Damage Dirt, Stone and Iron",
-  "affixes": "",
-  "icon": "/icons/fireman_s_axe_mod.png"
+  "affixes": ""
  },
  {
   "title": "Fore Grip Mod",
@@ -641,8 +615,7 @@
   "effects": "Improves handling and accuracy when firing from the hip or moving.",
   "mod_type": "Bottom, TurretRanged",
   "affected_part": "Grips",
-  "affixes": "",
-  "icon": "/icons/fore_grip_mod.png"
+  "affixes": ""
  },
  {
   "title": "Fortifying Grip Mod",
@@ -665,8 +638,7 @@
   "effects": "When health is below 50% gain additional health regeneration.",
   "mod_type": "Melee",
   "affected_part": "Health",
-  "affixes": "",
-  "icon": "/icons/fortifying_grip_mod.png"
+  "affixes": ""
  },
  {
   "title": "Fortitude Mod",
@@ -689,8 +661,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/fortitude_mod.png"
+  "affixes": ""
  },
  {
   "title": "Grave Digger Mod",
@@ -713,8 +684,7 @@
   "effects": "More damage against dirt.",
   "mod_type": "Melee",
   "affected_part": "Damage Dirt",
-  "affixes": "",
-  "icon": "/icons/grave_digger_mod.png"
+  "affixes": ""
  },
  {
   "title": "Helmet Light Mod",
@@ -737,8 +707,7 @@
   "effects": "A portable light source.",
   "mod_type": "Head",
   "affected_part": "Light",
-  "affixes": "",
-  "icon": "/icons/helmet_light_mod.png"
+  "affixes": ""
  },
  {
   "title": "Impact Bracing Mod",
@@ -761,8 +730,7 @@
   "effects": "Reduces fall damage.",
   "mod_type": "Feet",
   "affected_part": "Fall Damage",
-  "affixes": "",
-  "icon": "/icons/impact_bracing_mod.png"
+  "affixes": ""
  },
  {
   "title": "Improved Fittings Mod",
@@ -808,8 +776,7 @@
   "effects": "Increases cold resistance.",
   "mod_type": "Armor",
   "affected_part": "Thermal",
-  "affixes": "",
-  "icon": "/icons/insulated_liner_mod.png"
+  "affixes": ""
  },
  {
   "title": "Intellect Mod",
@@ -832,8 +799,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/intellect_mod.png"
+  "affixes": ""
  },
  {
   "title": "Iron Breaker Mod",
@@ -856,8 +822,7 @@
   "effects": "Added damage against iron.",
   "mod_type": "Melee",
   "affected_part": "Damage Iron",
-  "affixes": "",
-  "icon": "/icons/iron_breaker_mod.png"
+  "affixes": ""
  },
  {
   "title": "Laser Sight Mod",
@@ -880,8 +845,7 @@
   "effects": "Helps with aiming quickly and increases accuracy when firing from the hip.",
   "mod_type": "Side",
   "affected_part": "Side",
-  "affixes": "",
-  "icon": "/icons/laser_sight_mod.png"
+  "affixes": ""
  },
  {
   "title": "Magazine Extender Mod",
@@ -904,8 +868,7 @@
   "effects": "Increases magazine capacity.",
   "mod_type": "Magazine, TurretRanged",
   "affected_part": "Magazine",
-  "affixes": "",
-  "icon": "/icons/magazine_extender_mod.png"
+  "affixes": ""
  },
  {
   "title": "Metal Chain Mod",
@@ -927,8 +890,7 @@
   "effects": "Added chance to knock down opponents.",
   "mod_type": "Club",
   "affected_part": "Shaft",
-  "affixes": "",
-  "icon": "/icons/metal_chain_mod.png"
+  "affixes": ""
  },
  {
   "title": "Metal Spikes Mod",
@@ -950,8 +912,7 @@
   "effects": "Each successive hit lowers enemies' armor.",
   "mod_type": "Club",
   "affected_part": "Shaft",
-  "affixes": "",
-  "icon": "/icons/metal_spikes_mod.png"
+  "affixes": ""
  },
  {
   "title": "Muffled Connectors Mod",
@@ -974,8 +935,7 @@
   "effects": "Reduces noise generated by armor.",
   "mod_type": "Armor",
   "affected_part": "Stealth",
-  "affixes": "",
-  "icon": "/icons/muffled_connectors_mod.png"
+  "affixes": ""
  },
  {
   "title": "Muzzle Brake Mod",
@@ -998,8 +958,7 @@
   "effects": "Reduces recoil.",
   "mod_type": "Barrel",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/muzzle_brake_mod.png"
+  "affixes": ""
  },
  {
   "title": "Padded Insulated Armor Mod",
@@ -1022,8 +981,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/padded_insulated_armor_mod.png"
+  "affixes": ""
  },
  {
   "title": "Perception Mod",
@@ -1046,8 +1004,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/perception_mod.png"
+  "affixes": ""
  },
  {
   "title": "Polymer String Mod",
@@ -1070,8 +1027,7 @@
   "effects": "Arrows and bolts fly faster.",
   "mod_type": "Bow, Crossbow",
   "affected_part": "Velocity",
-  "affixes": "",
-  "icon": "/icons/polymer_string_mod.png"
+  "affixes": ""
  },
  {
   "title": "Power Tool Large Tank Mod",
@@ -1094,8 +1050,7 @@
   "effects": "Increases motor tools tank size",
   "mod_type": "Motor Tool",
   "affected_part": "Fuel",
-  "affixes": "",
-  "icon": "/icons/power_tool_large_tank_mod.png"
+  "affixes": ""
  },
  {
   "title": "Power Tool Small Tank Mod",
@@ -1118,8 +1073,7 @@
   "effects": "Increases motor tools tank size",
   "mod_type": "Motor Tool",
   "affected_part": "Fuel",
-  "affixes": "",
-  "icon": "/icons/power_tool_small_tank_mod.png"
+  "affixes": ""
  },
  {
   "title": "Rad Remover Mod",
@@ -1142,8 +1096,7 @@
   "effects": "Temporarily disables regeneration ability of radiated zombies.",
   "mod_type": "Weapon, Tool",
   "affected_part": "Special Damage",
-  "affixes": "",
-  "icon": "/icons/rad_remover_mod.png"
+  "affixes": ""
  },
  {
   "title": "Reflex Sight Mod",
@@ -1166,8 +1119,7 @@
   "effects": "Minor visual magnification but designed for fast target acquisition.",
   "mod_type": "Small Top",
   "affected_part": "Scope",
-  "affixes": "",
-  "icon": "/icons/reflex_sight_mod.png"
+  "affixes": ""
  },
  {
   "title": "Retracting Stock Mod",
@@ -1190,8 +1142,7 @@
   "effects": "Improves weapon handling while firing from the hip.",
   "mod_type": "Stock",
   "affected_part": "Stock",
-  "affixes": "",
-  "icon": "/icons/retracting_stock_mod.png"
+  "affixes": ""
  },
  {
   "title": "Robotic Drone Armor Plating Mod",
@@ -1202,7 +1153,7 @@
    "Robotic Drone Armor Plating Mod.png",
    "RoboticDroneArmorPlatingMod.png"
   ],
-  "intro": "The is a Mod that reduces damage by 50% for the Robotic Drone.",
+  "intro": "The Robotic Drone Armor Plating Mod is a Mod that reduces damage by 50% for the Robotic Drone.",
   "description": "\"Upgrade your robotic drone's defensive ability with this modification. Reduces damage by 50%\"",
   "group": "Mods",
   "item_type": "",
@@ -1214,8 +1165,7 @@
   "effects": "Reduces damage by 50%",
   "mod_type": "Armor",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/robotic_drone_armor_plating_mod.png"
+  "affixes": ""
  },
  {
   "title": "Robotic Drone Cargo Mod",
@@ -1226,7 +1176,7 @@
    "Robotic Drone Cargo Mod.png",
    "RoboticDroneCargoMod.png"
   ],
-  "intro": "The increases the Robotic Drones storage from the default 16 slots to a total of 24. This adds 8 storage slots to the Drone and can be stacked along with more mods of the same type to increase so long as Quality of the Drone permits it and is not limited to one Modifier slot. A total of 4 s can be added to the highest quality Robotic Drone, Quality 6.",
+  "intro": "The Robotic Drone Cargo Mod increases the Robotic Drones storage from the default 16 slots to a total of 24. This Robotic Drone Cargo Mod adds 8 storage slots to the Drone and can be stacked along with more mods of the same type to increase so long as Quality of the Drone permits it and is not limited to one Modifier slot. A total of 4 Robotic Drone Cargo Mods can be added to the highest quality Robotic Drone, Quality 6.",
   "description": "\"Increase your drone's storage capacity with this modification. Add more for additional storage\"",
   "group": "Mods",
   "item_type": "",
@@ -1238,8 +1188,7 @@
   "effects": "8 additional storage slots",
   "mod_type": "Storage",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/robotic_drone_cargo_mod.png"
+  "affixes": ""
  },
  {
   "title": "Robotic Drone Medic Mod",
@@ -1250,7 +1199,7 @@
    "Robotic Drone Medic Mod.png",
    "RoboticDroneMedicMod.png"
   ],
-  "intro": "The allows for the Robotic Drone to automatically heal the player so long as sufficient medical supplies are placed in its inventory. For added storage space insert the Robotic Drone Cargo Mod so long as the Quality of the Robotic Drone allows for additional Mods in the modifier slot. Multiple stacks of the same medical supplies is allowed.",
+  "intro": "The Robotic Drone Medic Mod allows for the Robotic Drone to automatically heal the player so long as sufficient medical supplies are placed in its inventory. For added storage space insert the Robotic Drone Cargo Mod so long as the Quality of the Robotic Drone allows for additional Mods in the modifier slot. Multiple stacks of the same medical supplies is allowed.",
   "description": "\"Modify your drone into a robotic field medic that will automatically heal you as long as medical bandages or first aid kits in its inventory\"",
   "group": "Mods",
   "item_type": "",
@@ -1262,8 +1211,7 @@
   "effects": "Heals player with med supplies",
   "mod_type": "Health",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/robotic_drone_medic_mod.png"
+  "affixes": ""
  },
  {
   "title": "Robotic Drone Morale Booster Mod",
@@ -1274,7 +1222,7 @@
    "Robotic Drone Morale Booster Mod.png",
    "RoboticDroneMoraleBoosterMod.png"
   ],
-  "intro": "When the is installed into the Robotic Drone it will allow for the player to have an increase of Stamina Regenerated at a rate of 10% when the player is near the Drone.",
+  "intro": "When the Robotic Drone Morale Booster Mod is installed into the Robotic Drone it will allow for the player to have an increase of Stamina Regenerated at a rate of 10% when the player is near the Drone.",
   "description": "\"Stamina regeneration is increased by 10% when near the drone with this mod installed.\"",
   "group": "Mods",
   "item_type": "",
@@ -1286,8 +1234,7 @@
   "effects": "10% Stamina Regeneration",
   "mod_type": "Stamina",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/robotic_drone_morale_booster_mod.png"
+  "affixes": ""
  },
  {
   "title": "Robotic Headlamp Mod",
@@ -1298,7 +1245,7 @@
    "Robotic Headlamp Mod.png",
    "RoboticHeadlampMod.png"
   ],
-  "intro": "The is a Mod used in the Robotic Drone to add lighting in dark areas. It can be used to This mod is the only Robotic Drone Mod whose recipe differs from the other Drone Mods.",
+  "intro": "The Robotic Headlamp Mod is a Mod used in the Robotic Drone to add lighting in dark areas. It can be used to This mod is the only Robotic Drone Mod whose recipe differs from the other Drone Mods.",
   "description": "\"This robotic drone modification adds a headlamp to your drone to improve visibility in dark places\"",
   "group": "Mods",
   "item_type": "",
@@ -1310,8 +1257,7 @@
   "effects": "Mobile Lighting",
   "mod_type": "Lighting",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/robotic_headlamp_mod.png"
+  "affixes": ""
  },
  {
   "title": "Sawed-Off Shotgun Barrel Mod",
@@ -1334,8 +1280,7 @@
   "effects": "Increases projectile spread.",
   "mod_type": "Shotgun, NoDBarrel",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/sawed_off_shotgun_barrel_mod.png"
+  "affixes": ""
  },
  {
   "title": "Scope 2x Mod",
@@ -1358,8 +1303,7 @@
   "effects": "Increases visual magnification when aiming.",
   "mod_type": "Small Top",
   "affected_part": "Scope",
-  "affixes": "",
-  "icon": "/icons/scope_2x_mod.png"
+  "affixes": ""
  },
  {
   "title": "Scope 4x Mod",
@@ -1382,8 +1326,7 @@
   "effects": "Increases visual magnification when aiming.",
   "mod_type": "Medium Top",
   "affected_part": "Scope",
-  "affixes": "",
-  "icon": "/icons/scope_4x_mod.png"
+  "affixes": ""
  },
  {
   "title": "Scope 8x Mod",
@@ -1406,8 +1349,7 @@
   "effects": "Increases visual magnification when aiming.",
   "mod_type": "Large Top",
   "affected_part": "Scope",
-  "affixes": "",
-  "icon": "/icons/scope_8x_mod.png"
+  "affixes": ""
  },
  {
   "title": "Serrated Blade Mod",
@@ -1430,8 +1372,7 @@
   "effects": "Adds a chance to cause a Bleeding Wound on attack.",
   "mod_type": "Knife, Axe, Shovel, Spear",
   "affected_part": "Damage",
-  "affixes": "",
-  "icon": "/icons/serrated_blade_mod.png"
+  "affixes": ""
  },
  {
   "title": "Shotgun Choke Mod",
@@ -1454,8 +1395,7 @@
   "effects": "Tightens projectile spread.",
   "mod_type": "Shotgun, Turret Ranged",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/shotgun_choke_mod.png"
+  "affixes": ""
  },
  {
   "title": "Shotgun Duckbill Mod",
@@ -1478,8 +1418,7 @@
   "effects": "Modifies projectile spread to a horizontal pattern instead of the normal round one.",
   "mod_type": "Shotgun, Turret Ranged",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/shotgun_duckbill_mod.png"
+  "affixes": ""
  },
  {
   "title": "Shotgun Tube Extender Mod",
@@ -1502,8 +1441,7 @@
   "effects": "Increases magazine capacity of Pump Shotguns.",
   "mod_type": "Tube Extender",
   "affected_part": "Magazine",
-  "affixes": "",
-  "icon": "/icons/shotgun_tube_extender_mod.png"
+  "affixes": ""
  },
  {
   "title": "Silencer Mod",
@@ -1526,8 +1464,7 @@
   "effects": "Decreases firing sound while reducing range and damage.",
   "mod_type": "Silencer",
   "affected_part": "Barrel",
-  "affixes": "",
-  "icon": "/icons/silencer_mod.png"
+  "affixes": ""
  },
  {
   "title": "Stealth Boots Mod",
@@ -1538,7 +1475,7 @@
    "Stealth Boots Mod.png",
    "StealthBootsMod.png"
   ],
-  "intro": "reduces the noise and stamina penalties of medium and heavy boots.",
+  "intro": "Stealth Boots Mod reduces the noise and stamina penalties of medium and heavy boots.",
   "description": "Reduces the noise and stamina penalties of medium and heavy boots.",
   "group": "Mods",
   "item_type": "",
@@ -1573,8 +1510,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/strength_mod.png"
+  "affixes": ""
  },
  {
   "title": "Structural Brace Mod",
@@ -1597,8 +1533,7 @@
   "effects": "Moderately decreases degradation rate.",
   "mod_type": "Melee, Bow, Crossbow",
   "affected_part": "Durability",
-  "affixes": "",
-  "icon": "/icons/structural_brace_mod.png"
+  "affixes": ""
  },
  {
   "title": "Stun Baton Repulsor Mod",
@@ -1620,8 +1555,7 @@
   "effects": "Send zombies flying on charged hits.",
   "mod_type": "Stun Baton",
   "affected_part": "Knockback",
-  "affixes": "",
-  "icon": "/icons/stun_baton_repulsor_mod.png"
+  "affixes": ""
  },
  {
   "title": "Tempered Blade Mod",
@@ -1644,8 +1578,7 @@
   "effects": "Increases block damage by 10% and lowers degradation by 15%.",
   "mod_type": "Knife, Axe, Shovel, Spear",
   "affected_part": "Damage",
-  "affixes": "",
-  "icon": "/icons/tempered_blade_mod.png"
+  "affixes": ""
  },
  {
   "title": "The Hunter Mod",
@@ -1668,8 +1601,7 @@
   "effects": "Increases damage to all animals.",
   "mod_type": "Weapon, Tool",
   "affected_part": "Special Damage",
-  "affixes": "",
-  "icon": "/icons/the_hunter_mod.png"
+  "affixes": ""
  },
  {
   "title": "Treasure Hunter's Mod",
@@ -1692,8 +1624,7 @@
   "effects": "+10% XP Gain, +5 Loot Stage, -1m Treasure Radius.",
   "mod_type": "Head",
   "affected_part": "Experience/Loot",
-  "affixes": "",
-  "icon": "/icons/treasure_hunter_s_mod.png"
+  "affixes": ""
  },
  {
   "title": "Trigger Group: Burst Mod",
@@ -1716,8 +1647,7 @@
   "effects": "Modify the trigger group to fire 3 round bursts.",
   "mod_type": "Firing Mode, Turret Ranged",
   "affected_part": "Trigger",
-  "affixes": "",
-  "icon": "/icons/trigger_group_burst_mod.png"
+  "affixes": ""
  },
  {
   "title": "Trigger Group: Full Auto Mod",
@@ -1740,8 +1670,7 @@
   "effects": "Modify the trigger group to fire full auto.",
   "mod_type": "Firing Mode, Turret Ranged",
   "affected_part": "Trigger",
-  "affixes": "",
-  "icon": "/icons/trigger_group_full_auto_mod.png"
+  "affixes": ""
  },
  {
   "title": "Trigger Group: Semi Mod",
@@ -1764,8 +1693,7 @@
   "effects": "Modify the trigger group to fire single shots.",
   "mod_type": "Firing Mode",
   "affected_part": "Trigger",
-  "affixes": "",
-  "icon": "/icons/trigger_group_semi_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Armor Mod",
@@ -1776,7 +1704,7 @@
    "Vehicle Armor Mod.png",
    "VehicleArmorMod.png"
   ],
-  "intro": "increases damage to entities by 50% and blocks by 40%, and reduces collision damage by 33%. It can only be installed into the Motorcycle and Gyrocopter.",
+  "intro": "Vehicle Armor Mod increases damage to entities by 50% and blocks by 40%, and reduces collision damage by 33%. It can only be installed into the Motorcycle and Gyrocopter.",
   "description": "Reinforced armor for motorcycles and gyrocopters.",
   "group": "Mods",
   "item_type": "",
@@ -1788,8 +1716,7 @@
   "effects": "Increases damage to blocks and entities and reduces damage taken.",
   "mod_type": "Armor",
   "affected_part": "Armor",
-  "affixes": "",
-  "icon": "/icons/vehicle_armor_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Expanded Seating Mod",
@@ -1800,7 +1727,7 @@
    "Vehicle Expanded Seating Mod.png",
    "VehicleExpandedSeatingMod.png"
   ],
-  "intro": "}}",
+  "intro": "Vehicle Expanded Seating Mod Doubles the available vehicle seats. Vehicle Expanded Seating Mod can only be installed onto motorized vehicles and cannot be installed in Bicycle or Gyrocopter.",
   "description": "\"Expand your seating capacity in vehicles with this mod.\"",
   "group": "Mods",
   "item_type": "",
@@ -1812,8 +1739,7 @@
   "effects": "Double Available Vehicle Seats",
   "mod_type": "Seat",
   "affected_part": "Seat",
-  "affixes": "",
-  "icon": "/icons/vehicle_expanded_seating_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Fuel Saver Mod",
@@ -1824,7 +1750,7 @@
    "Vehicle Fuel Saver Mod.png",
    "VehicleFuelSaverMod.png"
   ],
-  "intro": "Decreases Fuel Consumption by installing this modification into your motorized vehicles. can only be installed on motorized vehicles and cannot be installed on the Bicycle.",
+  "intro": "Decreases Fuel Consumption by installing this modification into your motorized vehicles. Vehicle Fuel Saver Mod can only be installed on motorized vehicles and cannot be installed on the Bicycle.",
   "description": "\"Vehicles consume less fuel\"",
   "group": "Mods",
   "item_type": "",
@@ -1836,8 +1762,7 @@
   "effects": "Decreases vehicle fuel consumption.",
   "mod_type": "Engine",
   "affected_part": "Fuel Saver",
-  "affixes": "",
-  "icon": "/icons/vehicle_fuel_saver_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Off Road Highlights Mod",
@@ -1848,7 +1773,7 @@
    "Vehicle Off Road Highlights Mod.png",
    "VehicleOffRoadHighlightsMod.png"
   ],
-  "intro": "Increases Headlight's Strength significantly by x2.2 , thus giving you the ability to see much better in the dark. can be installed in all drivable Vehicles except Bicycle or Gyrocopter.",
+  "intro": "Increases Headlight's Strength significantly by x2.2 , thus giving you the ability to see much better in the dark. Vehicle Off Road Highlights Mod can be installed in all drivable Vehicles except Bicycle or Gyrocopter.",
   "description": "\"These off road headlights will brighten the path even on the darkest of nights.\"",
   "group": "Mods",
   "item_type": "",
@@ -1860,8 +1785,7 @@
   "effects": "Increase Headlight's Strength.",
   "mod_type": "Light",
   "affected_part": "Light",
-  "affixes": "",
-  "icon": "/icons/vehicle_off_road_highlights_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Plow Mod",
@@ -1872,7 +1796,7 @@
    "Vehicle Plow Mod.png",
    "VehiclePlowMod.png"
   ],
-  "intro": "increases damage to entities and blocks by 60% and reduces collision damage by 33%. It can only be installed into the 4x4 Truck.",
+  "intro": "Vehicle Plow Mod increases damage to entities and blocks by 60% and reduces collision damage by 33%. It can only be installed into the 4x4 Truck.",
   "description": "A rugged 4x4 plow. Perfect for clearing paths through hordes of zombies.",
   "group": "Mods",
   "item_type": "",
@@ -1884,8 +1808,7 @@
   "effects": "Increases damage to blocks and entities and reduces damage taken.",
   "mod_type": "Plow",
   "affected_part": "Armor",
-  "affixes": "",
-  "icon": "/icons/vehicle_plow_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Reserve Fuel Tank Mod",
@@ -1896,7 +1819,7 @@
    "Vehicle Reserve Fuel Tank Mod.png",
    "VehicleReserveFuelTankMod.png"
   ],
-  "intro": "Increases Fuel Tank Capacity. can be installed in all drivable Vehicles except the Bicycle.",
+  "intro": "Increases Fuel Tank Capacity. Vehicle Reserve Fuel Tank Mod can be installed in all drivable Vehicles except the Bicycle.",
   "description": "\"Increase your vehicle fuel storage by 50% with this mod.\"",
   "group": "Mods",
   "item_type": "",
@@ -1908,8 +1831,7 @@
   "effects": "Increases fuel tank capacity.",
   "mod_type": "Fuel",
   "affected_part": "Fuel Tank",
-  "affixes": "",
-  "icon": "/icons/vehicle_reserve_fuel_tank_mod.png"
+  "affixes": ""
  },
  {
   "title": "Vehicle Super Charger Mod",
@@ -1920,7 +1842,7 @@
    "Vehicle Super Charger Mod.png",
    "VehicleSuperChargerMod.png"
   ],
-  "intro": "}}",
+  "intro": "Vehicle Super Charger Mod Increases Top Speed and Acceleration. Vehicle Super Charger Mod can be installed in all drivable Vehicles except the Bicycle.",
   "description": "\"This super charger mod Increases vehicle acceleration and top speed.\"",
   "group": "Mods",
   "item_type": "",
@@ -1932,8 +1854,7 @@
   "effects": "Increases top speed and acceleration.",
   "mod_type": "Engine",
   "affected_part": "Speed",
-  "affixes": "",
-  "icon": "/icons/vehicle_super_charger_mod.png"
+  "affixes": ""
  },
  {
   "title": "Water Filter",
@@ -1956,8 +1877,7 @@
   "effects": "",
   "mod_type": "",
   "affected_part": "",
-  "affixes": "",
-  "icon": "/icons/water_filter.png"
+  "affixes": ""
  },
  {
   "title": "Water Purifier Mod",
@@ -1980,8 +1900,7 @@
   "effects": "Allows any water to be drunk without harmful effects.",
   "mod_type": "Head",
   "affected_part": "Water Purifier",
-  "affixes": "",
-  "icon": "/icons/water_purifier_mod.png"
+  "affixes": ""
  },
  {
   "title": "Weapon Flashlight Mod",
@@ -2004,8 +1923,7 @@
   "effects": "A portable light source.",
   "mod_type": "Side, TurretMelee",
   "affected_part": "Side",
-  "affixes": "",
-  "icon": "/icons/weapon_flashlight_mod.png"
+  "affixes": ""
  },
  {
   "title": "Weighted Head Mod",
@@ -2028,8 +1946,7 @@
   "effects": "Adds a chance to stun and slow victims.",
   "mod_type": "Melee, NoKnife, TurretMelee",
   "affected_part": "Damage",
-  "affixes": "",
-  "icon": "/icons/weighted_head_mod.png"
+  "affixes": ""
  },
  {
   "title": "Wood Splitter Mod",
@@ -2052,7 +1969,6 @@
   "effects": "Deal more damage against wood.",
   "mod_type": "Melee",
   "affected_part": "Damage Wood",
-  "affixes": "",
-  "icon": "/icons/wood_splitter_mod.png"
+  "affixes": ""
  }
 ]

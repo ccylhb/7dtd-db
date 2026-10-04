@@ -8,7 +8,7 @@
    "BDU Bottoms.png",
    "BDUBottoms.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The BDU Bottoms is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -21,8 +21,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/bdu_bottoms.png"
+  "equip_effect": ""
  },
  {
   "title": "BDU Top",
@@ -33,7 +32,7 @@
    "BDU Top.png",
    "BDUTop.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The BDU Top is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -46,8 +45,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/bdu_top.png"
+  "equip_effect": ""
  },
  {
   "title": "Bandana",
@@ -56,7 +54,7 @@
   "images": [
    "Bandana.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Bandana is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Face",
@@ -69,8 +67,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/bandana.png"
+  "equip_effect": ""
  },
  {
   "title": "Baseball Cap",
@@ -81,7 +78,7 @@
    "Baseball Cap.png",
    "BaseballCap.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. If the player has read the Batter Up Vol.2 book they get a 2.5% damage reduction.",
+  "intro": "The Baseball Cap is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. If the player has read the Batter Up Vol.2 book they get a 2.5% damage reduction.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -94,8 +91,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/baseball_cap.png"
+  "equip_effect": ""
  },
  {
   "title": "Cigar",
@@ -105,7 +101,7 @@
    "cigar.png",
    "Cigar.png"
   ],
-  "intro": "A is a piece of Clothing that players can craft, loot, or purchase from Traders to equip their characters. While it doesn't provide damage protection, wearing a grants one attribute point to Strength and boosts Bartering by 10%, improving both buying and selling.",
+  "intro": "A Cigar is a piece of Clothing that players can craft, loot, or purchase from Traders to equip their characters. While it doesn't provide damage protection, wearing a Cigar grants one attribute point to Strength and boosts Bartering by 10%, improving both buying and selling.",
   "description": "\"Look intimidating and get a better deal from Traders. Also boosts Strength!\"",
   "group": "Clothing",
   "item_type": "Face",
@@ -118,8 +114,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/cigar.png"
+  "equip_effect": ""
  },
  {
   "title": "College Jacket",
@@ -129,7 +124,7 @@
    "CollegeJacket.png",
    "College Jacket.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. It also gives the player 10% added running speed and reduces incoming damage by 2.5% if the player has read the Batter Up Vol.2 book.",
+  "intro": "The College Jacket is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. It also gives the player 10% added running speed and reduces incoming damage by 2.5% if the player has read the Batter Up Vol.2 book.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -142,8 +137,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/college_jacket.png"
+  "equip_effect": ""
  },
  {
   "title": "Cowboy Boots",
@@ -154,7 +148,7 @@
    "Cowboy Boots.png",
    "CowboyBoots.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Cowboy Boots is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -177,7 +171,7 @@
    "CowboyHat.png",
    "Cowboy Hat.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Cowboy Hat is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -190,8 +184,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/cowboy_hat.png"
+  "equip_effect": ""
  },
  {
   "title": "Denim Pants",
@@ -201,7 +194,7 @@
    "DenimPants.png",
    "Denim Pants.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Denim Pants is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -214,8 +207,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/denim_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Dress Shoes",
@@ -225,7 +217,7 @@
    "DressShoes.png",
    "Dress Shoes.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Dress Shoes is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -238,8 +230,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/dress_shoes.png"
+  "equip_effect": ""
  },
  {
   "title": "Facial piercings",
@@ -249,7 +240,7 @@
    "Facial piercings.png",
    "Facialpiercings.png"
   ],
-  "intro": "is a Clothing that can be looted from zombies. However, does not offer any statistical value to the character once worn. It is still not possible to craft one either.",
+  "intro": "Facial piercings is a Clothing that can be looted from zombies. However, Facial piercings does not offer any statistical value to the character once worn. It is still not possible to craft one either.",
   "description": "\"The risk of infection is not enough of a challenge? Try putting piercings of questionable origin into your skin!\"",
   "group": "Clothing",
   "item_type": "",
@@ -262,8 +253,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/facial_piercings.png"
+  "equip_effect": ""
  },
  {
   "title": "Firefighter's Helmet",
@@ -274,7 +264,7 @@
    "Firefighter's Helmet.png",
    "Firefighter'sHelmet.png"
   ],
-  "intro": "A is a Clothing item that can be worn to help protect your character from various types of damage. It can be crafted after reading the proper book. It will also grant the player some heat resist and 5% damage resist if the book The Fireman's Almanac Vol.7 has been read.",
+  "intro": "A Firefighter's Helmet is a Clothing item that can be worn to help protect your character from various types of damage. It can be crafted after reading the proper book. It will also grant the player some heat resist and 5% damage resist if the book The Fireman's Almanac Vol.7 has been read.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -289,8 +279,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/firefighter_s_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Flannel Shirt",
@@ -301,7 +290,7 @@
    "Flannel Shirt.png",
    "FlannelShirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Flannel Shirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -314,8 +303,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/flannel_shirt.png"
+  "equip_effect": ""
  },
  {
   "title": "Football Helmet",
@@ -325,7 +313,7 @@
    "FootballHelmet.png",
    "Football Helmet.png"
   ],
-  "intro": "A is an item of Clothing which can be looted by the player from various locations around the map and worn by their character to help protect them from damage. It offers the same protection as a Mining Helmet which is slightly more than a Leather Hood. The isn't a part of any armor set.",
+  "intro": "A Football Helmet is an item of Clothing which can be looted by the player from various locations around the map and worn by their character to help protect them from damage. It offers the same protection as a Mining Helmet which is slightly more than a Leather Hood. The Football Helmet isn't a part of any armor set.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -340,8 +328,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/football_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Ghillie Suit Hood",
@@ -352,7 +339,7 @@
    "Ghillie Suit Hood.png",
    "GhillieSuitHood.png"
   ],
-  "intro": "}}",
+  "intro": "",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -365,8 +352,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/ghillie_suit_hood.png"
+  "equip_effect": ""
  },
  {
   "title": "Ghillie Suit Jacket",
@@ -377,7 +363,7 @@
    "Ghillie Suit Jacket.png",
    "GhillieSuitJacket.png"
   ],
-  "intro": "}}",
+  "intro": "",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -390,8 +376,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/ghillie_suit_jacket.png"
+  "equip_effect": ""
  },
  {
   "title": "Ghillie Suit Pants",
@@ -402,7 +387,7 @@
    "Ghillie Suit Pants.png",
    "GhillieSuitPants.png"
   ],
-  "intro": "}}",
+  "intro": "",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -415,8 +400,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/ghillie_suit_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Gothic Boots",
@@ -427,7 +411,7 @@
    "Gothic Boots.png",
    "GothicBoots.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Gothic Boots is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -440,8 +424,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/gothic_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Gothic Pants",
@@ -451,7 +434,7 @@
    "GothicPants.png",
    "Gothic Pants.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Gothic Pants is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -464,8 +447,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/gothic_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Hazmat Boots",
@@ -475,7 +457,7 @@
    "HazmatBoots.png",
    "Hazmat Boots.png"
   ],
-  "intro": "The is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Hazmat Boots is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -488,8 +470,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/hazmat_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Hazmat Gloves",
@@ -499,7 +480,7 @@
    "HazmatGloves.png",
    "Hazmat Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Hazmat Gloves is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Gloves",
@@ -512,8 +493,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/hazmat_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Hazmat Mask",
@@ -524,7 +504,7 @@
    "Hazmat Mask.png",
    "HazmatMask.png"
   ],
-  "intro": "The is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Hazmat Mask is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -537,8 +517,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/hazmat_mask.png"
+  "equip_effect": ""
  },
  {
   "title": "Hazmat Pants",
@@ -548,7 +527,7 @@
    "HazmatPants.png",
    "Hazmat Pants.png"
   ],
-  "intro": "The is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Hazmat Pants is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -561,8 +540,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/hazmat_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Hazmat Shirt",
@@ -572,7 +550,7 @@
    "HazmatShirt.png",
    "Hazmat Shirt.png"
   ],
-  "intro": "The is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Hazmat Shirt is an item of Clothing which can not be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -585,8 +563,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/hazmat_shirt.png"
+  "equip_effect": ""
  },
  {
   "title": "High-Performance Running Shoes",
@@ -597,7 +574,7 @@
    "High-Performance Running Shoes.png",
    "High-PerformanceRunningShoes.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to both Heat and Cold Resistances as well as 20% boost to Stamina regeneration while running.",
+  "intro": "The High-Performance Running Shoes is an item of Clothing which can be worn by a character as Apparel, providing a boost to both Heat and Cold Resistances as well as 20% boost to Stamina regeneration while running.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -610,8 +587,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/high_performance_running_shoes.png"
+  "equip_effect": ""
  },
  {
   "title": "Hooded Sweatshirt",
@@ -622,7 +598,7 @@
    "Hooded Sweatshirt.png",
    "HoodedSweatshirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Hooded Sweatshirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -645,7 +621,7 @@
    "IronBoots.png",
    "Iron Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Iron Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -660,8 +636,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/iron_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Iron Chest Armor",
@@ -671,7 +646,7 @@
    "IronChestArmor.png",
    "Iron Chest Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Iron Chest Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -686,8 +661,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/iron_chest_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Iron Gloves",
@@ -697,7 +671,7 @@
    "IronGloves.png",
    "Iron Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Iron Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -712,8 +686,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/iron_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Iron Helmet",
@@ -723,7 +696,7 @@
    "IronHelmet.png",
    "Iron Helmet.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Iron Helmet is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -738,8 +711,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/iron_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Iron Leg Armor",
@@ -749,7 +721,7 @@
    "IronLegArmor.png",
    "Iron Leg Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Iron Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -764,8 +736,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/iron_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Jacket",
@@ -775,7 +746,7 @@
    "jacketWhite.png",
    "Jacket.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Jacket is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -798,7 +769,7 @@
    "LeatherBoots.png",
    "Leather Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Leather Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -813,8 +784,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/leather_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Chest Armor",
@@ -825,7 +795,7 @@
    "Leather Chest Armor.png",
    "LeatherChestArmor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Leather Chest Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -840,8 +810,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/leather_chest_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Duster",
@@ -851,7 +820,7 @@
    "LeatherDuster.png",
    "Leather Duster.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Leather Duster is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -864,8 +833,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/leather_duster.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Gloves",
@@ -875,7 +843,7 @@
    "LeatherGloves.png",
    "Leather Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Leather Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -890,8 +858,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/leather_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Hood",
@@ -902,7 +869,7 @@
    "Leather Hood.png",
    "LeatherHood.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Leather Hood is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -917,8 +884,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/leather_hood.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Leg Armor",
@@ -929,7 +895,7 @@
    "Leather Leg Armor.png",
    "LeatherLegArmor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Leather Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -944,8 +910,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/leather_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Leather Poncho",
@@ -956,7 +921,7 @@
    "Leather Poncho.png",
    "LeatherPoncho.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Leather Poncho is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -969,8 +934,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/leather_poncho.png"
+  "equip_effect": ""
  },
  {
   "title": "Lucky Goggles",
@@ -994,8 +958,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/lucky_goggles.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Boots",
@@ -1006,7 +969,7 @@
    "Military Boots.png",
    "MilitaryBoots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Military Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1021,8 +984,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Gloves",
@@ -1032,7 +994,7 @@
    "MilitaryGloves.png",
    "Military Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Military Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1047,8 +1009,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Helmet",
@@ -1058,7 +1019,7 @@
    "MilitaryHelmet.png",
    "Military Helmet.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Military Helmet is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1073,8 +1034,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Leg Armor",
@@ -1084,7 +1044,7 @@
    "MilitaryLegArmor.png",
    "Military Leg Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Military Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1099,8 +1059,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Stealth Boots",
@@ -1111,7 +1070,7 @@
    "Military Stealth Boots.png",
    "MilitaryStealthBoots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage. It is similar to the Military Boots, but has 2 added benefits: it does not have a Stamina penalty and it does not have a noise multiplier.",
+  "intro": "The Military Stealth Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage. It is similar to the Military Boots, but has 2 added benefits: it does not have a Stamina penalty and it does not have a noise multiplier.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1126,8 +1085,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_stealth_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Military Vest",
@@ -1137,7 +1095,7 @@
    "MilitaryVest.png",
    "Military Vest.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Military Vest is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1152,8 +1110,7 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/military_vest.png"
+  "equip_effect": ""
  },
  {
   "title": "Mining Helmet",
@@ -1163,7 +1120,7 @@
    "MiningHelmet.png",
    "Mining Helmet.png"
   ],
-  "intro": "A is a Clothing item that can be worn to help protect the character damage. It can be crafted and scavenged from various locations around the map. A looted Mining Helmet has a Helmet Light Mod in it but a crafted one won't have it.",
+  "intro": "A Mining Helmet is a Clothing item that can be worn to help protect the character damage. It can be crafted and scavenged from various locations around the map. A looted Mining Helmet has a Helmet Light Mod in it but a crafted one won't have it.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1178,8 +1135,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/mining_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Nerdy Glasses",
@@ -1190,7 +1146,7 @@
    "Nerdy Glasses.png",
    "NerdyGlasses.png"
   ],
-  "intro": "\"Wearing these nerdy glasses might not help your sex appeal but you get better at crafting and gain extra XP.\" are a type of Clothing that don't provide the player protection. They do, however, provide one attribute point to Intellect. In addition, they increase the player's experience gain by 10% and reduce crafting times by 10%.",
+  "intro": "\"Wearing these nerdy glasses might not help your sex appeal but you get better at crafting and gain extra XP.\" Nerdy Glasses are a type of Clothing that don't provide the player protection. They do, however, provide one attribute point to Intellect. In addition, they increase the player's experience gain by 10% and reduce crafting times by 10%.",
   "description": "",
   "group": "Clothing",
   "item_type": "Glasses",
@@ -1203,8 +1159,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/nerdy_glasses.png"
+  "equip_effect": ""
  },
  {
   "title": "Night Vision Goggles",
@@ -1215,7 +1170,7 @@
    "Night Vision Goggles.png",
    "NightVisionGoggles.png"
   ],
-  "intro": "The are a high-tech pair of goggles that allow the wearer to see in very dark conditions. They can only be obtained by looting them, or occasionally appearing at the trader. However, they are most commonly found on zombies wearing military-grade armor. They are also found in tree stumps in the snow biome.",
+  "intro": "The Night Vision Goggles are a high-tech pair of goggles that allow the wearer to see in very dark conditions. They can only be obtained by looting them, or occasionally appearing at the trader. However, they are most commonly found on zombies wearing military-grade armor. They are also found in tree stumps in the snow biome.",
   "description": "",
   "group": "Clothing",
   "item_type": "Glasses",
@@ -1228,8 +1183,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/night_vision_goggles.png"
+  "equip_effect": ""
  },
  {
   "title": "Overalls",
@@ -1238,7 +1192,7 @@
   "images": [
    "Overalls.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Overalls is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -1251,8 +1205,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/overalls.png"
+  "equip_effect": ""
  },
  {
   "title": "Padded Boots",
@@ -1263,7 +1216,7 @@
    "Padded Boots.png",
    "PaddedBoots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Padded Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1278,8 +1231,7 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/padded_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Padded Chest Armor",
@@ -1290,7 +1242,7 @@
    "Padded Chest Armor.png",
    "PaddedChestArmor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Padded Chest Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1305,8 +1257,7 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/padded_chest_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Padded Gloves",
@@ -1317,7 +1268,7 @@
    "Padded Gloves.png",
    "PaddedGloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Padded Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1332,8 +1283,7 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/padded_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Padded Hood",
@@ -1344,7 +1294,7 @@
    "Padded Hood.png",
    "PaddedHood.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Padded Hood is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1359,8 +1309,7 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/padded_hood.png"
+  "equip_effect": ""
  },
  {
   "title": "Padded Leg Armor",
@@ -1371,7 +1320,7 @@
    "Padded Leg Armor.png",
    "PaddedLegArmor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Padded Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -1386,8 +1335,7 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/padded_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Boots",
@@ -1397,7 +1345,7 @@
    "PlantFiberBoots.png",
    "Plant Fiber Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Boots is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -1410,8 +1358,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Gloves",
@@ -1421,7 +1368,7 @@
    "PlantFiberGloves.png",
    "Plant Fiber Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Gloves is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Gloves",
@@ -1434,8 +1381,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Hat",
@@ -1445,7 +1391,7 @@
    "PlantFiberHat.png",
    "Plant Fiber Hat.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Hat is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -1458,8 +1404,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_hat.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Hood",
@@ -1469,7 +1414,7 @@
    "PlantFiberHood.png",
    "Plant Fiber Hood.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Hood is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -1482,8 +1427,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_hood.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Pants",
@@ -1493,7 +1437,7 @@
    "PlantFiberPants.png",
    "Plant Fiber Pants.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Pants is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -1506,8 +1450,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Plant Fiber Shirt",
@@ -1517,7 +1460,7 @@
    "PlantFiberShirt.png",
    "Plant Fiber Shirt.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
+  "intro": "The Plant Fiber Shirt is an item of Clothing which can be crafted by the player and worn by their character as Apparel, providing a small boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -1530,8 +1473,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/plant_fiber_shirt.png"
+  "equip_effect": ""
  },
  {
   "title": "Press Boy Cap",
@@ -1542,7 +1484,7 @@
    "Press Boy Cap.png",
    "PressBoyCap.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Press Boy Cap is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -1555,8 +1497,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/press_boy_cap.png"
+  "equip_effect": ""
  },
  {
   "title": "Puffer Coat",
@@ -1567,7 +1508,7 @@
    "Puffer Coat.png",
    "PufferCoat.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Puffer Coat is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -1580,8 +1521,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/puffer_coat.png"
+  "equip_effect": ""
  },
  {
   "title": "Running Shoes",
@@ -1591,7 +1531,7 @@
    "RunningShoes.png",
    "Running Shoes.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Running Shoes is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -1604,8 +1544,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/running_shoes.png"
+  "equip_effect": ""
  },
  {
   "title": "SWAT Helmet",
@@ -1616,7 +1555,7 @@
    "SWAT Helmet.png",
    "SWATHelmet.png"
   ],
-  "intro": "A is an item of Clothing which can be worn by their character to help protect them from various types of damage. It has the same defensive properties as a Steel Helmet.",
+  "intro": "A SWAT Helmet is an item of Clothing which can be worn by their character to help protect them from various types of damage. It has the same defensive properties as a Steel Helmet.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1631,8 +1570,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/swat_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Santa Hat",
@@ -1642,7 +1580,7 @@
    "SantaHat.png",
    "Santa Hat.png"
   ],
-  "intro": "A is a Clothing item that can be worn to help protect your character from various types of damage, it cannot be crafted but it can be scavenged from various locations around the map. It has a Durability level like other armor which decreases each time it receives damage. The is a seasonal item and is available in-game during the month of December.",
+  "intro": "A Santa Hat is a Clothing item that can be worn to help protect your character from various types of damage, it cannot be crafted but it can be scavenged from various locations around the map. It has a Durability level like other armor which decreases each time it receives damage. The Santa Hat is a seasonal item and is available in-game during the month of December.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -1655,8 +1593,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/santa_hat.png"
+  "equip_effect": ""
  },
  {
   "title": "Scrap Boots",
@@ -1666,7 +1603,7 @@
    "ScrapBoots.png",
    "Scrap Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Scrap Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1681,8 +1618,7 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/scrap_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Scrap Chest Armor",
@@ -1692,7 +1628,7 @@
    "ScrapChestArmor.png",
    "Scrap Chest Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Scrap Chest Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1707,8 +1643,7 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/scrap_chest_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Scrap Gloves",
@@ -1718,7 +1653,7 @@
    "ScrapGloves.png",
    "Scrap Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Scrap Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1733,8 +1668,7 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/scrap_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Scrap Helmet",
@@ -1744,7 +1678,7 @@
    "ScrapHelmet.png",
    "Scrap Helmet.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Scrap Helmet is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1759,8 +1693,7 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/scrap_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Scrap Leg Armor",
@@ -1770,7 +1703,7 @@
    "ScrapLegArmor.png",
    "Scrap Leg Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Scrap Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1785,8 +1718,7 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/scrap_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Shades",
@@ -1795,7 +1727,7 @@
   "images": [
    "Shades.png"
   ],
-  "intro": "\"Sunglasses make you look cool and also cool you down in hot weather.\" are a type of Clothing that don't provide any protection from weather. They do, however, provide the player with one added attribute point in Perception.",
+  "intro": "\"Sunglasses make you look cool and also cool you down in hot weather.\" Shades are a type of Clothing that don't provide any protection from weather. They do, however, provide the player with one added attribute point in Perception.",
   "description": "",
   "group": "Clothing",
   "item_type": "Glasses",
@@ -1808,8 +1740,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/shades.png"
+  "equip_effect": ""
  },
  {
   "title": "Shirt",
@@ -1818,7 +1749,7 @@
   "images": [
    "Shirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Shirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -1831,8 +1762,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/shirt.png"
+  "equip_effect": ""
  },
  {
   "title": "Shorts",
@@ -1842,7 +1772,7 @@
    "DenimShortsPants.png",
    "Shorts.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Shorts is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -1855,8 +1785,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/shorts.png"
+  "equip_effect": ""
  },
  {
   "title": "Ski Goggles",
@@ -1867,7 +1796,7 @@
    "Ski Goggles.png",
    "SkiGoggles.png"
   ],
-  "intro": "\"Ski Goggles pimp your look and boost your Agility.\"",
+  "intro": "\"Ski Goggles pimp your look and boost your Agility.\" Ski Goggles are a type of Clothing that doesn't provide the player protection. Ski Goggles do, however, provide the player with one attribute point in Agility.",
   "description": "",
   "group": "Clothing",
   "item_type": "Glasses",
@@ -1880,8 +1809,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/ski_goggles.png"
+  "equip_effect": ""
  },
  {
   "title": "Skirt",
@@ -1890,7 +1818,7 @@
   "images": [
    "Skirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Skirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -1903,8 +1831,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/skirt.png"
+  "equip_effect": ""
  },
  {
   "title": "Skull Cap",
@@ -1914,7 +1841,7 @@
    "SkullCap.png",
    "Skull Cap.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Skull Cap is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -1927,8 +1854,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/skull_cap.png"
+  "equip_effect": ""
  },
  {
   "title": "Steel Boots",
@@ -1938,7 +1864,7 @@
    "SteelBoots.png",
    "Steel Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Steel Boots is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1953,8 +1879,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/steel_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "Steel Chest Armor",
@@ -1964,7 +1889,7 @@
    "SteelChestArmor.png",
    "Steel Chest Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Steel Chest Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -1979,8 +1904,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/steel_chest_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Steel Gloves",
@@ -1990,7 +1914,7 @@
    "SteelGloves.png",
    "Steel Gloves.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Steel Gloves is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -2005,8 +1929,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/steel_gloves.png"
+  "equip_effect": ""
  },
  {
   "title": "Steel Helmet",
@@ -2016,7 +1939,7 @@
    "SteelHelmet.png",
    "Steel Helmet.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Steel Helmet is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -2031,8 +1954,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/steel_helmet.png"
+  "equip_effect": ""
  },
  {
   "title": "Steel Leg Armor",
@@ -2042,7 +1964,7 @@
    "SteelLegArmor.png",
    "Steel Leg Armor.png"
   ],
-  "intro": "The is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
+  "intro": "The Steel Leg Armor is an item of Clothing which can be crafted by the player and worn by their character as Armor to help protect them from physical damage.",
   "description": "",
   "group": "Clothing",
   "item_type": "Heavy Armor",
@@ -2057,8 +1979,7 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/steel_leg_armor.png"
+  "equip_effect": ""
  },
  {
   "title": "Suit Jacket",
@@ -2068,7 +1989,7 @@
    "SuitJacket.png",
    "Suit Jacket.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. It also offers 2.5% damage reduction if the player has read the Magnum Enforcer Vol.2 book.",
+  "intro": "The Suit Jacket is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. It also offers 2.5% damage reduction if the player has read the Magnum Enforcer Vol.2 book.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -2081,8 +2002,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/suit_jacket.png"
+  "equip_effect": ""
  },
  {
   "title": "Suit Pants",
@@ -2092,7 +2012,7 @@
    "SuitPants.png",
    "Suit Pants.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. They also offer 2.5% damage reduction if the player has read the Magnum Enforcer Vol.2 book.",
+  "intro": "The Suit Pants is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance. They also offer 2.5% damage reduction if the player has read the Magnum Enforcer Vol.2 book.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",
@@ -2105,8 +2025,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/suit_pants.png"
+  "equip_effect": ""
  },
  {
   "title": "Sweatshirt",
@@ -2115,7 +2034,7 @@
   "images": [
    "Sweatshirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Sweatshirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -2128,8 +2047,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/sweatshirt.png"
+  "equip_effect": ""
  },
  {
   "title": "T-Shirt",
@@ -2139,7 +2057,7 @@
    "Tshirt.png",
    "T-Shirt.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The T-Shirt is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "Show off your biceps while getting a little protection against the weather with this cotton shirt.",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -2152,8 +2070,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/t_shirt.png"
+  "equip_effect": ""
  },
  {
   "title": "Tank Top",
@@ -2163,7 +2080,7 @@
    "TankTop.png",
    "Tank Top.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Tank Top is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Shirt",
@@ -2176,8 +2093,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/tank_top.png"
+  "equip_effect": ""
  },
  {
   "title": "Tough Guy Sunglasses",
@@ -2187,7 +2103,7 @@
    "ToughGuySunglasses.png",
    "Tough Guy Sunglasses.png"
   ],
-  "intro": "are a type of Clothing that don't provide any protection from weather. They do, however, provide the player with one added attribute point in Fortitude.",
+  "intro": "Tough Guy Sunglasses are a type of Clothing that don't provide any protection from weather. They do, however, provide the player with one added attribute point in Fortitude.",
   "description": "",
   "group": "Clothing",
   "item_type": "Glasses",
@@ -2200,8 +2116,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/tough_guy_sunglasses.png"
+  "equip_effect": ""
  },
  {
   "title": "Worn Boots",
@@ -2211,7 +2126,7 @@
    "WornBoots.png",
    "Worn Boots.png"
   ],
-  "intro": "The is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
+  "intro": "The Worn Boots is an item of Clothing which can be worn by a character as Apparel, providing a boost to Heat and Cold Resistance.",
   "description": "",
   "group": "Clothing",
   "item_type": "Boots",
@@ -2224,8 +2139,7 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": "",
-  "icon": "/icons/worn_boots.png"
+  "equip_effect": ""
  },
  {
   "title": "ZU Football Helmet",
@@ -2236,7 +2150,7 @@
    "ZU Football Helmet.png",
    "ZUFootballHelmet.png"
   ],
-  "intro": "A is an item of Clothing which cannot be obtained at the moment through normal gameplay.",
+  "intro": "A ZU Football Helmet is an item of Clothing which cannot be obtained at the moment through normal gameplay.",
   "description": "",
   "group": "Clothing",
   "item_type": "Light Armor",
@@ -2251,7 +2165,6 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": "",
-  "icon": "/icons/zu_football_helmet.png"
+  "equip_effect": ""
  }
 ]

@@ -8,7 +8,7 @@
    "Advanced Bellows.png",
    "AdvancedBellows.png"
   ],
-  "intro": "is used to upgrade a Forge. There is no other use for the besides upgrading the forge. The bellows can be scrapped down for leather. Adding the Advanced Bellows to a forge will increase smelting speed by 50%. Item ID: ToolBellows",
+  "intro": "Advanced Bellows is used to upgrade a Forge. There is no other use for the Advanced Bellows besides upgrading the forge. The bellows can be scrapped down for leather. Adding the Advanced Bellows to a forge will increase smelting speed by 50%. Item ID: ToolBellows",
   "description": "",
   "group": "Tools/Traps",
   "item_type": "Forge Tool",
@@ -30,8 +30,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/advanced_bellows.png"
+  "repair": ""
  },
  {
   "title": "Auger",
@@ -40,7 +39,7 @@
   "images": [
    "Auger.png"
   ],
-  "intro": "The is a godtier tool that can be used to rapidly destroy anything but wooden blocks. The can be looted from Decayed Sedans, Working Stiffs Crate, Garage Storage, Your Mom's House, and Bank Wall Safe. While the Auger can be used as a melee weapon, it is ill-advised as it deals very low damage and can often use a lot of gas just to kill a few enemies. Additionally, no scaling with any attribute provides any bonuses in mid to late game. The requires fuel in the form of Gas Cans. Refueling is done automatically and can also be done manually by pressing the reload button (while the Auger is select",
+  "intro": "The Auger is a godtier tool that can be used to rapidly destroy anything but wooden blocks. The Auger can be looted from Decayed Sedans, Working Stiffs Crate, Garage Storage, Your Mom's House, and Bank Wall Safe. While the Auger can be used as a melee weapon, it is ill-advised as it deals very low damage and can often use a lot of gas just to kill a few enemies. Additionally, no scaling with any attribute provides any bonuses in mid to late game. The Auger requires fuel in the form of Gas Cans. Refueling is done automatically and can also be done manually by pressing the reload button (while t",
   "description": "Rock out with your auger out and be the envy of every miner when they see you sporting this sexy gas-powered auger.",
   "group": "Tools/Traps",
   "item_type": "Motor Tool",
@@ -87,8 +86,7 @@
    4.0
   ],
   "mod_compa": "Auger, Motor Tool",
-  "repair": "Repair Kit",
-  "icon": "/icons/auger.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Bucket",
@@ -97,7 +95,7 @@
   "images": [
    "Bucket.png"
   ],
-  "intro": "A is a craftable item. Used to remove or collect water.",
+  "intro": "A Bucket is a craftable item. Used to remove or collect water.",
   "description": "",
   "group": "Tools/Traps",
   "item_type": "Special Tool",
@@ -119,8 +117,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/bucket.png"
+  "repair": ""
  },
  {
   "title": "Bucket of Water",
@@ -131,7 +128,7 @@
    "Bucket of Water.png",
    "BucketofWater.png"
   ],
-  "intro": "A is an item that is obtained by filling a Bucket with water.",
+  "intro": "A Bucket of Water is an item that is obtained by filling a Bucket with water.",
   "description": "",
   "group": "Tools/Traps",
   "item_type": "Special Tool",
@@ -153,8 +150,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/bucket_of_water.png"
+  "repair": ""
  },
  {
   "title": "Chainsaw",
@@ -164,7 +160,7 @@
    "chainsaw.png",
    "Chainsaw.png"
   ],
-  "intro": "The is a multipurpose item that can be used as a tool (for rapidly destroying wood blocks/trees) and for short range melee attacks. It's similar to the Auger but more efficient against wooden blocks. The needs Gas Cans to fuel it. To refuel the , Press \"R\" with the selected, and with a Gas Can in your Inventory. This takes a few seconds to refill. A will increase the amount of materials that you receive from harvesting, but it will be slow when used against anything but wood. As of Alpha 19, it will provide a small amount of Raw Meat when used to butcher an animal carcass, but minimal other re",
+  "intro": "The Chainsaw is a multipurpose item that can be used as a tool (for rapidly destroying wood blocks/trees) and for short range melee attacks. It's similar to the Auger but more efficient against wooden blocks. The Chainsaw needs Gas Cans to fuel it. To refuel the Chainsaw, Press \"R\" with the Chainsaw selected, and with a Gas Can in your Inventory. This takes a few seconds to refill. A Chainsaw will increase the amount of materials that you receive from harvesting, but it will be slow when used against anything but wood. As of Alpha 19, it will provide a small amount of Raw Meat when used to but",
   "description": "Chop down the biggest trees or zombies faster than Paul Bunyan with this great chainsaw that uses gasoline for fuel.",
   "group": "Tools/Traps",
   "item_type": "Motor Tool",
@@ -211,8 +207,7 @@
    4.0
   ],
   "mod_compa": "Chainsaw, Motor Tool",
-  "repair": "Repair Kit",
-  "icon": "/icons/chainsaw.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Claw Hammer",
@@ -223,7 +218,7 @@
    "Claw Hammer.png",
    "ClawHammer.png"
   ],
-  "intro": "A is a multipurpose Tool that can be used to repair damaged blocks and Upgrade them, much like a Stone Axe and Nailgun. It is currently the second most efficient tool for upgrading blocks, only outperformed by the Nailgun, and requires 2 swings per upgrade. The also serves as a weak melee Weapon.",
+  "intro": "A Claw Hammer is a multipurpose Tool that can be used to repair damaged blocks and Upgrade them, much like a Stone Axe and Nailgun. It is currently the second most efficient tool for upgrading blocks, only outperformed by the Nailgun, and requires 2 swings per upgrade. The Claw Hammer also serves as a weak melee Weapon.",
   "description": "The claw hammer is great for repairing and upgrading base walls and not bad as a weapon.",
   "group": "Tools/Traps",
   "item_type": "Repair Tool",
@@ -273,8 +268,7 @@
    4.0
   ],
   "mod_compa": "",
-  "repair": "Repair Kit",
-  "icon": "/icons/claw_hammer.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Impact Driver",
@@ -342,8 +336,7 @@
    4.0
   ],
   "mod_compa": "Blunt",
-  "repair": "Repair Kit",
-  "icon": "/icons/impact_driver.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Iron Fireaxe",
@@ -354,7 +347,7 @@
    "Iron Fireaxe.png",
    "IronFireaxe.png"
   ],
-  "intro": "The is a Tool that can be used to chop down trees and other items made from Wood, harvesting resources in the process. It can also serve as an effective melee Weapon.",
+  "intro": "The Iron Fireaxe is a Tool that can be used to chop down trees and other items made from Wood, harvesting resources in the process. It can also serve as an effective melee Weapon.",
   "description": "The fireaxe is good for harvesting wood.",
   "group": "Tools/Traps",
   "item_type": "Axe",
@@ -422,7 +415,7 @@
    "Iron Pickaxe.png",
    "IronPickaxe.png"
   ],
-  "intro": "The is a Tool that can be used to mine stone and ore, harvesting resources in the process. It can also serve as a mediocre Weapon if needed.",
+  "intro": "The Iron Pickaxe is a Tool that can be used to mine stone and ore, harvesting resources in the process. It can also serve as a mediocre Weapon if needed.",
   "description": "The iron pickaxe is great for breaking stone and harvesting minerals.",
   "group": "Tools/Traps",
   "item_type": "Pickaxe",
@@ -479,8 +472,7 @@
    4.0
   ],
   "mod_compa": "Long Shaft, Pickaxe",
-  "repair": "Repair Kit",
-  "icon": "/icons/iron_pickaxe.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Iron Shovel",
@@ -491,7 +483,7 @@
    "Iron Shovel.png",
    "IronShovel.png"
   ],
-  "intro": "The is a Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a weak melee Weapon in a pinch.",
+  "intro": "The Iron Shovel is a Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a weak melee Weapon in a pinch.",
   "description": "The iron shovel is great for digging through earth, sand or snow.",
   "group": "Tools/Traps",
   "item_type": "Shovel",
@@ -548,8 +540,7 @@
    4.0
   ],
   "mod_compa": "Shovel, Long Shaft",
-  "repair": "Repair Kit",
-  "icon": "/icons/iron_shovel.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Lockpick",
@@ -580,8 +571,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/lockpick.png"
+  "repair": ""
  },
  {
   "title": "Nailgun",
@@ -590,7 +580,7 @@
   "images": [
    "Nailgun.png"
   ],
-  "intro": "The is the best construction tool with the highest repair value (1000 points) for brick, metal, concrete, and steel blocks, as well as traps and devices. It shoots Nails (10 in a single magazine) and reloads automatically with the correct Ammunition, or manually using the reload key (default key R). Nails can be found or produced in a Forge.",
+  "intro": "The Nailgun is the best construction tool with the highest repair value (1000 points) for brick, metal, concrete, and steel blocks, as well as traps and devices. It shoots Nails (10 in a single magazine) and reloads automatically with the correct Ammunition, or manually using the reload key (default key R). Nails can be found or produced in a Forge.",
   "description": "The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.",
   "group": "Tools/Traps",
   "item_type": "Repair Tool",
@@ -625,8 +615,7 @@
   ],
   "mod_slots_q": null,
   "mod_compa": "Nailgun",
-  "repair": "Repair Kit",
-  "icon": "/icons/nailgun.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Paint Brush",
@@ -637,7 +626,7 @@
    "Paint Brush.png",
    "PaintBrush.png"
   ],
-  "intro": "The is used to paint building blocks. You can also erase unwanted paint from blocks.",
+  "intro": "The Paint Brush is used to paint building blocks. You can also erase unwanted paint from blocks.",
   "description": "",
   "group": "Tools/Traps",
   "item_type": "",
@@ -659,8 +648,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/paint_brush.png"
+  "repair": ""
  },
  {
   "title": "Ratchet",
@@ -726,8 +714,7 @@
    4.0
   ],
   "mod_compa": "Blunt, Long Shaft",
-  "repair": "Repair Kit",
-  "icon": "/icons/ratchet.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Steel Axe",
@@ -738,7 +725,7 @@
    "Steel Axe.png",
    "SteelAxe.png"
   ],
-  "intro": "The is a Tool that can be used to chop down trees and other items made from Wood, harvesting resources in the process. It can also serve as an effective melee Weapon.",
+  "intro": "The Steel Axe is a Tool that can be used to chop down trees and other items made from Wood, harvesting resources in the process. It can also serve as an effective melee Weapon.",
   "description": "The steel axe has a durable blade and is great for harvesting wood.",
   "group": "Tools/Traps",
   "item_type": "Axe",
@@ -806,7 +793,7 @@
    "Steel Pickaxe.png",
    "SteelPickaxe.png"
   ],
-  "intro": "The is a Tool that can be used to mine stone and ore, harvesting resources in the process. It can also serve as an effective melee Weapon if needed.",
+  "intro": "The Steel Pickaxe is a Tool that can be used to mine stone and ore, harvesting resources in the process. It can also serve as an effective melee Weapon if needed.",
   "description": "The steel pickaxe is best for breaking stone and harvesting minerals.",
   "group": "Tools/Traps",
   "item_type": "Pickaxe",
@@ -863,8 +850,7 @@
    4.0
   ],
   "mod_compa": "Long Shaft, Pickaxe",
-  "repair": "Repair Kit",
-  "icon": "/icons/steel_pickaxe.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Steel Shovel",
@@ -875,7 +861,7 @@
    "Steel Shovel.png",
    "SteelShovel.png"
   ],
-  "intro": "The is a Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a mediocre melee Weapon in a pinch.",
+  "intro": "The Steel Shovel is a Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a mediocre melee Weapon in a pinch.",
   "description": "The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.",
   "group": "Tools/Traps",
   "item_type": "Shovel",
@@ -932,8 +918,7 @@
    4.0
   ],
   "mod_compa": "Shovel, Long Shaft",
-  "repair": "Repair Kit",
-  "icon": "/icons/steel_shovel.png"
+  "repair": "Repair Kit"
  },
  {
   "title": "Stone Axe",
@@ -943,7 +928,7 @@
    "StoneAxe.png",
    "Stone Axe.png"
   ],
-  "intro": "The is a primitive, multi-purpose tool that can be used to harvest resources, upgrade blocks, and repair damaged blocks. It can also serve as a basic melee weapon to attack enemies and destroy blocks. The Stone Axe is the staple tool of choice for any beginning player, requiring very few easily obtainable resources to craft and to repair.",
+  "intro": "The Stone Axe is a primitive, multi-purpose tool that can be used to harvest resources, upgrade blocks, and repair damaged blocks. It can also serve as a basic melee weapon to attack enemies and destroy blocks. The Stone Axe is the staple tool of choice for any beginning player, requiring very few easily obtainable resources to craft and to repair.",
   "description": "A primitive tool useful for cutting wood, mining stone, repairing & upgrading walls, doors & windows. Not the best weapon.",
   "group": "Basics, Tools/Traps",
   "item_type": "Repair Tool, Axe",
@@ -993,8 +978,7 @@
    3.0
   ],
   "mod_compa": "Axe, Long Shaft",
-  "repair": "Small Stone",
-  "icon": "/icons/stone_axe.png"
+  "repair": "Small Stone"
  },
  {
   "title": "Stone Shovel",
@@ -1004,7 +988,7 @@
    "StoneShovel.png",
    "Stone Shovel.png"
   ],
-  "intro": "The is a primitive Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a weak melee Weapon in a pinch. Crafting the is simple, requiring very few easily obtainable materials to craft and to repair.",
+  "intro": "The Stone Shovel is a primitive Tool that can be used to dig into the earth, creating holes in the ground and harvesting resources in the process. It can also serve as a weak melee Weapon in a pinch. Crafting the Stone Shovel is simple, requiring very few easily obtainable materials to craft and to repair.",
   "description": "The stone shovel is a primitive tool useful for digging dirt, sand or snow.",
   "group": "Tools/Traps",
   "item_type": "Shovel",
@@ -1061,8 +1045,7 @@
    3.0
   ],
   "mod_compa": "Shovel",
-  "repair": "Small Stone",
-  "icon": "/icons/stone_shovel.png"
+  "repair": "Small Stone"
  },
  {
   "title": "Taza's Stone Axe",
@@ -1073,7 +1056,7 @@
    "Taza's Stone Axe.png",
    "Taza'sStoneAxe.png"
   ],
-  "intro": "The is an artifact version of the Stone Axe that can be used to harvest resources, upgrade blocks, and repair damaged blocks. The cannot be crafted, only looted from an Apache Artifact Chest (now rotten chest) in the Desert biome or in natural Caves found in other biomes.",
+  "intro": "The Taza's Stone Axe is an artifact version of the Stone Axe that can be used to harvest resources, upgrade blocks, and repair damaged blocks. The Taza's Stone Axe cannot be crafted, only looted from an Apache Artifact Chest (now rotten chest) in the Desert biome or in natural Caves found in other biomes.",
   "description": "Taza's Stone Axe is a rare, powerful, ancient Indian artifact. The Apache believed those that wielded it were invincible in battle.",
   "group": "Tools/Traps",
   "item_type": "Repair Tool, Axe",
@@ -1123,8 +1106,7 @@
    3.0
   ],
   "mod_compa": "Axe, Long Shaft",
-  "repair": "Small Stone",
-  "icon": "/icons/taza_s_stone_axe.png"
+  "repair": "Small Stone"
  },
  {
   "title": "Wire Tool",
@@ -1134,7 +1116,7 @@
    "WireTool.png",
    "Wire Tool.png"
   ],
-  "intro": "The is a new tool added in A16 as a part of the new Electricity game mechanics. A wire tool is used to wire electrical components. Focus on any electrical component and use the secondary action to add a wire to a parent and once again to complete the connection to a child component. Focus on any electrical component and use the primary action to remove or cut that components wire to its parent component. With the wire tool equipped you can see many useful things including: a components power usage and power status, the flow of power from parent to its child component and the aiming of objects ",
+  "intro": "The Wire Tool is a new tool added in A16 as a part of the new Electricity game mechanics. A wire tool is used to wire electrical components. Focus on any electrical component and use the secondary action to add a wire to a parent and once again to complete the connection to a child component. Focus on any electrical component and use the primary action to remove or cut that components wire to its parent component. With the wire tool equipped you can see many useful things including: a components power usage and power status, the flow of power from parent to its child component and the aiming o",
   "description": "",
   "group": "Science, Tools/Traps",
   "item_type": "Special Tool",
@@ -1156,8 +1138,7 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": "",
-  "icon": "/icons/wire_tool.png"
+  "repair": ""
  },
  {
   "title": "Wrench",
@@ -1166,7 +1147,7 @@
   "images": [
    "Wrench.png"
   ],
-  "intro": "The is a tier 1 Disassemble Tool used in Salvaging, which is the harvesting of electrical and mechanical objects including bulky devices (cars, trucks, training benches, air conditioners, electric conductors), electronic devices (computers, vending machines, lamps, consoles, etc.), appliances (microwaves, toasters, toilets, sinks, water dispensers, etc.) and others. This allows obtaining additional resources not available through usage of any other tool. The can also serve as a mediocre melee Weapon.",
+  "intro": "The Wrench is a tier 1 Disassemble Tool used in Salvaging, which is the harvesting of electrical and mechanical objects including bulky devices (cars, trucks, training benches, air conditioners, electric conductors), electronic devices (computers, vending machines, lamps, consoles, etc.), appliances (microwaves, toasters, toilets, sinks, water dispensers, etc.) and others. This allows obtaining additional resources not available through usage of any other tool. The Wrench can also serve as a mediocre melee Weapon.",
   "description": "Great for disassembling mechanical devices like cars, air conditioners and more.",
   "group": "Tools/Traps",
   "item_type": "Disassemble Tool",
@@ -1223,7 +1204,6 @@
    3.0
   ],
   "mod_compa": "Blunt, Long Shaft",
-  "repair": "Repair Kit",
-  "icon": "/icons/wrench.png"
+  "repair": "Repair Kit"
  }
 ]

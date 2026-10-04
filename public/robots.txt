@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://7dtd-db.pages.dev/sitemap.xml
+Sitemap: https://7dtd.lootseer.com/sitemap.xml

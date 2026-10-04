@@ -8,7 +8,7 @@
    ".44 Magnum Bullet.png",
    ".44MagnumBullet.png"
   ],
-  "intro": "A is the ammunition used by .44 Magnum and .44 Desert Vulture. Rare though it may be, it can be found randomly throughout the map in 7 Days to Die or it can be crafted using Bullet Casing, Bullet Tip and Gun Powder. Furthermore, a can be scrapped or melted in a Forge to produce Brass.",
+  "intro": "A .44 Magnum Bullet is the ammunition used by .44 Magnum and .44 Desert Vulture. Rare though it may be, it can be found randomly throughout the map in 7 Days to Die or it can be crafted using Bullet Casing, Bullet Tip and Gun Powder. Furthermore, a .44 Magnum Bullet can be scrapped or melted in a Forge to produce Brass.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Handgun Ammo",
@@ -18,8 +18,7 @@
   "price": 10.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 70.0,
-  "block_damage": 12.0,
-  "icon": "/icons/44_magnum_bullet.png"
+  "block_damage": 12.0
  },
  {
   "title": ".44 Magnum Bullet (AP)",
@@ -40,8 +39,7 @@
   "price": 15.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 70.0,
-  "block_damage": 14.0,
-  "icon": "/icons/44_magnum_bullet_ap.png"
+  "block_damage": 14.0
  },
  {
   "title": ".44 Magnum Bullet (HP)",
@@ -62,8 +60,7 @@
   "price": 15.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 77.0,
-  "block_damage": 13.0,
-  "icon": "/icons/44_magnum_bullet_hp.png"
+  "block_damage": 13.0
  },
  {
   "title": "7.62mm Bullet",
@@ -74,7 +71,7 @@
    "7.62mm Bullet.png",
    "7.62mmBullet.png"
   ],
-  "intro": "A is the ammunition used by the Pipe Rifle, Marksman Rifle, Hunting Rifle, Sniper Rifle, Pipe Machine Gun, AK-47, Tactical Assult Rifle, and M60 Machine Gun. It can be found in locations across 7 Days to Die, or crafted using Bullet Casings, Bullet Tips and Gunpowder. A can be scrapped or melted in a Forge to produce brass. s have a maximum stack of 150 rounds.",
+  "intro": "A 7.62mm Bullet is the ammunition used by the Pipe Rifle, Marksman Rifle, Hunting Rifle, Sniper Rifle, Pipe Machine Gun, AK-47, Tactical Assult Rifle, and M60 Machine Gun. It can be found in locations across 7 Days to Die, or crafted using Bullet Casings, Bullet Tips and Gunpowder. A 7.62mm Bullet can be scrapped or melted in a Forge to produce brass. 7.62mm Bullets have a maximum stack of 150 rounds.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Rifle Ammo, Machine Gun Ammo",
@@ -84,8 +81,7 @@
   "price": 11.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 47.0,
-  "block_damage": 8.0,
-  "icon": "/icons/7_62mm_bullet.png"
+  "block_damage": 8.0
  },
  {
   "title": "7.62mm Bullet (AP)",
@@ -106,8 +102,7 @@
   "price": 16.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 57.0,
-  "block_damage": 10.0,
-  "icon": "/icons/7_62mm_bullet_ap.png"
+  "block_damage": 10.0
  },
  {
   "title": "7.62mm Bullet (HP)",
@@ -128,8 +123,7 @@
   "price": 16.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 52.0,
-  "block_damage": 9.0,
-  "icon": "/icons/7_62mm_bullet_hp.png"
+  "block_damage": 9.0
  },
  {
   "title": "9mm Bullet",
@@ -139,7 +133,7 @@
    "9mmBullet.png",
    "9mm Bullet.png"
   ],
-  "intro": "is the ammunition used by the Pipe Pistol, Pistol, and the SMG. It can be found in various location in 7 Days to Die or it can be crafted at a Workbench.",
+  "intro": "9mm Bullet is the ammunition used by the Pipe Pistol, Pistol, and the SMG. It can be found in various location in 7 Days to Die or it can be crafted at a Workbench.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Pistol Ammo",
@@ -149,8 +143,7 @@
   "price": 9.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 32.0,
-  "block_damage": 6.0,
-  "icon": "/icons/9mm_bullet.png"
+  "block_damage": 6.0
  },
  {
   "title": "9mm Bullet (AP)",
@@ -202,7 +195,7 @@
    "ExplodingArrow.png",
    "Exploding Arrow.png"
   ],
-  "intro": "*The damage depends on the quality of the bow.",
+  "intro": "Exploding Arrows are an Explosive type of Ammunition used by Bows. In order to equip arrows, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Explosives, Arrow",
@@ -212,8 +205,7 @@
   "price": 65.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 180.0,
-  "block_damage": 2.0,
-  "icon": "/icons/exploding_arrow.png"
+  "block_damage": 2.0
  },
  {
   "title": "Exploding Crossbow Bolt",
@@ -223,7 +215,7 @@
    "ExplodingCrossbowBolt.png",
    "Exploding Crossbow Bolt.png"
   ],
-  "intro": "An is a type of Explosive Ammunition for the Crossbow obtained through crafting. It inflicts high damage to all entities within range of the point of impact. The point of impact may also take damage from the arrow itself. The explosion will also damage blocks. The can be crafted by reading the Ranger's Guide to Archery Vol.2.",
+  "intro": "An Exploding Crossbow Bolt is a type of Explosive Ammunition for the Crossbow obtained through crafting. It inflicts high damage to all entities within range of the point of impact. The point of impact may also take damage from the arrow itself. The explosion will also damage blocks. The Exploding Crossbow Bolt can be crafted by reading the Ranger's Guide to Archery Vol.2.",
   "description": "\"Rifle grenades gone medieval. Ages 6 & up.\"",
   "group": "Ammo/Weapons",
   "item_type": "Explosives, Bolt",
@@ -233,8 +225,7 @@
   "price": 80.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 250.0,
-  "block_damage": 2.0,
-  "icon": "/icons/exploding_crossbow_bolt.png"
+  "block_damage": 2.0
  },
  {
   "title": "Flaming Arrow",
@@ -244,7 +235,7 @@
    "FlamingArrow.png",
    "Flaming Arrow.png"
   ],
-  "intro": "They are fairly expensive, but your target will catch on fire debuff, dealing additional 120 damage over 14s to the enemy.",
+  "intro": "Flaming Arrows are an Ammunition type used by Bows. They are fairly expensive, but your target will catch on fire debuff, dealing additional 120 damage over 14s to the enemy.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Arrow",
@@ -254,8 +245,7 @@
   "price": 44.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 25.0,
-  "block_damage": 6.0,
-  "icon": "/icons/flaming_arrow.png"
+  "block_damage": 6.0
  },
  {
   "title": "Flaming Crossbow Bolt",
@@ -275,8 +265,7 @@
   "price": 44.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 38.0,
-  "block_damage": 6.0,
-  "icon": "/icons/flaming_crossbow_bolt.png"
+  "block_damage": 6.0
  },
  {
   "title": "Iron Arrow",
@@ -286,7 +275,7 @@
    "IronArrow.png",
    "Iron Arrow.png"
   ],
-  "intro": "*In Alpha 13, bones were no longer a valid alternative for wood.",
+  "intro": "Iron Arrows are an Ammunition type used by Bows. In order to equip Iron arrows, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Arrow",
@@ -296,8 +285,7 @@
   "price": 25.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 38.0,
-  "block_damage": 3.0,
-  "icon": "/icons/iron_arrow.png"
+  "block_damage": 3.0
  },
  {
   "title": "Iron Crossbow Bolt",
@@ -307,7 +295,7 @@
    "IronCrossbowBolt.png",
    "Iron Crossbow Bolt.png"
   ],
-  "intro": "s are an Ammunition type used by the Crossbow.",
+  "intro": "Iron Crossbow Bolts are an Ammunition type used by the Crossbow.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Bolt",
@@ -317,8 +305,7 @@
   "price": 25.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 59.0,
-  "block_damage": 6.0,
-  "icon": "/icons/iron_crossbow_bolt.png"
+  "block_damage": 6.0
  },
  {
   "title": "Robotic Turret Ammo",
@@ -329,7 +316,7 @@
    "Robotic Turret Ammo.png",
    "RoboticTurretAmmo.png"
   ],
-  "intro": "is the ammunition used by the Robotic Turret.",
+  "intro": "Robotic Turret Ammo is the ammunition used by the Robotic Turret.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Turret Ammo",
@@ -339,8 +326,7 @@
   "price": 9.0,
   "obtain": "Crafting",
   "damage": 11.8,
-  "block_damage": 1.0,
-  "icon": "/icons/robotic_turret_ammo.png"
+  "block_damage": 1.0
  },
  {
   "title": "Rocket Frag",
@@ -361,8 +347,7 @@
   "price": 250.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 700.0,
-  "block_damage": 10.0,
-  "icon": "/icons/rocket_frag.png"
+  "block_damage": 10.0
  },
  {
   "title": "Rocket HE",
@@ -383,8 +368,7 @@
   "price": 250.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 420.0,
-  "block_damage": 2500.0,
-  "icon": "/icons/rocket_he.png"
+  "block_damage": 2500.0
  },
  {
   "title": "Shotgun Breaching Slug",
@@ -395,7 +379,7 @@
    "Shotgun Breaching Slug.png",
    "ShotgunBreachingSlug.png"
   ],
-  "intro": "A is a type of Ammunition for the Shotgun. The other two are Shotgun Shells and Shotgun Slugs.",
+  "intro": "A Shotgun Breaching Slug is a type of Ammunition for the Shotgun. The other two are Shotgun Shells and Shotgun Slugs. Shotgun Breaching Slugs have one projectile, unlike shotgun shells, which have 10 small projectiles. Shotgun Slugs can not be used by a Sawed-off Shotgun.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Shotgun Ammo",
@@ -405,8 +389,7 @@
   "price": 20.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 96.0,
-  "block_damage": 80.0,
-  "icon": "/icons/shotgun_breaching_slug.png"
+  "block_damage": 80.0
  },
  {
   "title": "Shotgun Shell",
@@ -416,7 +399,7 @@
    "ShotgunShell.png",
    "Shotgun Shell.png"
   ],
-  "intro": "A is one of three types of Ammunition for the Shotgun. The other two are Shotgun Slugs and Shotgun Breaching Slugs.",
+  "intro": "A Shotgun Shell is one of three types of Ammunition for the Shotgun. The other two are Shotgun Slugs and Shotgun Breaching Slugs.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Shotgun Ammo",
@@ -426,8 +409,7 @@
   "price": 11.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 10.1,
-  "block_damage": 5.4,
-  "icon": "/icons/shotgun_shell.png"
+  "block_damage": 5.4
  },
  {
   "title": "Shotgun Slug",
@@ -437,7 +419,7 @@
    "ShotgunSlug.png",
    "Shotgun Slug.png"
   ],
-  "intro": "A is one of three types of Ammunition for the Shotgun. The other two are Shotgun Shell and Shotgun Breaching Slug.",
+  "intro": "A Shotgun Slug is one of three types of Ammunition for the Shotgun. The other two are Shotgun Shell and Shotgun Breaching Slug. Shotgun Slugs have one projectile, unlike shotgun shells, which have 10 small projectiles. Shotgun Slugs can not be used by a Sawed-off Shotgun.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Shotgun Ammo",
@@ -447,8 +429,7 @@
   "price": 20.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 102.0,
-  "block_damage": 80.0,
-  "icon": "/icons/shotgun_slug.png"
+  "block_damage": 80.0
  },
  {
   "title": "Steel Arrow",
@@ -458,7 +439,7 @@
    "SteelArrow.png",
    "Steel Arrow.png"
   ],
-  "intro": "In order to equip Steel Arrows, hold the reload key (default R) while the bow is equipped. Select the ammunition type in the shown radial menu.",
+  "intro": "Steel Arrows are an Ammunition type used by Bows. They give +20% armor penetration. In order to equip Steel Arrows, hold the reload key (default R) while the bow is equipped. Select the ammunition type in the shown radial menu.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Arrow",
@@ -468,8 +449,7 @@
   "price": 57.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 42.0,
-  "block_damage": 5.0,
-  "icon": "/icons/steel_arrow.png"
+  "block_damage": 5.0
  },
  {
   "title": "Steel Crossbow Bolt",
@@ -479,7 +459,7 @@
    "SteelCrossbowBolt.png",
    "Steel Crossbow Bolt.png"
   ],
-  "intro": "In order to equip Steel Crossbow Bolt, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
+  "intro": "Steel Crossbow Bolts are an Ammunition type used by the Crossbow. They give +20% armor penetration. In order to equip Steel Crossbow Bolt, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Bolt",
@@ -489,8 +469,7 @@
   "price": 57.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 63.0,
-  "block_damage": 6.0,
-  "icon": "/icons/steel_crossbow_bolt.png"
+  "block_damage": 6.0
  },
  {
   "title": "Stone Arrow",
@@ -501,7 +480,7 @@
    "Stone Arrow.png",
    "StoneArrow.png"
   ],
-  "intro": "s are an Ammunition type used by the Primitive Bow, Wooden Bow, and the Compound Bow. In order to equip arrows, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
+  "intro": "Stone Arrows are an Ammunition type used by the Primitive Bow, Wooden Bow, and the Compound Bow. In order to equip arrows, hold the reload key while the bow is equipped. Select the ammunition type in the shown radial menu.",
   "description": "",
   "group": "Basics, Ammo/Weapons",
   "item_type": "Arrow",
@@ -511,8 +490,7 @@
   "price": 12.0,
   "obtain": "Looting, Crafting",
   "damage": 35.0,
-  "block_damage": 1.0,
-  "icon": "/icons/stone_arrow.png"
+  "block_damage": 1.0
  },
  {
   "title": "Stone Crossbow Bolt",
@@ -523,7 +501,7 @@
    "Stone Crossbow Bolt.png",
    "StoneCrossbowBolt.png"
   ],
-  "intro": "To craft a Either click on the ingredients in your inventory and select “Recipes” then and “Craft”, or search for in your crafting window search bar.",
+  "intro": "To craft a Stone Crossbow Bolt Either click on the ingredients in your inventory and select “Recipes” then Stone Crossbow Bolt and “Craft”, or search for Stone Crossbow Bolt in your crafting window search bar.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Bolt",
@@ -533,7 +511,6 @@
   "price": 12.0,
   "obtain": "Looting, Crafting",
   "damage": 50.0,
-  "block_damage": 1.0,
-  "icon": "/icons/stone_crossbow_bolt.png"
+  "block_damage": 1.0
  }
 ]
