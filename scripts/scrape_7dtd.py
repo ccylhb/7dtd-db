@@ -37,13 +37,24 @@ FETCH_CATS = ["Ranged Weapon", "Melee Weapon", "Tool", "Mods",
 IMG_TMPL_KEYS = ("image", "image_alt1", "icon")
 
 
+_OP = urllib.request.build_opener()
+_PROXY_OP = urllib.request.build_opener(urllib.request.ProxyHandler(
+    {"http": "http://127.0.0.1:7897", "https": "http://127.0.0.1:7897"}))
+OP = _OP
+
+
 def api(p, tries=4):
+    global OP
     url = API + "?" + urllib.parse.urlencode({**p, "format": "json"})
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            return json.load(urllib.request.urlopen(req, timeout=30))
+            return json.load(OP.open(req, timeout=30))
         except Exception as e:
+            if i == 0 and OP is not _PROXY_OP:
+                print("[net] direct failed, switching to proxy:", str(e)[:60])
+                OP = _PROXY_OP
+                continue
             if i == tries - 1:
                 return {"_err": str(e)[:80]}
             time.sleep(1.5 * (i + 1))
