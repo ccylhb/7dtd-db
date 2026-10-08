@@ -19,15 +19,71 @@
   },
   "favicon": "🧟",
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "Zombies", "href": "/zombies/", "tool": true },
-    { "label": "Weapons", "href": "/weapons/" },
-    { "label": "Tools", "href": "/tools/" },
-    { "label": "Mods", "href": "/mods/" },
-    { "label": "Ammo", "href": "/ammo/" },
-    { "label": "Armor", "href": "/armor/" },
-    { "label": "Rankings", "href": "/rankings/", "tool": true },
-    { "label": "DPS Calculator", "href": "/dps-calculator/", "tool": true }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Zombies",
+      "href": "/zombies/",
+      "tool": true
+    },
+    {
+      "label": "Weapons",
+      "href": "/weapons/"
+    },
+    {
+      "label": "Tools",
+      "href": "/tools/"
+    },
+    {
+      "label": "Mods",
+      "href": "/mods/"
+    },
+    {
+      "label": "Ammo",
+      "href": "/ammo/"
+    },
+    {
+      "label": "Armor",
+      "href": "/armor/"
+    },
+    {
+      "label": "Rankings",
+      "href": "/rankings/",
+      "tool": true
+    },
+    {
+      "label": "DPS Calculator",
+      "href": "/dps-calculator/",
+      "tool": true
+    }
   ],
-  "footerNote": "Fan-made database. 7 Days to Die is a trademark of The Fun Pimps. Not affiliated with the game developer or the 7 Days to Die Wiki."
+  "footerNote": "Fan-made database. 7 Days to Die is a trademark of The Fun Pimps. Not affiliated with the game developer or the 7 Days to Die Wiki.",
+  "sisterSites": [
+    {
+      "name": "GroundDB",
+      "url": "https://grounded.lootseer.com",
+      "blurb": "Weapons, armour, creatures and trinkets with a gear planner."
+    },
+    {
+      "name": "ConanDB",
+      "url": "https://conan.lootseer.com",
+      "blurb": "Weapon damage, armour values, thrall stats and consumables."
+    },
+    {
+      "name": "OnceHumanDB",
+      "url": "https://oncehuman.lootseer.com",
+      "blurb": "Armour HP and resistances, weapon crit, food and deviation stats."
+    },
+    {
+      "name": "Dinkly",
+      "url": "https://dinkly.lootseer.com",
+      "blurb": "Three-minute micro-breaks: daily draws, quizzes, jokes and sounds."
+    }
+  ],
+  "hubSite": {
+    "name": "LootSeer",
+    "url": "https://lootseer.com"
+  }
 }

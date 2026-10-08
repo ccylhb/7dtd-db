@@ -1,6 +1,7 @@
 ---
 // Config-driven base layout — one file, any site. All branding comes from site.config.json.
 import site from "../../site.config.json";
+import SisterSites from "../components/SisterSites.astro";
 
 interface Props {
   title: string;
@@ -208,6 +209,10 @@ const __ldJson = __ld ? JSON.stringify({ "@context": "https://schema.org", "@gra
     </header>
     <main>
       <slot />
+    <SisterSites
+      sites={site.sisterSites}
+      hub={site.hubSite}
+    />
     </main>
     <footer class="site-footer">
       <p style="margin:0 0 0.4rem">{site.footerNote}</p>
