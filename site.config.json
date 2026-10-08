@@ -57,6 +57,10 @@
       "label": "DPS Calculator",
       "href": "/dps-calculator/",
       "tool": true
+    },
+    {
+      "href": "/search/",
+      "label": "All Pages A–Z"
     }
   ],
   "footerNote": "Fan-made database. 7 Days to Die is a trademark of The Fun Pimps. Not affiliated with the game developer or the 7 Days to Die Wiki.",
