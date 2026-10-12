@@ -66,7 +66,8 @@
     "dmg": 97.0
    }
   ],
-  "damage_max": 97.0
+  "damage_max": 97.0,
+  "icon": "/icons/44_desert_vulture.png"
  },
  {
   "title": ".44 Magnum",
@@ -135,7 +136,8 @@
     "dmg": 72.0
    }
   ],
-  "damage_max": 72.0
+  "damage_max": 72.0,
+  "icon": "/icons/44_magnum.png"
  },
  {
   "title": "AK-47 Machine Gun",
@@ -204,7 +206,8 @@
     "dmg": 45.0
    }
   ],
-  "damage_max": 50.0
+  "damage_max": 50.0,
+  "icon": "/icons/ak_47_machine_gun.png"
  },
  {
   "title": "Auto Shotgun",
@@ -259,7 +262,8 @@
     "dmg": 196.0
    }
   ],
-  "damage_max": 202.0
+  "damage_max": 202.0,
+  "icon": "/icons/auto_shotgun.png"
  },
  {
   "title": "Baseball Bat",
@@ -327,7 +331,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 30.0
+  "damage_max": 30.0,
+  "icon": "/icons/baseball_bat.png"
  },
  {
   "title": "Blunderbuss",
@@ -363,7 +368,8 @@
   "mod_compa": "Side, Bottom, Shotgun, Stock, Short Range",
   "repair": "Short Iron Pipe",
   "per_ammo_damage": null,
-  "damage_max": null
+  "damage_max": null,
+  "icon": "/icons/blunderbuss.png"
  },
  {
   "title": "Bone Knife",
@@ -432,7 +438,8 @@
   ],
   "mod_compa": "",
   "repair": "Bone",
-  "damage_max": 7.5
+  "damage_max": 7.5,
+  "icon": "/icons/bone_knife.png"
  },
  {
   "title": "Candy Cane Club",
@@ -501,7 +508,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 29.9
+  "damage_max": 29.9,
+  "icon": "/icons/candy_cane_club.png"
  },
  {
   "title": "Candy Cane Knife",
@@ -570,7 +578,8 @@
   ],
   "mod_compa": "",
   "repair": "Repair Kit",
-  "damage_max": 17.8
+  "damage_max": 17.8,
+  "icon": "/icons/candy_cane_knife.png"
  },
  {
   "title": "Compound Bow",
@@ -646,7 +655,8 @@
     "dmg": 209.0
    }
   ],
-  "damage_max": 209.0
+  "damage_max": 209.0,
+  "icon": "/icons/compound_bow.png"
  },
  {
   "title": "Compound Crossbow",
@@ -722,7 +732,8 @@
     "dmg": 275.0
    }
   ],
-  "damage_max": 275.0
+  "damage_max": 275.0,
+  "icon": "/icons/compound_crossbow.png"
  },
  {
   "title": "Double Barrel Shotgun",
@@ -781,7 +792,8 @@
     "dmg": 106.0
    }
   ],
-  "damage_max": 112.0
+  "damage_max": 112.0,
+  "icon": "/icons/double_barrel_shotgun.png"
  },
  {
   "title": "Fists",
@@ -820,7 +832,8 @@
   "mod_slots_q": null,
   "mod_compa": "",
   "repair": "",
-  "damage_max": 7.0
+  "damage_max": 7.0,
+  "icon": "/icons/fists.png"
  },
  {
   "title": "Hunting Knife",
@@ -888,7 +901,8 @@
   ],
   "mod_compa": "",
   "repair": "Repair Kit",
-  "damage_max": 18.0
+  "damage_max": 18.0,
+  "icon": "/icons/hunting_knife.png"
  },
  {
   "title": "Hunting Rifle",
@@ -956,7 +970,8 @@
     "dmg": 63.0
    }
   ],
-  "damage_max": 68.0
+  "damage_max": 68.0,
+  "icon": "/icons/hunting_rifle.png"
  },
  {
   "title": "Iron Crossbow",
@@ -1031,7 +1046,8 @@
     "dmg": 250.0
    }
   ],
-  "damage_max": 250.0
+  "damage_max": 250.0,
+  "icon": "/icons/iron_crossbow.png"
  },
  {
   "title": "Iron Knuckles",
@@ -1099,7 +1115,8 @@
   ],
   "mod_compa": "",
   "repair": "Repair Kit",
-  "damage_max": 17.2
+  "damage_max": 17.2,
+  "icon": "/icons/iron_knuckles.png"
  },
  {
   "title": "Iron Sledgehammer",
@@ -1168,7 +1185,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 48.0
+  "damage_max": 48.0,
+  "icon": "/icons/iron_sledgehammer.png"
  },
  {
   "title": "Iron Spear",
@@ -1236,7 +1254,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 30.0
+  "damage_max": 30.0,
+  "icon": "/icons/iron_spear.png"
  },
  {
   "title": "Knuckle Wraps",
@@ -1304,7 +1323,8 @@
   ],
   "mod_compa": "",
   "repair": "Leather",
-  "damage_max": 10.5
+  "damage_max": 10.5,
+  "icon": "/icons/knuckle_wraps.png"
  },
  {
   "title": "Lever-Action Rifle",
@@ -1422,7 +1442,8 @@
     "dmg": 75.0
    }
   ],
-  "damage_max": 80.0
+  "damage_max": 80.0,
+  "icon": "/icons/m60_machine_gun.png"
  },
  {
   "title": "Machete",
@@ -1489,7 +1510,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 37.5
+  "damage_max": 37.5,
+  "icon": "/icons/machete.png"
  },
  {
   "title": "Marksman Rifle",
@@ -1545,7 +1567,8 @@
     "dmg": 61.0
    }
   ],
-  "damage_max": 66.0
+  "damage_max": 66.0,
+  "icon": "/icons/marksman_rifle.png"
  },
  {
   "title": "Pipe Baton",
@@ -1613,7 +1636,8 @@
   ],
   "mod_compa": "longShaft",
   "repair": "Short Iron Pipe",
-  "damage_max": 18.0
+  "damage_max": 18.0,
+  "icon": "/icons/pipe_baton.png"
  },
  {
   "title": "Pipe Machine Gun",
@@ -1682,7 +1706,8 @@
     "dmg": 35.0
    }
   ],
-  "damage_max": 40.0
+  "damage_max": 40.0,
+  "icon": "/icons/pipe_machine_gun.png"
  },
  {
   "title": "Pipe Pistol",
@@ -1947,7 +1972,8 @@
     "dmg": 40.0
    }
   ],
-  "damage_max": 43.0
+  "damage_max": 43.0,
+  "icon": "/icons/pistol.png"
  },
  {
   "title": "Primitive Bow",
@@ -2023,7 +2049,8 @@
     "dmg": 175.0
    }
   ],
-  "damage_max": 175.0
+  "damage_max": 175.0,
+  "icon": "/icons/primitive_bow.png"
  },
  {
   "title": "Pump Shotgun",
@@ -2083,7 +2110,8 @@
     "dmg": 146.0
    }
   ],
-  "damage_max": 152.0
+  "damage_max": 152.0,
+  "icon": "/icons/pump_shotgun.png"
  },
  {
   "title": "Robotic Sledge",
@@ -2144,7 +2172,8 @@
   ],
   "mod_compa": "Blunt, longShaft",
   "repair": "Repair Kit",
-  "damage_max": 20.0
+  "damage_max": 20.0,
+  "icon": "/icons/robotic_sledge.png"
  },
  {
   "title": "Robotic Turret",
@@ -2209,7 +2238,8 @@
     "dmg": 11.8
    }
   ],
-  "damage_max": 11.8
+  "damage_max": 11.8,
+  "icon": "/icons/robotic_turret.png"
  },
  {
   "title": "Rocket Launcher",
@@ -2262,7 +2292,8 @@
     "dmg": 700.0
    }
   ],
-  "damage_max": 700.0
+  "damage_max": 700.0,
+  "icon": "/icons/rocket_launcher.png"
  },
  {
   "title": "SMG-5",
@@ -2330,7 +2361,8 @@
     "dmg": 53.0
    }
   ],
-  "damage_max": 56.0
+  "damage_max": 56.0,
+  "icon": "/icons/smg_5.png"
  },
  {
   "title": "Sniper Rifle",
@@ -2386,7 +2418,8 @@
     "dmg": 105.0
    }
   ],
-  "damage_max": 110.0
+  "damage_max": 110.0,
+  "icon": "/icons/sniper_rifle.png"
  },
  {
   "title": "Steel Club",
@@ -2454,7 +2487,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 48.7
+  "damage_max": 48.7,
+  "icon": "/icons/steel_club.png"
  },
  {
   "title": "Steel Knuckles",
@@ -2522,7 +2556,8 @@
   ],
   "mod_compa": "Blades",
   "repair": "Repair Kit",
-  "damage_max": 27.5
+  "damage_max": 27.5,
+  "icon": "/icons/steel_knuckles.png"
  },
  {
   "title": "Steel Sledgehammer",
@@ -2590,7 +2625,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 82.5
+  "damage_max": 82.5,
+  "icon": "/icons/steel_sledgehammer.png"
  },
  {
   "title": "Steel Spear",
@@ -2658,7 +2694,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Repair Kit",
-  "damage_max": 49.5
+  "damage_max": 49.5,
+  "icon": "/icons/steel_spear.png"
  },
  {
   "title": "Stone Sledgehammer",
@@ -2726,7 +2763,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Small Stone",
-  "damage_max": 27.0
+  "damage_max": 27.0,
+  "icon": "/icons/stone_sledgehammer.png"
  },
  {
   "title": "Stone Spear",
@@ -2794,7 +2832,8 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Stone",
-  "damage_max": 18.0
+  "damage_max": 18.0,
+  "icon": "/icons/stone_spear.png"
  },
  {
   "title": "Stun Baton",
@@ -2862,7 +2901,8 @@
   ],
   "mod_compa": "Stun Baton",
   "repair": "Repair Kit",
-  "damage_max": 29.9
+  "damage_max": 29.9,
+  "icon": "/icons/stun_baton.png"
  },
  {
   "title": "Tactical Assault Rifle",
@@ -2930,7 +2970,8 @@
     "dmg": 58.0
    }
   ],
-  "damage_max": 63.0
+  "damage_max": 63.0,
+  "icon": "/icons/tactical_assault_rifle.png"
  },
  {
   "title": "Wooden Bow",
@@ -3007,7 +3048,8 @@
     "dmg": 189.0
    }
   ],
-  "damage_max": 189.0
+  "damage_max": 189.0,
+  "icon": "/icons/wooden_bow.png"
  },
  {
   "title": "Wooden Club",
@@ -3075,6 +3117,7 @@
   ],
   "mod_compa": "Long Shaft",
   "repair": "Wood",
-  "damage_max": 18.0
+  "damage_max": 18.0,
+  "icon": "/icons/wooden_club.png"
  }
 ]

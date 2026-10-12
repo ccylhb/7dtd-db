@@ -21,7 +21,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/bdu_bottoms.png"
  },
  {
   "title": "BDU Top",
@@ -45,7 +46,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/bdu_top.png"
  },
  {
   "title": "Bandana",
@@ -67,7 +69,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/bandana.png"
  },
  {
   "title": "Baseball Cap",
@@ -91,7 +94,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/baseball_cap.png"
  },
  {
   "title": "Cigar",
@@ -114,7 +118,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/cigar.png"
  },
  {
   "title": "College Jacket",
@@ -137,7 +142,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/college_jacket.png"
  },
  {
   "title": "Cowboy Boots",
@@ -184,7 +190,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/cowboy_hat.png"
  },
  {
   "title": "Denim Pants",
@@ -207,7 +214,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/denim_pants.png"
  },
  {
   "title": "Dress Shoes",
@@ -230,7 +238,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/dress_shoes.png"
  },
  {
   "title": "Facial piercings",
@@ -253,7 +262,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/facial_piercings.png"
  },
  {
   "title": "Firefighter's Helmet",
@@ -279,7 +289,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/firefighter_s_helmet.png"
  },
  {
   "title": "Flannel Shirt",
@@ -303,7 +314,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/flannel_shirt.png"
  },
  {
   "title": "Football Helmet",
@@ -328,7 +340,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/football_helmet.png"
  },
  {
   "title": "Ghillie Suit Hood",
@@ -352,7 +365,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/ghillie_suit_hood.png"
  },
  {
   "title": "Ghillie Suit Jacket",
@@ -376,7 +390,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/ghillie_suit_jacket.png"
  },
  {
   "title": "Ghillie Suit Pants",
@@ -400,7 +415,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/ghillie_suit_pants.png"
  },
  {
   "title": "Gothic Boots",
@@ -424,7 +440,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/gothic_boots.png"
  },
  {
   "title": "Gothic Pants",
@@ -447,7 +464,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/gothic_pants.png"
  },
  {
   "title": "Hazmat Boots",
@@ -470,7 +488,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/hazmat_boots.png"
  },
  {
   "title": "Hazmat Gloves",
@@ -493,7 +512,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/hazmat_gloves.png"
  },
  {
   "title": "Hazmat Mask",
@@ -517,7 +537,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/hazmat_mask.png"
  },
  {
   "title": "Hazmat Pants",
@@ -540,7 +561,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/hazmat_pants.png"
  },
  {
   "title": "Hazmat Shirt",
@@ -563,7 +585,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/hazmat_shirt.png"
  },
  {
   "title": "High-Performance Running Shoes",
@@ -587,7 +610,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/high_performance_running_shoes.png"
  },
  {
   "title": "Hooded Sweatshirt",
@@ -636,7 +660,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/iron_boots.png"
  },
  {
   "title": "Iron Chest Armor",
@@ -661,7 +686,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/iron_chest_armor.png"
  },
  {
   "title": "Iron Gloves",
@@ -686,7 +712,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/iron_gloves.png"
  },
  {
   "title": "Iron Helmet",
@@ -711,7 +738,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/iron_helmet.png"
  },
  {
   "title": "Iron Leg Armor",
@@ -736,7 +764,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/iron_leg_armor.png"
  },
  {
   "title": "Jacket",
@@ -784,7 +813,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_boots.png"
  },
  {
   "title": "Leather Chest Armor",
@@ -810,7 +840,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_chest_armor.png"
  },
  {
   "title": "Leather Duster",
@@ -833,7 +864,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_duster.png"
  },
  {
   "title": "Leather Gloves",
@@ -858,7 +890,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_gloves.png"
  },
  {
   "title": "Leather Hood",
@@ -884,7 +917,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_hood.png"
  },
  {
   "title": "Leather Leg Armor",
@@ -910,7 +944,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_leg_armor.png"
  },
  {
   "title": "Leather Poncho",
@@ -934,7 +969,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/leather_poncho.png"
  },
  {
   "title": "Lucky Goggles",
@@ -958,7 +994,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/lucky_goggles.png"
  },
  {
   "title": "Military Boots",
@@ -984,7 +1021,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_boots.png"
  },
  {
   "title": "Military Gloves",
@@ -1009,7 +1047,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_gloves.png"
  },
  {
   "title": "Military Helmet",
@@ -1034,7 +1073,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_helmet.png"
  },
  {
   "title": "Military Leg Armor",
@@ -1059,7 +1099,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_leg_armor.png"
  },
  {
   "title": "Military Stealth Boots",
@@ -1085,7 +1126,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_stealth_boots.png"
  },
  {
   "title": "Military Vest",
@@ -1110,7 +1152,8 @@
   "durability_q": [
    200.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/military_vest.png"
  },
  {
   "title": "Mining Helmet",
@@ -1135,7 +1178,8 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/mining_helmet.png"
  },
  {
   "title": "Nerdy Glasses",
@@ -1159,7 +1203,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/nerdy_glasses.png"
  },
  {
   "title": "Night Vision Goggles",
@@ -1183,7 +1228,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/night_vision_goggles.png"
  },
  {
   "title": "Overalls",
@@ -1205,7 +1251,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/overalls.png"
  },
  {
   "title": "Padded Boots",
@@ -1231,7 +1278,8 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/padded_boots.png"
  },
  {
   "title": "Padded Chest Armor",
@@ -1257,7 +1305,8 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/padded_chest_armor.png"
  },
  {
   "title": "Padded Gloves",
@@ -1283,7 +1332,8 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/padded_gloves.png"
  },
  {
   "title": "Padded Hood",
@@ -1309,7 +1359,8 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/padded_hood.png"
  },
  {
   "title": "Padded Leg Armor",
@@ -1335,7 +1386,8 @@
   "durability_q": [
    75.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/padded_leg_armor.png"
  },
  {
   "title": "Plant Fiber Boots",
@@ -1358,7 +1410,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_boots.png"
  },
  {
   "title": "Plant Fiber Gloves",
@@ -1381,7 +1434,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_gloves.png"
  },
  {
   "title": "Plant Fiber Hat",
@@ -1404,7 +1458,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_hat.png"
  },
  {
   "title": "Plant Fiber Hood",
@@ -1427,7 +1482,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_hood.png"
  },
  {
   "title": "Plant Fiber Pants",
@@ -1450,7 +1506,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_pants.png"
  },
  {
   "title": "Plant Fiber Shirt",
@@ -1473,7 +1530,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/plant_fiber_shirt.png"
  },
  {
   "title": "Press Boy Cap",
@@ -1497,7 +1555,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/press_boy_cap.png"
  },
  {
   "title": "Puffer Coat",
@@ -1521,7 +1580,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/puffer_coat.png"
  },
  {
   "title": "Running Shoes",
@@ -1544,7 +1604,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/running_shoes.png"
  },
  {
   "title": "SWAT Helmet",
@@ -1570,7 +1631,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/swat_helmet.png"
  },
  {
   "title": "Santa Hat",
@@ -1593,7 +1655,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/santa_hat.png"
  },
  {
   "title": "Scrap Boots",
@@ -1618,7 +1681,8 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/scrap_boots.png"
  },
  {
   "title": "Scrap Chest Armor",
@@ -1643,7 +1707,8 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/scrap_chest_armor.png"
  },
  {
   "title": "Scrap Gloves",
@@ -1668,7 +1733,8 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/scrap_gloves.png"
  },
  {
   "title": "Scrap Helmet",
@@ -1693,7 +1759,8 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/scrap_helmet.png"
  },
  {
   "title": "Scrap Leg Armor",
@@ -1718,7 +1785,8 @@
   "durability_q": [
    175.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/scrap_leg_armor.png"
  },
  {
   "title": "Shades",
@@ -1740,7 +1808,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/shades.png"
  },
  {
   "title": "Shirt",
@@ -1762,7 +1831,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/shirt.png"
  },
  {
   "title": "Shorts",
@@ -1785,7 +1855,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/shorts.png"
  },
  {
   "title": "Ski Goggles",
@@ -1809,7 +1880,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/ski_goggles.png"
  },
  {
   "title": "Skirt",
@@ -1831,7 +1903,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/skirt.png"
  },
  {
   "title": "Skull Cap",
@@ -1854,7 +1927,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/skull_cap.png"
  },
  {
   "title": "Steel Boots",
@@ -1879,7 +1953,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/steel_boots.png"
  },
  {
   "title": "Steel Chest Armor",
@@ -1904,7 +1979,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/steel_chest_armor.png"
  },
  {
   "title": "Steel Gloves",
@@ -1929,7 +2005,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/steel_gloves.png"
  },
  {
   "title": "Steel Helmet",
@@ -1954,7 +2031,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/steel_helmet.png"
  },
  {
   "title": "Steel Leg Armor",
@@ -1979,7 +2057,8 @@
   "durability_q": [
    250.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/steel_leg_armor.png"
  },
  {
   "title": "Suit Jacket",
@@ -2002,7 +2081,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/suit_jacket.png"
  },
  {
   "title": "Suit Pants",
@@ -2025,7 +2105,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/suit_pants.png"
  },
  {
   "title": "Sweatshirt",
@@ -2047,7 +2128,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/sweatshirt.png"
  },
  {
   "title": "T-Shirt",
@@ -2070,7 +2152,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/t_shirt.png"
  },
  {
   "title": "Tank Top",
@@ -2093,7 +2176,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/tank_top.png"
  },
  {
   "title": "Tough Guy Sunglasses",
@@ -2116,7 +2200,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/tough_guy_sunglasses.png"
  },
  {
   "title": "Worn Boots",
@@ -2139,7 +2224,8 @@
   "defense_q": null,
   "mod_slots_q": null,
   "durability_q": null,
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/worn_boots.png"
  },
  {
   "title": "ZU Football Helmet",
@@ -2165,6 +2251,7 @@
   "durability_q": [
    110.0
   ],
-  "equip_effect": ""
+  "equip_effect": "",
+  "icon": "/icons/zu_football_helmet.png"
  }
 ]

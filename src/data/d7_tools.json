@@ -30,7 +30,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/advanced_bellows.png"
  },
  {
   "title": "Auger",
@@ -86,7 +87,8 @@
    4.0
   ],
   "mod_compa": "Auger, Motor Tool",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/auger.png"
  },
  {
   "title": "Bucket",
@@ -117,7 +119,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/bucket.png"
  },
  {
   "title": "Bucket of Water",
@@ -150,7 +153,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/bucket_of_water.png"
  },
  {
   "title": "Chainsaw",
@@ -207,7 +211,8 @@
    4.0
   ],
   "mod_compa": "Chainsaw, Motor Tool",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/chainsaw.png"
  },
  {
   "title": "Claw Hammer",
@@ -268,7 +273,8 @@
    4.0
   ],
   "mod_compa": "",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/claw_hammer.png"
  },
  {
   "title": "Impact Driver",
@@ -336,7 +342,8 @@
    4.0
   ],
   "mod_compa": "Blunt",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/impact_driver.png"
  },
  {
   "title": "Iron Fireaxe",
@@ -472,7 +479,8 @@
    4.0
   ],
   "mod_compa": "Long Shaft, Pickaxe",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/iron_pickaxe.png"
  },
  {
   "title": "Iron Shovel",
@@ -540,7 +548,8 @@
    4.0
   ],
   "mod_compa": "Shovel, Long Shaft",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/iron_shovel.png"
  },
  {
   "title": "Lockpick",
@@ -571,7 +580,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/lockpick.png"
  },
  {
   "title": "Nailgun",
@@ -615,7 +625,8 @@
   ],
   "mod_slots_q": null,
   "mod_compa": "Nailgun",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/nailgun.png"
  },
  {
   "title": "Paint Brush",
@@ -648,7 +659,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/paint_brush.png"
  },
  {
   "title": "Ratchet",
@@ -714,7 +726,8 @@
    4.0
   ],
   "mod_compa": "Blunt, Long Shaft",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/ratchet.png"
  },
  {
   "title": "Steel Axe",
@@ -850,7 +863,8 @@
    4.0
   ],
   "mod_compa": "Long Shaft, Pickaxe",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/steel_pickaxe.png"
  },
  {
   "title": "Steel Shovel",
@@ -918,7 +932,8 @@
    4.0
   ],
   "mod_compa": "Shovel, Long Shaft",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/steel_shovel.png"
  },
  {
   "title": "Stone Axe",
@@ -978,7 +993,8 @@
    3.0
   ],
   "mod_compa": "Axe, Long Shaft",
-  "repair": "Small Stone"
+  "repair": "Small Stone",
+  "icon": "/icons/stone_axe.png"
  },
  {
   "title": "Stone Shovel",
@@ -1045,7 +1061,8 @@
    3.0
   ],
   "mod_compa": "Shovel",
-  "repair": "Small Stone"
+  "repair": "Small Stone",
+  "icon": "/icons/stone_shovel.png"
  },
  {
   "title": "Taza's Stone Axe",
@@ -1106,7 +1123,8 @@
    3.0
   ],
   "mod_compa": "Axe, Long Shaft",
-  "repair": "Small Stone"
+  "repair": "Small Stone",
+  "icon": "/icons/taza_s_stone_axe.png"
  },
  {
   "title": "Wire Tool",
@@ -1138,7 +1156,8 @@
   "durability_q": null,
   "mod_slots_q": null,
   "mod_compa": "",
-  "repair": ""
+  "repair": "",
+  "icon": "/icons/wire_tool.png"
  },
  {
   "title": "Wrench",
@@ -1204,6 +1223,7 @@
    3.0
   ],
   "mod_compa": "Blunt, Long Shaft",
-  "repair": "Repair Kit"
+  "repair": "Repair Kit",
+  "icon": "/icons/wrench.png"
  }
 ]

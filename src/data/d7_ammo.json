@@ -18,7 +18,8 @@
   "price": 10.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 70.0,
-  "block_damage": 12.0
+  "block_damage": 12.0,
+  "icon": "/icons/44_magnum_bullet.png"
  },
  {
   "title": ".44 Magnum Bullet (AP)",
@@ -39,7 +40,8 @@
   "price": 15.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 70.0,
-  "block_damage": 14.0
+  "block_damage": 14.0,
+  "icon": "/icons/44_magnum_bullet_ap.png"
  },
  {
   "title": ".44 Magnum Bullet (HP)",
@@ -60,7 +62,8 @@
   "price": 15.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 77.0,
-  "block_damage": 13.0
+  "block_damage": 13.0,
+  "icon": "/icons/44_magnum_bullet_hp.png"
  },
  {
   "title": "7.62mm Bullet",
@@ -81,7 +84,8 @@
   "price": 11.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 47.0,
-  "block_damage": 8.0
+  "block_damage": 8.0,
+  "icon": "/icons/7_62mm_bullet.png"
  },
  {
   "title": "7.62mm Bullet (AP)",
@@ -102,7 +106,8 @@
   "price": 16.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 57.0,
-  "block_damage": 10.0
+  "block_damage": 10.0,
+  "icon": "/icons/7_62mm_bullet_ap.png"
  },
  {
   "title": "7.62mm Bullet (HP)",
@@ -123,7 +128,8 @@
   "price": 16.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 52.0,
-  "block_damage": 9.0
+  "block_damage": 9.0,
+  "icon": "/icons/7_62mm_bullet_hp.png"
  },
  {
   "title": "9mm Bullet",
@@ -143,7 +149,8 @@
   "price": 9.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 32.0,
-  "block_damage": 6.0
+  "block_damage": 6.0,
+  "icon": "/icons/9mm_bullet.png"
  },
  {
   "title": "9mm Bullet (AP)",
@@ -205,7 +212,8 @@
   "price": 65.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 180.0,
-  "block_damage": 2.0
+  "block_damage": 2.0,
+  "icon": "/icons/exploding_arrow.png"
  },
  {
   "title": "Exploding Crossbow Bolt",
@@ -225,7 +233,8 @@
   "price": 80.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 250.0,
-  "block_damage": 2.0
+  "block_damage": 2.0,
+  "icon": "/icons/exploding_crossbow_bolt.png"
  },
  {
   "title": "Flaming Arrow",
@@ -245,7 +254,8 @@
   "price": 44.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 25.0,
-  "block_damage": 6.0
+  "block_damage": 6.0,
+  "icon": "/icons/flaming_arrow.png"
  },
  {
   "title": "Flaming Crossbow Bolt",
@@ -265,7 +275,8 @@
   "price": 44.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 38.0,
-  "block_damage": 6.0
+  "block_damage": 6.0,
+  "icon": "/icons/flaming_crossbow_bolt.png"
  },
  {
   "title": "Iron Arrow",
@@ -285,7 +296,8 @@
   "price": 25.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 38.0,
-  "block_damage": 3.0
+  "block_damage": 3.0,
+  "icon": "/icons/iron_arrow.png"
  },
  {
   "title": "Iron Crossbow Bolt",
@@ -305,7 +317,8 @@
   "price": 25.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 59.0,
-  "block_damage": 6.0
+  "block_damage": 6.0,
+  "icon": "/icons/iron_crossbow_bolt.png"
  },
  {
   "title": "Robotic Turret Ammo",
@@ -326,7 +339,8 @@
   "price": 9.0,
   "obtain": "Crafting",
   "damage": 11.8,
-  "block_damage": 1.0
+  "block_damage": 1.0,
+  "icon": "/icons/robotic_turret_ammo.png"
  },
  {
   "title": "Rocket Frag",
@@ -347,7 +361,8 @@
   "price": 250.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 700.0,
-  "block_damage": 10.0
+  "block_damage": 10.0,
+  "icon": "/icons/rocket_frag.png"
  },
  {
   "title": "Rocket HE",
@@ -368,7 +383,8 @@
   "price": 250.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 420.0,
-  "block_damage": 2500.0
+  "block_damage": 2500.0,
+  "icon": "/icons/rocket_he.png"
  },
  {
   "title": "Shotgun Breaching Slug",
@@ -389,7 +405,8 @@
   "price": 20.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 96.0,
-  "block_damage": 80.0
+  "block_damage": 80.0,
+  "icon": "/icons/shotgun_breaching_slug.png"
  },
  {
   "title": "Shotgun Shell",
@@ -409,7 +426,8 @@
   "price": 11.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 10.1,
-  "block_damage": 5.4
+  "block_damage": 5.4,
+  "icon": "/icons/shotgun_shell.png"
  },
  {
   "title": "Shotgun Slug",
@@ -429,7 +447,8 @@
   "price": 20.0,
   "obtain": "Crafting, Looting, Trading",
   "damage": 102.0,
-  "block_damage": 80.0
+  "block_damage": 80.0,
+  "icon": "/icons/shotgun_slug.png"
  },
  {
   "title": "Steel Arrow",
@@ -449,7 +468,8 @@
   "price": 57.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 42.0,
-  "block_damage": 5.0
+  "block_damage": 5.0,
+  "icon": "/icons/steel_arrow.png"
  },
  {
   "title": "Steel Crossbow Bolt",
@@ -469,7 +489,8 @@
   "price": 57.0,
   "obtain": "Looting, Crafting, Trading",
   "damage": 63.0,
-  "block_damage": 6.0
+  "block_damage": 6.0,
+  "icon": "/icons/steel_crossbow_bolt.png"
  },
  {
   "title": "Stone Arrow",
@@ -490,7 +511,8 @@
   "price": 12.0,
   "obtain": "Looting, Crafting",
   "damage": 35.0,
-  "block_damage": 1.0
+  "block_damage": 1.0,
+  "icon": "/icons/stone_arrow.png"
  },
  {
   "title": "Stone Crossbow Bolt",
@@ -511,6 +533,7 @@
   "price": 12.0,
   "obtain": "Looting, Crafting",
   "damage": 50.0,
-  "block_damage": 1.0
+  "block_damage": 1.0,
+  "icon": "/icons/stone_crossbow_bolt.png"
  }
 ]

@@ -22,7 +22,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 17"
+  "updated_version": "Alpha 17",
+  "icon": "/icons/bloated_walker.png"
  },
  {
   "title": "Burn Victim",
@@ -46,7 +47,8 @@
   "location": "Burnt Forest-biome, Wasteland cities and buildings that contain fire in some way",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/burn_victim.png"
  },
  {
   "title": "Businessman",
@@ -70,7 +72,8 @@
   "location": "Everywhere, predominantly in office areas inside buildings",
   "drops": "",
   "added_version": "Alpha 16",
-  "updated_version": "Alpha 17"
+  "updated_version": "Alpha 17",
+  "icon": "/icons/businessman.png"
  },
  {
   "title": "Crawler Zombie",
@@ -95,7 +98,8 @@
   "location": "Everywhere, More common in the Burnt Forest-biome",
   "drops": "",
   "added_version": "Alpha 5",
-  "updated_version": "Alpha 6, Alpha 13, Alpha 15, Alpha 16.0"
+  "updated_version": "Alpha 6, Alpha 13, Alpha 15, Alpha 16.0",
+  "icon": "/icons/crawler_zombie.png"
  },
  {
   "title": "Demolisher",
@@ -119,7 +123,8 @@
   "location": "Blood Moon hordes and Cities",
   "drops": "",
   "added_version": "Alpha 18.0",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/demolisher.png"
  },
  {
   "title": "Departed Woman",
@@ -144,7 +149,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0, Alpha 17"
+  "updated_version": "Alpha 16.0, Alpha 17",
+  "icon": "/icons/departed_woman.png"
  },
  {
   "title": "Dire Wolf",
@@ -168,7 +174,8 @@
   "location": "All biomes",
   "drops": "Rotting Flesh Leather Animal Fat Bone",
   "added_version": "",
-  "updated_version": "1.0"
+  "updated_version": "1.0",
+  "icon": "/icons/dire_wolf.png"
  },
  {
   "title": "Fallen Soldier Zombie",
@@ -193,7 +200,8 @@
   "location": "Military and Government Installations, Roaming Military Hordes and \"boss rooms\" of larger POIs",
   "drops": "Firearms and military gear",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 20"
+  "updated_version": "Alpha 20",
+  "icon": "/icons/fallen_soldier_zombie.png"
  },
  {
   "title": "Fat Hawaiian",
@@ -217,7 +225,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "1.0"
+  "updated_version": "1.0",
+  "icon": "/icons/fat_hawaiian.png"
  },
  {
   "title": "Festering Cadaver",
@@ -267,7 +276,8 @@
   "location": "Snowy Forest-biome",
   "drops": "",
   "added_version": "Alpha 6",
-  "updated_version": "Alpha 13, Alpha 16.0, Alpha 20"
+  "updated_version": "Alpha 13, Alpha 16.0, Alpha 20",
+  "icon": "/icons/frozen_lumberjack.png"
  },
  {
   "title": "Grace",
@@ -291,7 +301,8 @@
   "location": "Carl's corn and Bob's boars POI",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/grace.png"
  },
  {
   "title": "Hazmat Male Zombie",
@@ -316,7 +327,8 @@
   "location": "Military and Government installations, Roaming Military Hordes and rarely in other places",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 20"
+  "updated_version": "Alpha 20",
+  "icon": "/icons/hazmat_male_zombie.png"
  },
  {
   "title": "Hungry Female Zombie",
@@ -341,7 +353,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 15",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/hungry_female_zombie.png"
  },
  {
   "title": "Infected Mother",
@@ -366,7 +379,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0"
+  "updated_version": "Alpha 16.0",
+  "icon": "/icons/infected_mother.png"
  },
  {
   "title": "Infected Police Officer",
@@ -391,7 +405,8 @@
   "location": "Wasteland-biome, Blood Moon hordes and Police Stations, any POI at higher gamestages",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 2, Alpha 16.0, Alpha 17"
+  "updated_version": "Alpha 2, Alpha 16.0, Alpha 17",
+  "icon": "/icons/infected_police_officer.png"
  },
  {
   "title": "Infected Survivor",
@@ -416,7 +431,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "",
-  "updated_version": "Alpha 16.0"
+  "updated_version": "Alpha 16.0",
+  "icon": "/icons/infected_survivor.png"
  },
  {
   "title": "Lab Zombie",
@@ -441,7 +457,8 @@
   "location": "Laboratory areas, also medical departments within Military installations",
   "drops": "",
   "added_version": "Alpha 17",
-  "updated_version": "Alpha 17, Alpha 20"
+  "updated_version": "Alpha 17, Alpha 20",
+  "icon": "/icons/lab_zombie.png"
  },
  {
   "title": "Mutated Zombie",
@@ -466,7 +483,8 @@
   "location": "Wasteland",
   "drops": "",
   "added_version": "Alpha 20",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/mutated_zombie.png"
  },
  {
   "title": "Party Girl",
@@ -516,7 +534,8 @@
   "location": "Everywhere, mostly in medical facilities",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": "Alpha 20"
+  "updated_version": "Alpha 20",
+  "icon": "/icons/plagued_nurse.png"
  },
  {
   "title": "Putrid Girl",
@@ -541,7 +560,8 @@
   "location": "Everywhere, mostly in old western POIs",
   "drops": "Water Bottle Old Sham Sandwich",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/putrid_girl.png"
  },
  {
   "title": "Reanimated Corpse",
@@ -566,7 +586,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 1",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/reanimated_corpse.png"
  },
  {
   "title": "Rotting Carcass",
@@ -614,7 +635,8 @@
   "location": "Spawns in the vicinity of the player once heat threshold has been reached",
   "drops": "",
   "added_version": "Alpha 13",
-  "updated_version": "Alpha 16.0"
+  "updated_version": "Alpha 16.0",
+  "icon": "/icons/screamer.png"
  },
  {
   "title": "Skater Punk Zombie",
@@ -639,7 +661,8 @@
   "location": "Everywhere",
   "drops": "",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 16.0, Alpha 20"
+  "updated_version": "Alpha 16.0, Alpha 20",
+  "icon": "/icons/skater_punk_zombie.png"
  },
  {
   "title": "Spider Zombie",
@@ -663,7 +686,8 @@
   "location": "Everywhere, higher spawn rate outside at nighttime",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": "Alpha 13, Alpha 16"
+  "updated_version": "Alpha 13, Alpha 16",
+  "icon": "/icons/spider_zombie.png"
  },
  {
   "title": "Utility Worker Zombie",
@@ -688,7 +712,8 @@
   "location": "Everywhere, predominantly construction sites in large groups",
   "drops": "Mining Helmet",
   "added_version": "Alpha 15",
-  "updated_version": "Alpha 17"
+  "updated_version": "Alpha 17",
+  "icon": "/icons/utility_worker_zombie.png"
  },
  {
   "title": "Wight",
@@ -712,7 +737,8 @@
   "location": "Wasteland-biome, Blood Moon hordes, Military and Government Installations, any POI at higher gamestage",
   "drops": "",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/wight.png"
  },
  {
   "title": "Zombie Bear",
@@ -737,7 +763,8 @@
   "location": "Wasteland-biome, Burnt Forest-biome, and some particular POIs",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/zombie_bear.png"
  },
  {
   "title": "Zombie Biker",
@@ -786,7 +813,8 @@
   "location": "Wasteland- and Burnt Forest-biome, as well as in particular POIs. Occasionally, as part of a roaming dog horde",
   "drops": "Animal Fat Leather Rotting Flesh Bone",
   "added_version": "Alpha 1",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/zombie_dog.png"
  },
  {
   "title": "Zombie Janitor",
@@ -811,7 +839,8 @@
   "location": "",
   "drops": "",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/zombie_janitor.png"
  },
  {
   "title": "Zombie Tom Clark",
@@ -835,7 +864,8 @@
   "location": "",
   "drops": "",
   "added_version": "Alpha 2",
-  "updated_version": "Alpha 13, Alpha 16, Alpha 20"
+  "updated_version": "Alpha 13, Alpha 16, Alpha 20",
+  "icon": "/icons/zombie_tom_clark.png"
  },
  {
   "title": "Zombie Vulture",
@@ -860,6 +890,7 @@
   "location": "Every biome except Snowy Forest-biome, as well as on roofs of POIs. May appear as part of a flock and in a Blood Moon horde",
   "drops": "Feathers Rotting Flesh Bone",
   "added_version": "",
-  "updated_version": ""
+  "updated_version": "",
+  "icon": "/icons/zombie_vulture.png"
  }
 ]
