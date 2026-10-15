@@ -32,7 +32,7 @@
    "Advanced Muffled Connectors Mod.png",
    "AdvancedMuffledConnectorsMod.png"
   ],
-  "intro": "Greatly reduced noise from armor",
+  "intro": "Equipable Armor Types: = Heavy Armor, Scrap Armor Not Equipable Armor Types: = Grass, Clot, or other Padded types of armor.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -80,7 +80,7 @@
    "Armor Double Pocket Mod.png",
    "ArmorDoublePocketMod.png"
   ],
-  "intro": "Decrease encumbrance penalty by 2 by installing this modification into your armor",
+  "intro": "Decrease encumbrance penalty by 2 by installing this modification into your armor.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -128,7 +128,7 @@
    "Armor Pocket Mod.png",
    "ArmorPocketMod.png"
   ],
-  "intro": "Decreases encumbrance penalty by installing this modification into your armor",
+  "intro": "Decreases encumbrance penalty by installing this modification into your armor.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -176,7 +176,7 @@
    "Armor Triple Pocket Mod.png",
    "ArmorTriplePocketMod.png"
   ],
-  "intro": "Decreases encumbrance penalty by installing this modification into your armor",
+  "intro": "Decreases encumbrance penalty by installing this modification into your armor.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -200,7 +200,7 @@
    "Arrow Rest Mod.png",
    "ArrowRestMod.png"
   ],
-  "intro": "Improves accuracy.",
+  "intro": "",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -224,7 +224,7 @@
    "Banded Armor Plating Mod.png",
    "BandedArmorPlatingMod.png"
   ],
-  "intro": "This modification increases armor rating by 2",
+  "intro": "This modification increases armor rating by 2.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -343,7 +343,7 @@
    "Blessed Metal Mod.png",
    "BlessedMetalMod.png"
   ],
-  "intro": "Increases damage to undead targets",
+  "intro": "*Currently not in crafting menu but can be found in the creative menu. It is the only mod that is unused in the game yet can be found in the creative menu. There's several others that can be seen in the item icon files, but currently do not exist in the game. This could mean its addition is on the horizon, soon to be released. **However, this mod has been unused but functional in the game since at least Alpha 18, so it could also be a testing item whose removal is on the horizon.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -557,7 +557,7 @@
    "DyeWhite.png",
    "Dye.png"
   ],
-  "intro": "",
+  "intro": "Dye is a Mod equipped in the Cosmetic slot that changes the color of the item it is installed in. It can be found on its own or pre-installed into Clothing. It comes in the colors of Red, Blue, Green, Yellow, Black, Brown, Pink, and Purple. Dyes can be equipped into almost any clothing, tool or weapon, even into those that can't hold any other mods (such as bandanas and glasses).",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -962,7 +962,7 @@
    "Muffled Connectors Mod.png",
    "MuffledConnectorsMod.png"
   ],
-  "intro": "Reduces noise from armor",
+  "intro": "Reduces noise from armor.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1058,7 +1058,7 @@
    "Polymer String Mod.png",
    "PolymerStringMod.png"
   ],
-  "intro": "Arrows and Bolts fly 15% faster.",
+  "intro": "* Strangely, the Polymer String Mod scraps into Iron, both when scrapping in the inventory and when smelting in a Forge.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1082,7 +1082,7 @@
    "Power Tool Large Tank Mod.png",
    "PowerToolLargeTankMod.png"
   ],
-  "intro": "Increases tank size of a motor tool by 100%",
+  "intro": "Increases tank size of a motor tool by 100%.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1106,7 +1106,7 @@
    "Power Tool Small Tank Mod.png",
    "PowerToolSmallTankMod.png"
   ],
-  "intro": "Increases tank size of a motor tool by 50%",
+  "intro": "Increases tank size of a motor tool by 50%.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1130,7 +1130,7 @@
    "Rad Remover Mod.png",
    "RadRemoverMod.png"
   ],
-  "intro": "Disables regeneration ability of radiated zombies for approximately 90 seconds. (Radiated zombies regenerate ~100hp/30 seconds and have 300+ hp.)",
+  "intro": "Disables regeneration ability of radiated zombies for approximately 90 seconds. (Radiated zombies regenerate ~100hp/30 seconds and have 300+ hp.).",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1346,7 +1346,7 @@
    "Scope 2x Mod.png",
    "Scope2xMod.png"
   ],
-  "intro": "Increases visual magnification when aiming.",
+  "intro": "* Can NOT be used together with other Ranges Sights (Reflex Sight, Scope 4X, Scope 8X).",
   "description": "\"Increases visual magnification when aiming. Installs into small firearms and crossbows\"",
   "group": "Mods",
   "item_type": "",
@@ -1370,7 +1370,7 @@
    "Scope 4x Mod.png",
    "Scope4xMod.png"
   ],
-  "intro": "Increases visual magnification when aiming.",
+  "intro": "* Can NOT be used together with other Ranges Sights (Reflex Sight, Scope 2X, Scope 8X).",
   "description": "\"Increases visual magnification when aiming. Installs into medium sized firearms and crossbows\"",
   "group": "Mods",
   "item_type": "",
@@ -1585,7 +1585,7 @@
    "Structural Brace Mod.png",
    "StructuralBraceMod.png"
   ],
-  "intro": "Tool or weapon degrades 25% slower.",
+  "intro": "* Can NOT be used together with The Hunter, Rad Remover, Serrated Blade, Diamond Blade Tip Mod or Tempered Blade Mod.",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1728,7 +1728,7 @@
    "Trigger Group: Full Auto Mod.png",
    "TriggerGroup:FullAutoMod.png"
   ],
-  "intro": "Modified the trigger group to fire full auto only.",
+  "intro": "* Can NOT be used together with other Ranged Trigger Group Mods (Trigger Group: Semi, Trigger Group: Burst).",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1752,7 +1752,7 @@
    "Trigger Group: Semi Mod.png",
    "TriggerGroup:SemiMod.png"
   ],
-  "intro": "Modified the trigger group to fire semi-auto only.",
+  "intro": "* Can NOT be used together with other Ranged Trigger Group Mods (Trigger Group: Burst, Trigger Group: FullAuto).",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -1968,7 +1968,7 @@
    "Water Purifier Mod.png",
    "WaterPurifierMod.png"
   ],
-  "intro": "Allows any water to be consumed while installed in your helmet. Useful for conserving space by carrying a single stack of 125 Murky Water as opposed to the roughly 6 stacks of Water you'd need to carry for the same amount of hydration. (Murky Water hydrates half as much as the Boiled Water.)",
+  "intro": "Allows any water to be consumed while installed in your helmet. Useful for conserving space by carrying a single stack of 125 Murky Water as opposed to the roughly 6 stacks of Water you'd need to carry for the same amount of hydration. (Murky Water hydrates half as much as the Boiled Water.).",
   "description": "",
   "group": "Mods",
   "item_type": "",
@@ -2016,7 +2016,7 @@
    "Weighted Head Mod.png",
    "WeightedHeadMod.png"
   ],
-  "intro": "Adds a 15% chance to stun and slow victims.",
+  "intro": "* Can NOT be used together with The Hunter, Rad Remover or Structural Brace.",
   "description": "",
   "group": "Mods",
   "item_type": "",

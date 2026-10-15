@@ -30,7 +30,7 @@
    ".44 Magnum Bullet (AP).png",
    ".44MagnumBullet(AP).png"
   ],
-  "intro": "",
+  "intro": "A .44 Magnum Bullet (AP) is the ammunition used by .44 Magnum and .44 Desert Vulture. Armor penetration reduces zombies' armor, dealing more damage.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Handgun Ammo",
@@ -52,7 +52,7 @@
    ".44 Magnum Bullet (HP).png",
    ".44MagnumBullet(HP).png"
   ],
-  "intro": "",
+  "intro": "A .44 Magnum Bullet (HP) is the ammunition used by .44 Magnum and .44 Desert Vulture. Hollow Point does more damage, but suffers more from armor.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Handgun Ammo",

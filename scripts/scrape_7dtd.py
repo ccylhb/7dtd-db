@@ -231,8 +231,59 @@ def slug(t):
     return s or "item"
 
 
-def find_intro(wt):
+def is_junk(s):
+    """Semantic MediaWiki 自动生成的 tables= 转储节。"""
+    return bool(re.match(r"^\s*tables?\s*=", s)) or "__" in s[:80]
+
+
+def cap_intro(t, target=900):
+    """全文 <= target 全留；超出则在 [500, target] 窗口内找最后一个句末切点，
+    不再硬切（旧版 [:600] 会把句子拦腰斩断，Reddit 有用户反馈）。"""
+    if len(t) <= target:
+        return t
+    window = t[:target]
+    idx = max(window.rfind(". "), window.rfind("! "), window.rfind("? "), window.rfind('." '))
+    if idx >= 500:
+        return window[:idx + 1]
+    sp = window.rfind(" ")
+    return (window[:sp] if sp > 500 else window) + " …"
+
+
+def clean_markup(s):
+    s = re.sub(r"\[\[(?:File|Image):[^\]]*\]\]", "", s, flags=re.I)
+    s = re.sub(r"\[\[[^\]|]*\|([^\]]*)\]\]", r"\1", s)
+    s = re.sub(r"\[\[([^\]]*)\]\]", r"\1", s)
+    s = re.sub(r"<br\s*/?>", " ", s, flags=re.I)
+    s = re.sub(r"</?[a-z][^>]*>", " ", s, flags=re.I)
+    s = s.replace("'''", "").replace("''", "")
+    s = re.sub(r"\{\{[^{}]*\}\}", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def is_junk(s):
+    return bool(re.match(r"^\s*tables?\s*=", s)) or "__" in s[:80]
+
+
+def cap_intro(t, target=900):
+    # 全文 <= target 全留；超出在 [500, target] 窗口内找最后句末切点。
+    # 旧版硬切 [:600] 会拦腰斩断句子（Reddit 有用户反馈 About 段截断）。
+    if len(t) <= target:
+        return t
+    window = t[:target]
+    idx = max(window.rfind(". "), window.rfind("! "), window.rfind("? "), window.rfind('." '))
+    if idx >= 500:
+        return window[:idx + 1]
+    sp = window.rfind(" ")
+    return (window[:sp] if sp > 500 else window) + " \u2026"
+
+
+def find_intro(wt, title=""):
+    # 导语候选链：先各 == 节（保持旧行为），最后兜底页首导语（parts[0]）。
+    # {{PAGENAME}} 先替换成标题，否则清洗后句子断头（"The is a tier 2 ..."）。
+    # 质量门：一级 >=60 字符散文；二级兜底 >=20 字符短描述（mods 页常只有一句）。
     txt = strip_comments(wt)
+    if title:
+        txt = txt.replace("{{PAGENAME}}", title).replace("{{ pagename }}", title)
     while True:
         m = re.search(r"\{\{", txt)
         if not m or txt[:m.start()].strip():
@@ -250,13 +301,37 @@ def find_intro(wt):
         else:
             break
     parts = re.split(r"^={2,}", txt, flags=re.M)
-    for part in parts[1:]:
-        lines = [clean(l) for l in part.split("\n")
-                 if clean(l) and not l.strip().startswith("|")
-                 and not l.strip().startswith("{{") and not l.strip().startswith("[[")
-                 and "==" not in l and "{|" not in l]
-        if lines:
-            return " ".join(lines)[:600]
+
+    def section_text(part, minlen):
+        lines = [re.sub(r"\s+", " ", l).strip() for l in part.split("\n")]
+        lines = [l for l in lines if l and not l.startswith("|")
+                 and not l.startswith("{{") and not l.startswith("[[")
+                 and "==" not in l and not l.startswith("{|")]
+        raw = " ".join(lines)
+        if not raw:
+            return ""
+        bullets = sum(1 for l in part.split("\n") if l.strip().startswith(("*", "#")))
+        content_lines = sum(1 for l in part.split("\n") if l.strip())
+        if content_lines and bullets / content_lines > 0.5:
+            return ""
+        s = clean_markup(raw)
+        if len(s) < minlen or is_junk(s):
+            return ""
+        return s
+
+    def finish(s):
+        if not re.search(r'[.!?]["\']?$', s) and len(s) > 20:
+            s += "."
+        return cap_intro(s)
+
+    for part in parts[1:] + [parts[0]]:
+        s = section_text(part, 60)
+        if s:
+            return finish(s)
+    for part in parts[1:] + [parts[0]]:
+        s = section_text(part, 20)
+        if s:
+            return finish(s)
     return ""
 
 
@@ -359,7 +434,7 @@ def scrape_items(titles, wts, mod_titles=frozenset()):
                 "title": t, "slug": slug(t),
                 "infobox": "Infobox mod",
                 "images": extract_image_candidates(wt, t),
-                "intro": find_intro(wt),
+                "intro": find_intro(wt, t),
                 "description": clean(p.get("caption", "")) or clean(p.get("description", "")),
                 "group": clean(p.get("group", "")),
                 "item_type": clean(p.get("type", "")),
@@ -385,7 +460,7 @@ def scrape_items(titles, wts, mod_titles=frozenset()):
             "title": t, "slug": slug(t),
             "infobox": "Infobox item",
             "images": extract_image_candidates(wt, t),
-            "intro": find_intro(wt),
+            "intro": find_intro(wt, t),
             "description": clean(p.get("caption", "")) or clean(p.get("description", "")),
             "group": clean(p.get("group", "")),
             "item_type": clean(p.get("type", "")),
@@ -442,7 +517,7 @@ def scrape_zombies(titles, wts):
             "title": t, "slug": slug(t), "category": "Zombie",
             "infobox": "Infobox npc",
             "images": extract_image_candidates(wt, t),
-            "intro": find_intro(wt),
+            "intro": find_intro(wt, t),
             "entity_id": clean(p.get("entity_id", "")),
             "internal_id": clean(p.get("id", "")),
             "zombie_type": clean(p.get("zombie_types", "")),

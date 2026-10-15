@@ -218,7 +218,7 @@
    "Auto Shotgun.png",
    "AutoShotgun.png"
   ],
-  "intro": "tables=Mods, Mods__Category, Mods__Mod_Type, Mods__Affected_Part",
+  "intro": "*The Automatic Shotgun is loosely based on the Fostech Origin-12.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Shotgun",
@@ -1057,7 +1057,7 @@
    "IronKnuckles.png",
    "Iron Knuckles.png"
   ],
-  "intro": "The Iron Knuckles is a tier 2 brawling weapon used to pummel your enemies. While better than Knuckle Wraps it is not as good as Steel Knuckles",
+  "intro": "The Iron Knuckles is a tier 2 brawling weapon used to pummel your enemies. While better than Knuckle Wraps it is not as good as Steel Knuckles.",
   "description": "Protect your hands and put some weight into those swings.",
   "group": "Ammo/Weapons",
   "item_type": "Knuckles",
@@ -1578,7 +1578,7 @@
    "PipeBaton.png",
    "Pipe Baton.png"
   ],
-  "intro": "The Pipe Baton is a Melee weapon that players can craft with limited basic resources early in game or as needed when the player dies randomly and limited resources are available after they respawn in a different area away from their supplies. It can be found relatively frequently in early gamestages, making a decent early-game weapon if found at a moderate quality. The Pipe Baton can also be used as a Butchering tool to harvest small amounts of Raw Meat and Animal Fat. It may be repaired using Short Iron Pipes. This Pipe Baton was introduced in Alpha 20 along with long range weapons that also ",
+  "intro": "The Pipe Baton is a Melee weapon that players can craft with limited basic resources early in game or as needed when the player dies randomly and limited resources are available after they respawn in a different area away from their supplies. It can be found relatively frequently in early gamestages, making a decent early-game weapon if found at a moderate quality. The Pipe Baton can also be used as a Butchering tool to harvest small amounts of Raw Meat and Animal Fat. It may be repaired using Short Iron Pipes. This Pipe Baton was introduced in Alpha 20 along with long range weapons that also use Short Iron Pipe to craft.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Baton",
@@ -2250,7 +2250,7 @@
    "Rocket Launcher.png",
    "RocketLauncher.png"
   ],
-  "intro": "The Rocket Launcher is a type of weapon in 7 Days to Die. It uses Rockets as ammunition (which are rare to find). It will reload automatically, but can also be manually reloaded by pressing the key.",
+  "intro": "The Rocket Launcher is a type of weapon in 7 Days to Die. It uses Rockets as ammunition (which are rare to find). It will reload automatically, but can also be manually reloaded by pressing the <R> key.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Explosives",
@@ -2843,7 +2843,7 @@
    "StunBaton.png",
    "Stun Baton.png"
   ],
-  "intro": "The Stun Baton is a melee weapon affected by Intellect and the Electrocutioner perk. The baton gains \"charges\" on each hit, 1 for normal attacks and 2 for power attacks. Upon reaching 4 or more charges the next hit will inflict a shock effect on enemies. While the enemy is being shocked, they will be unable to move or attack and will take 3 damage every second. Each rank of Electrocutioner increases the duration of the shock effect and the weapon's base damage. It will not increase the damage per tick of the shock effect, but a longer shock will result in it dealing more total damage. It may b",
+  "intro": "The Stun Baton is a melee weapon affected by Intellect and the Electrocutioner perk. The baton gains \"charges\" on each hit, 1 for normal attacks and 2 for power attacks. Upon reaching 4 or more charges the next hit will inflict a shock effect on enemies. While the enemy is being shocked, they will be unable to move or attack and will take 3 damage every second. Each rank of Electrocutioner increases the duration of the shock effect and the weapon's base damage. It will not increase the damage per tick of the shock effect, but a longer shock will result in it dealing more total damage. It may be repaired using Repair Kits.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Baton",
@@ -2912,7 +2912,7 @@
    "TacticalAssaultRifle.png",
    "Tactical Assault Rifle.png"
   ],
-  "intro": "The Tactical Assault Rifle is a short- to medium-ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the Tactical Assault Rifle uses 7.62mm Rounds as Ammunition. It is heavily based on the real-life M4 Carbine, although the M4 fires smaller 5.56×45mm NATO rounds. The rifle is likely a short stroke piston system with the absence of a rear buffer tube with instead in place what appears to be a hand saw.",
+  "intro": "The Tactical Assault Rifle is a short- to medium-ranged automatic weapon, affected by the Machine Gunner perk. Similar to other machine guns and rifles, the Tactical Assault Rifle uses 7.62mm Rounds as Ammunition. It is heavily based on the real-life [https://en.m.wikipedia.org/wiki/M4_carbine M4 Carbine], although the M4 fires smaller 5.56×45mm NATO rounds. The rifle is likely a short stroke piston system with the absence of a rear buffer tube with instead in place what appears to be a hand saw.",
   "description": "",
   "group": "Ammo/Weapons",
   "item_type": "Machine Gun",

@@ -8,7 +8,7 @@
    "Advanced Bellows.png",
    "AdvancedBellows.png"
   ],
-  "intro": "Advanced Bellows is used to upgrade a Forge. There is no other use for the Advanced Bellows besides upgrading the forge. The bellows can be scrapped down for leather. Adding the Advanced Bellows to a forge will increase smelting speed by 50%. Item ID: ToolBellows",
+  "intro": "Advanced Bellows is used to upgrade a Forge. There is no other use for the Advanced Bellows besides upgrading the forge. The bellows can be scrapped down for leather. Adding the Advanced Bellows to a forge will increase smelting speed by 50%. Item ID: ToolBellows.",
   "description": "",
   "group": "Tools/Traps",
   "item_type": "Forge Tool",
@@ -40,7 +40,7 @@
   "images": [
    "Auger.png"
   ],
-  "intro": "The Auger is a godtier tool that can be used to rapidly destroy anything but wooden blocks. The Auger can be looted from Decayed Sedans, Working Stiffs Crate, Garage Storage, Your Mom's House, and Bank Wall Safe. While the Auger can be used as a melee weapon, it is ill-advised as it deals very low damage and can often use a lot of gas just to kill a few enemies. Additionally, no scaling with any attribute provides any bonuses in mid to late game. The Auger requires fuel in the form of Gas Cans. Refueling is done automatically and can also be done manually by pressing the reload button (while t",
+  "intro": "The Auger is a godtier tool that can be used to rapidly destroy anything but wooden blocks. The Auger can be looted from Decayed Sedans, Working Stiffs Crate, Garage Storage, Your Mom's House, and Bank Wall Safe. While the Auger can be used as a melee weapon, it is ill-advised as it deals very low damage and can often use a lot of gas just to kill a few enemies. Additionally, no scaling with any attribute provides any bonuses in mid to late game. The Auger requires fuel in the form of Gas Cans. Refueling is done automatically and can also be done manually by pressing the reload button (while the Auger is selected and with a Gas Can in the inventory).",
   "description": "Rock out with your auger out and be the envy of every miner when they see you sporting this sexy gas-powered auger.",
   "group": "Tools/Traps",
   "item_type": "Motor Tool",
@@ -164,7 +164,7 @@
    "chainsaw.png",
    "Chainsaw.png"
   ],
-  "intro": "The Chainsaw is a multipurpose item that can be used as a tool (for rapidly destroying wood blocks/trees) and for short range melee attacks. It's similar to the Auger but more efficient against wooden blocks. The Chainsaw needs Gas Cans to fuel it. To refuel the Chainsaw, Press \"R\" with the Chainsaw selected, and with a Gas Can in your Inventory. This takes a few seconds to refill. A Chainsaw will increase the amount of materials that you receive from harvesting, but it will be slow when used against anything but wood. As of Alpha 19, it will provide a small amount of Raw Meat when used to but",
+  "intro": "The Chainsaw is a multipurpose item that can be used as a tool (for rapidly destroying wood blocks/trees) and for short range melee attacks. It's similar to the Auger but more efficient against wooden blocks. The Chainsaw needs Gas Cans to fuel it. To refuel the Chainsaw, Press \"R\" with the Chainsaw selected, and with a Gas Can in your Inventory. This takes a few seconds to refill. A Chainsaw will increase the amount of materials that you receive from harvesting, but it will be slow when used against anything but wood. As of Alpha 19, it will provide a small amount of Raw Meat when used to butcher an animal carcass, but minimal other resources. Prior to Alpha 19, it would give no items when used to butcher an animal, but it would destroy the carcass quickly.",
   "description": "Chop down the biggest trees or zombies faster than Paul Bunyan with this great chainsaw that uses gasoline for fuel.",
   "group": "Tools/Traps",
   "item_type": "Motor Tool",
@@ -669,7 +669,7 @@
   "images": [
    "Ratchet.png"
   ],
-  "intro": "Ratchet is a tier 2 Disassemble Tool used to disassemble various mechanical and electrical blocks. For more information, see Wrench",
+  "intro": "Ratchet is a tier 2 Disassemble Tool used to disassemble various mechanical and electrical blocks. For more information, see Wrench.",
   "description": "\"Great for disassembling mechanical devices like cars, air conditioners and more.\"",
   "group": "Tools/Traps",
   "item_type": "Disassemble Tool",
@@ -1134,7 +1134,7 @@
    "WireTool.png",
    "Wire Tool.png"
   ],
-  "intro": "The Wire Tool is a new tool added in A16 as a part of the new Electricity game mechanics. A wire tool is used to wire electrical components. Focus on any electrical component and use the secondary action to add a wire to a parent and once again to complete the connection to a child component. Focus on any electrical component and use the primary action to remove or cut that components wire to its parent component. With the wire tool equipped you can see many useful things including: a components power usage and power status, the flow of power from parent to its child component and the aiming o",
+  "intro": "The Wire Tool is a new tool added in A16 as a part of the new Electricity game mechanics. A wire tool is used to wire electrical components. Focus on any electrical component and use the secondary action to add a wire to a parent and once again to complete the connection to a child component. Focus on any electrical component and use the primary action to remove or cut that components wire to its parent component. With the wire tool equipped you can see many useful things including: a components power usage and power status, the flow of power from parent to its child component and the aiming of objects with motion sensing. Warning: Some prefab lights in the world are lit up without power. If you use a wire tool on such a preexisting light it will go out and never work again.",
   "description": "",
   "group": "Science, Tools/Traps",
   "item_type": "Special Tool",

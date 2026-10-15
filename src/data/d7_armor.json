@@ -352,7 +352,7 @@
    "Ghillie Suit Hood.png",
    "GhillieSuitHood.png"
   ],
-  "intro": "",
+  "intro": "Ghillie Suit Hood is a piece of clothing that, in addition to heat and cold resist, provides the player with decreased visibility. It is part of the Ghillie Suit with Ghillie Suit Jacket and Ghillie Suit Pants. The decreased visibility is based on vision so it works best when not moving or sneaking slowly. The Ghillie Suit Hood doesn't have any mod slots, a shared property with apparel hats.",
   "description": "",
   "group": "Clothing",
   "item_type": "Hat",
@@ -377,7 +377,7 @@
    "Ghillie Suit Jacket.png",
    "GhillieSuitJacket.png"
   ],
-  "intro": "",
+  "intro": "Ghillie Suit Jacket is a piece of clothing that, in addition to heat and cold resist, provides the player with decreased visibility. It is part of the Ghillie Suit with Ghillie Suit Hood and Ghillie Suit Pants. The decreased visibility is based both on vision and reduced noise on the jacket. The Ghillie Suit Jacket has one mod slot, a shared property with apparel overcoats.",
   "description": "",
   "group": "Clothing",
   "item_type": "Overcoat",
@@ -402,7 +402,7 @@
    "Ghillie Suit Pants.png",
    "GhillieSuitPants.png"
   ],
-  "intro": "",
+  "intro": "Ghillie Suit Pants is a piece of clothing that, in addition to heat and cold resist, provides the player with decreased visibility. It is part of the Ghillie Suit with Ghillie Suit Hood and Ghillie Suit Jacket. The decreased visibility is based both on vision and reduced noise on the pants. The Ghillie Suit Pants have one mod slot, a shared property with apparel pants.",
   "description": "",
   "group": "Clothing",
   "item_type": "Pants",

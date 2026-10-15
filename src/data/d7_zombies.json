@@ -34,7 +34,7 @@
    "BurnVictim.png",
    "Burn Victim.png"
   ],
-  "intro": "A Burn Victim (zombieBurnt) is a special type of zombie that is only encountered in the Burnt Forest-biome and also rarely on Blood Moon hordes. Like the Frozen Lumberjack, these zombies were affected heavily by the biome around them, as Burn Victims resemble burning, charred wood. They typically stray around the roads or abandoned shacks you may find in the Burnt Forest and blend in with their surroundings, so keep alert for movement when travelling through their territory. When they are nearby they will emit hoarse moans and a constant 'crackling' akin to lit torches or campfires. Because of",
+  "intro": "A Burn Victim (zombieBurnt) is a special type of zombie that is only encountered in the Burnt Forest-biome and also rarely on Blood Moon hordes. Like the Frozen Lumberjack, these zombies were affected heavily by the biome around them, as Burn Victims resemble burning, charred wood. They typically stray around the roads or abandoned shacks you may find in the Burnt Forest and blend in with their surroundings, so keep alert for movement when travelling through their territory. When they are nearby they will emit hoarse moans and a constant 'crackling' akin to lit torches or campfires. Because of this, a player will likely hear them coming long before they enter field of view. This should be taken advantage of, as while they deal as much damage per hit as a standard zombie, they have a chance to set players on fire with every successful attack.",
   "entity_id": "10",
   "internal_id": "zombieBurnt",
   "zombie_type": "Normal, Feral, Radiated",
@@ -85,7 +85,7 @@
    "Crawler Zombie.png",
    "CrawlerZombie.png"
   ],
-  "intro": "The Crawler Zombie is a type of Zombie. It is considerably slower than the average zombie as it does not walk or run and instead drags itself along the ground. Its legs are missing, likely either from a fall, encounter with the infected/survivors or decay (likely worn away by dragging itself). The remains of its torso show late stages of rot, to the point where its spine and pelvis are visible, indicating this zombie to have be alive for a long time. What's left of its lower torso are the tendins of its intestines. This may be used to player's advantages as it's speed is independent of the spe",
+  "intro": "The Crawler Zombie is a type of Zombie. It is considerably slower than the average zombie as it does not walk or run and instead drags itself along the ground. Its legs are missing, likely either from a fall, encounter with the infected/survivors or decay (likely worn away by dragging itself). The remains of its torso show late stages of rot, to the point where its spine and pelvis are visible, indicating this zombie to have be alive for a long time. What's left of its lower torso are the tendins of its intestines. This may be used to player's advantages as it's speed is independent of the speed settings. On the other hand, it is also more difficult to detect, because it can attack you from below while you're repelling one zombie horde, with the added benefit of being harder to spot in a darker light ambience and ambient foliage.",
   "entity_id": "5",
   "internal_id": "zombieSteveCrawler",
   "zombie_type": "Normal, Feral",
@@ -110,7 +110,7 @@
    "Demolition.png",
    "Demolisher.png"
   ],
-  "intro": "The Demolisher Zombie is a heavily armored military zombie. It appears in late-game Blood Moon hordes and rarely in downtown areas of Cities in Snowy Forest, Desert, or Wasteland. They don't spawn in Forest cities. Wasteland cities have more frequent spawns compared to other biomes. The Demolisher Zombie is easily recognizable by its large size and the green explosive charge on its chest. It excels in stomping spikes and exploding, causing massive damage to blocks and entities. The Demolisher zombie deals 20 damage to entities and 500 damage to blocks. If it explodes, the explosion deals up to",
+  "intro": "The Demolisher Zombie is a heavily armored military zombie. It appears in late-game Blood Moon hordes and rarely in downtown areas of Cities in Snowy Forest, Desert, or Wasteland. They don't spawn in Forest cities. Wasteland cities have more frequent spawns compared to other biomes. The Demolisher Zombie is easily recognizable by its large size and the green explosive charge on its chest. It excels in stomping spikes and exploding, causing massive damage to blocks and entities. The Demolisher zombie deals 20 damage to entities and 500 damage to blocks. If it explodes, the explosion deals up to 800 damage to entities and 5000 to blocks within a 5-block-radius. All entities within a 6-block-radius are affected by the explosion. If the Demolisher's explosive charge is hit directly, the light changes from green to red, emitting X beeps until detonation.",
   "entity_id": "",
   "internal_id": "zombieDemolition",
   "zombie_type": "Normal",
@@ -187,7 +187,7 @@
    "Fallen Soldier Zombie.png",
    "FallenSoldierZombie.png"
   ],
-  "intro": "A soldier lost to the zombies, as seen by him walking around amongst them. His vest was ripped in half, and his torso was opened. His intestines are found dangling alongside the ripped open vest. He is commonly found in Army Camps or Army Barracks, as well as in 7-Day/Blood Moon hordes. Fallen Soldiers are more difficult to kill with headshots due to their helmet. They are considered armored and take 50% less damage from normal attacks. Armor piercing ammo is recommended. Due to this, they can be tougher than tough zombies such as Bloated Walkers and Hungry Zombies despite having less health t",
+  "intro": "A soldier lost to the zombies, as seen by him walking around amongst them. His vest was ripped in half, and his torso was opened. His intestines are found dangling alongside the ripped open vest. He is commonly found in Army Camps or Army Barracks, as well as in 7-Day/Blood Moon hordes. Fallen Soldiers are more difficult to kill with headshots due to their helmet. They are considered armored and take 50% less damage from normal attacks. Armor piercing ammo is recommended. Due to this, they can be tougher than tough zombies such as Bloated Walkers and Hungry Zombies despite having less health than them.",
   "entity_id": "",
   "internal_id": "zombieSoldier",
   "zombie_type": "Normal, Feral, Radiated",
@@ -212,7 +212,7 @@
    "FatHawaiian.png",
    "Fat Hawaiian.png"
   ],
-  "intro": "A Fat Hawaiian (Also known as a Disturbed Tourist) is a common type of Zombie that can be encountered anywhere and will be one of the toughest zombies that can appear from the start of a new game. They are larger than the average zombie, resulting in a higher damage resistance and greater damage output. Fat Hawaiians are slower than the average zombie and also run slightly slower than other zombies at night. Though this zombie makes the same sounds as the Infected Police Officer as well as the Mutant Zombie, the only unique feature of this zombie is that its health stands at 300. They are very",
+  "intro": "A Fat Hawaiian (Also known as a Disturbed Tourist) is a common type of Zombie that can be encountered anywhere and will be one of the toughest zombies that can appear from the start of a new game. They are larger than the average zombie, resulting in a higher damage resistance and greater damage output. Fat Hawaiians are slower than the average zombie and also run slightly slower than other zombies at night. Though this zombie makes the same sounds as the Infected Police Officer as well as the Mutant Zombie, the only unique feature of this zombie is that its health stands at 300. They are very common on horde nights once you get further into the game. He was likely to be touring Navezgane County when he was infected during the outbreak. This zombie is highly dangerous in early stages. It's advised to avoid this zombie when encountered until later and better equipped.",
   "entity_id": "17",
   "internal_id": "zombieFatHawaiian",
   "zombie_type": "Normal, Feral, Radiated",
@@ -263,7 +263,7 @@
    "Frozen Lumberjack.png",
    "FrozenLumberjack.png"
   ],
-  "intro": "The Frozen Lumberjack is one of the many different variants of Zombies. It is currently only found in Snowy Forest biome. Frozen Lumberjacks are very tall, with broad shoulders and thick beards, wear knitted caps with red flannel shirts and blue jeans, and are fairly easy to spot in the white snow even from great distances. Like all Zombies, their clothes are torn, dirty, and bloodstained. The Frozen Lumberjack will emit high-pitched wails when near a player, as well as a constant 'crunching' sound as it moves. This is likely to emphasize the fact it is literally a frozen, shambling corpse. It",
+  "intro": "The Frozen Lumberjack is one of the many different variants of Zombies. It is currently only found in Snowy Forest biome. Frozen Lumberjacks are very tall, with broad shoulders and thick beards, wear knitted caps with red flannel shirts and blue jeans, and are fairly easy to spot in the white snow even from great distances. Like all Zombies, their clothes are torn, dirty, and bloodstained. The Frozen Lumberjack will emit high-pitched wails when near a player, as well as a constant 'crunching' sound as it moves. This is likely to emphasize the fact it is literally a frozen, shambling corpse. It appears to be the Snowy Forest's equivalent to the Bloated Walker as it has slightly more health and moves slower than the average zombie.",
   "entity_id": "13",
   "internal_id": "zombieSnow",
   "zombie_type": "Normal, Feral, Radiated",
@@ -288,7 +288,7 @@
    "Grace boar.jpg",
    "Grace.png"
   ],
-  "intro": "Grace is a giant green mutated boar found under 'Bob's Boars' and other various POIs. In 'Bob's Boars' particularly, Grace is found in a cave concealed under its cage in the backyard, with its name printed on it. The very same farm also contains samples of Super Corn, therefore it is a possibility that Grace is mutated due to its consumption of the mutated plant. Grace has a decent health pool, comparable to a radiated Zombie. Interestingly, harvesting Grace yields larger amounts of fat, Rotting flesh, leather, and more Bones than the normal animal counterpart, suggesting Grace may not even be",
+  "intro": "Grace is a giant green mutated boar found under 'Bob's Boars' and other various POIs. In 'Bob's Boars' particularly, Grace is found in a cave concealed under its cage in the backyard, with its name printed on it. The very same farm also contains samples of Super Corn, therefore it is a possibility that Grace is mutated due to its consumption of the mutated plant. Grace has a decent health pool, comparable to a radiated Zombie. Interestingly, harvesting Grace yields larger amounts of fat, Rotting flesh, leather, and more Bones than the normal animal counterpart, suggesting Grace may not even be a zombie, but merely a super pig. However, killing Grace is essential to completing Clear quests. Grace even in 1.0 almost everytime drops red ZPack Grace is theoretically classified as Legendary Zombie, because there is only one Grace on Navezgane map. She WILL respawn.",
   "entity_id": "",
   "internal_id": "",
   "zombie_type": "",
@@ -392,7 +392,7 @@
    "Infected Police Officer.png",
    "InfectedPoliceOfficer.png"
   ],
-  "intro": "An Infected Police Officer is a special type of Zombie typically found in cities, suburbs, and wastelands, in addition to practically any POI at later gamestages. The ones found in Police Stations don't seem to respawn. They are known for having very high health, and their ability to destroy blocks with their acidic vomit. An Infected Police Officer is fairly easy to spot, as they are grotesquely disproportionate and wear a signature police uniform. They are incredibly bloated, and move very slow as a result, but the range of their acid can reach large distances. Infected Police Officers are a",
+  "intro": "An Infected Police Officer is a special type of Zombie typically found in cities, suburbs, and wastelands, in addition to practically any POI at later gamestages. The ones found in Police Stations don't seem to respawn. They are known for having very high health, and their ability to destroy blocks with their acidic vomit. An Infected Police Officer is fairly easy to spot, as they are grotesquely disproportionate and wear a signature police uniform. They are incredibly bloated, and move very slow as a result, but the range of their acid can reach large distances. Infected Police Officers are also noted for making disgusting burps and gurgles, as well as various 'puking' sounds when fighting players. Once an Infected Police Officer reaches low health (noted from a faint rapid heart beat and wheezing sound), they will sprint towards the player in an attempt to take them down with him.",
   "entity_id": "16",
   "internal_id": "zombieFatCop",
   "zombie_type": "Normal, Feral, Radiated",
@@ -470,7 +470,7 @@
    "Mutated Zombie.png",
    "MutatedZombie.png"
   ],
-  "intro": "The Mutated Zombie is a zombie added in Alpha 20. It acts similarly to the Infected Police Officer, but it shoots its acid up and around itself. The acid does a base of 50 damage to blocks compared to the Infected Police Officer's 240 block damage spit attack. unlike the feral/radiated cop his special attack doesn't do extra damage to the player or blocks only his main attack damage increases It occasionally spawns in the Wasteland, as well as trapped in a certain Point of Interest laboratory. Despite the Mutated Zombie’s acid attack ability and it’s ability to irradiate the player briefly, th",
+  "intro": "The Mutated Zombie is a zombie added in Alpha 20. It acts similarly to the Infected Police Officer, but it shoots its acid up and around itself. The acid does a base of 50 damage to blocks compared to the Infected Police Officer's 240 block damage spit attack. unlike the feral/radiated cop his special attack doesn't do extra damage to the player or blocks only his main attack damage increases It occasionally spawns in the Wasteland, as well as trapped in a certain Point of Interest laboratory. Despite the Mutated Zombie’s acid attack ability and it’s ability to irradiate the player briefly, the acid attack is very inaccurate compared to the Infected Police Officer and is unlikely to hit the player as long as they don’t move towards it as they fire it.",
   "entity_id": "",
   "internal_id": "zombieMoe",
   "zombie_type": "Normal, Feral, Radiated",
@@ -496,7 +496,7 @@
    "Party Girl.png",
    "PartyGirl.png"
   ],
-  "intro": "Party Girl is a variant of Zombies and was formerly known as Zombie Stripper and was changed in Alpha 20. These zombies died and turned long ago, evident from their highly decomposed bodies. Despite this, they continue to roam in search of humans to attack. The Zombie Stripper appears wearing a revealing, slightly torn dark dress, high heels, and ruined makeup, reflecting its past occupation. Party Girl can commonly be found in Points of Interest like the The Boobie Trap and Bigg Buns. It was one of the first zombies to have \"jiggle tech\" added, which provides jiggle physics to parts of its bo",
+  "intro": "Party Girl is a variant of Zombies and was formerly known as Zombie Stripper and was changed in Alpha 20. These zombies died and turned long ago, evident from their highly decomposed bodies. Despite this, they continue to roam in search of humans to attack. The Zombie Stripper appears wearing a revealing, slightly torn dark dress, high heels, and ruined makeup, reflecting its past occupation. Party Girl can commonly be found in Points of Interest like the The Boobie Trap and Bigg Buns. It was one of the first zombies to have \"jiggle tech\" added, which provides jiggle physics to parts of its body.",
   "entity_id": "",
   "internal_id": "zombieStripper",
   "zombie_type": "Normal, Feral",
@@ -622,7 +622,7 @@
   "images": [
    "Screamer.png"
   ],
-  "intro": "The Screamer is a special type of zombie that appears and investigates sources of player activity, referred to as heat levels that is based off of sound the player creates either by explosions, firing weapons, or mining using either a tool or an Auger. A Screamer can be easily identified by their signature white dress, long black hair, and high-pitched shrieks and hisses. They are also shorter than average zombies, and can occasionally be difficult to spot when behind cover. Screamers should always be a prioritized kill above any other zombie, for as long as the player remains 'Hunted' the Scr",
+  "intro": "The Screamer is a special type of zombie that appears and investigates sources of player activity, referred to as heat levels that is based off of sound the player creates either by explosions, firing weapons, or mining using either a tool or an Auger. A Screamer can be easily identified by their signature white dress, long black hair, and high-pitched shrieks and hisses. They are also shorter than average zombies, and can occasionally be difficult to spot when behind cover. Screamers should always be a prioritized kill above any other zombie, for as long as the player remains 'Hunted' the Screamer can continuously summon hordes of zombies roughly every twenty seconds. Therefore, the Screamer should be killed quickly to prevent her from calling more zombies than can be handled.",
   "entity_id": "",
   "internal_id": "zombieScreamer",
   "zombie_type": "Normal, Feral, Radiated",
@@ -750,7 +750,7 @@
    "Zombie Bear.png",
    "ZombieBear.png"
   ],
-  "intro": "Zombie Bears are zombie animals found in the Wasteland and Burnt Forest, as well as at certain POI's and during some events. They are hostile and will chase and attempt to attack the player on sight or if provoked. It will also attack other Animals and Zombies, usually emerging victorious, as the Zombie Bear is one of the most dangerous enemies you can encounter in Navezgane. Since they are able to one-shot a player at full health, it is best to use ranged weapons and avoid any sort of melee combat with the bear without utilising strong armour and healing items. If a Zombie Bear is attacking a",
+  "intro": "Zombie Bears are zombie animals found in the Wasteland and Burnt Forest, as well as at certain POI's and during some events. They are hostile and will chase and attempt to attack the player on sight or if provoked. It will also attack other Animals and Zombies, usually emerging victorious, as the Zombie Bear is one of the most dangerous enemies you can encounter in Navezgane. Since they are able to one-shot a player at full health, it is best to use ranged weapons and avoid any sort of melee combat with the bear without utilising strong armour and healing items. If a Zombie Bear is attacking a player base, defeating it should be made priority over other enemies as it can quickly destroy structures.",
   "entity_id": "65",
   "internal_id": "animalZombieBear",
   "zombie_type": "Normal",
@@ -800,7 +800,7 @@
    "ZombieDog.png",
    "Zombie Dog.png"
   ],
-  "intro": "Zombie Dogs are zombie animals found in every biome but more commonly in the Wasteland. Zombie Dogs are hostile and will try to chase and attack the player if provoked or spots the player. Zombie Dogs can at times be heard growling letting players know they are discovered and about to be attacked. Having appearance of a Doberman Pinscher, Zombie Dogs are much faster than players and will easily outrun a player and catch them, so it is advised to take them down as fast as you can before they can reach you, or get to high ground like a car as they cannot climb it. Zombie Dogs are one of the few ",
+  "intro": "Zombie Dogs are zombie animals found in every biome but more commonly in the Wasteland. Zombie Dogs are hostile and will try to chase and attack the player if provoked or spots the player. Zombie Dogs can at times be heard growling letting players know they are discovered and about to be attacked. Having appearance of a Doberman Pinscher, Zombie Dogs are much faster than players and will easily outrun a player and catch them, so it is advised to take them down as fast as you can before they can reach you, or get to high ground like a car as they cannot climb it. Zombie Dogs are one of the few zombie enemies that can run during the day. Zombie Dogs can hear, and sense the player better than other Zombies. Unlike other Zombies which attack the second highest block, Zombie Dogs can only attack the lowest block. A Zombie Dog's attack can also cause Bleeding.",
   "entity_id": "63",
   "internal_id": "animalZombieDog",
   "zombie_type": "Normal",
@@ -877,7 +877,7 @@
    "Zombie Vulture.png",
    "ZombieVulture.png"
   ],
-  "intro": "* Rotting Flesh * Bone * Feathers",
+  "intro": "Zombie Vulture are zombie animals found in every biome except the Snowy Forest biome. Zombie Vultures are semi-hostile; unlike other zombies, zombie vultures are more “restrained” in their hostility and typically only attack if the player is injured, during a Blood Moon, or if they are part of a POI. Zombie Vultures maneuver sluggishly, tending to fly high and occasionally swooping down to attack the player, although their top speed is still faster than the player. They have a high chance of infecting the player compared to other zombies.",
   "entity_id": "68",
   "internal_id": "animalZombieVulture",
   "zombie_type": "Normal, Radiated",
